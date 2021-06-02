@@ -1,16 +1,18 @@
 env:                                                           
-  TERM: alacritty
+  TERM: alacritty  
 window:
   dynamic_title: true
+  decorations: full
   dimensions:
     columns: 80
     lines: 30
     
   padding:
-    x: 1
-    y: 1
+    x: 0
+    y: 0
 
   dynamic_padding: false
+
 
   title: Alacritty
 
@@ -29,11 +31,11 @@ font:
     family: JetBrains Mono Medium
     style: Medium
 
-  size: 12
+  size: 14
 
   offset:
-    x: -1
-    y: -1
+    x: 0 
+    y: 0
 
   glyph_offset:
     x: 0
@@ -45,6 +47,9 @@ colors:
     foreground: '#d8dee9'
 
   cursor:
+    style: Block
+    unfocused_hollow: false
+    vi_mode_style: Block
     text: '#191919'
     cursor: '#d8dee9'
 
@@ -102,10 +107,6 @@ bell:
   duration: 0
   color: '#ffffff'
 
-cursor:
-  style: Underline
-  unfocused_hollow: true
-  vi_mode_style: Block
 
 
 url:
@@ -134,4 +135,4 @@ draw_bold_text_with_bright_colors: true
 mouse_bindings:
     - { mouse: Middle, action: Copy  }
       
-background_opacity: 0.97
+background_opacity: 0.90
