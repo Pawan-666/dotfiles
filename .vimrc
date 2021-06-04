@@ -80,6 +80,11 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 let g:NERDTreeWinSize=20
 
 
+"For VTE compatible terminals (urxvt, st, xterm, gnome-terminal 3.x, Konsole KDE5 and others) and wsltty,Cursor changes according to mode
+let &t_SI = "\<Esc>[6 q"
+let &t_SR = "\<Esc>[4 q"
+let &t_EI = "\<Esc>[2 q"
+
 "Better split bar
 highlight VertSplit cterm=NONE
 
@@ -190,10 +195,10 @@ set laststatus=2
 set noshowmode
 set statusline=
 set statusline+=%1*\ %n\                                 " Buffer number
-set statusline+=%0*\ %{toupper(g:currentmode[mode()])}\  " The current mode
+set statusline+=%1*\ %{toupper(g:currentmode[mode()])}\  " The current mode
 set statusline+=%1*\ %<%F%m%r%h%w\                       " File path, modified, readonly, helpfile, preview
 set statusline+=%=                                       " Right Side
-"set statusline+=%2*\ %Y\                                 " FileType
+set statusline+=%1*\ %Y\                                 " FileType
 "set statusline+=%3*│                                     " Separator
 set statusline+=%1*\ \ %02v\                         " Colomn number
 "set statusline+=%3*│                                     " Separator

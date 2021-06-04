@@ -1,5 +1,7 @@
-env:                                                           
+env:
   TERM: alacritty  
+  #  TERM: xterm-256color
+
 window:
   dynamic_title: true
   decorations: full
@@ -135,4 +137,8 @@ draw_bold_text_with_bright_colors: true
 mouse_bindings:
     - { mouse: Middle, action: Copy  }
       
-background_opacity: 0.90
+background_opacity: 0.98
+
+key_bindings:
+  # (Windows, Linux, and BSD only)
+  - { key: V,        mods: Control,       action: Paste            }
