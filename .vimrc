@@ -1,6 +1,6 @@
 " Set space as leader key
 let mapleader = " "
-
+ 
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -105,7 +105,8 @@ nnoremap <silent> <Leader>H :Helptags<CR>
 nnoremap <silent> <Leader>h :History<CR>
 nnoremap <silent> <Leader>h: :History:<CR>
 nnoremap <silent> <Leader>h/ :History/<CR>
-nnoremap S :%s//g<Left><Left>
+nnoremap <silent> <leader>v <C-v>
+nnoremap s :%s//g<left><left>
 
 command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
 
@@ -144,11 +145,22 @@ set relativenumber
 set numberwidth=4
 syntax on
 
+
+" Backups are annoying, but necessary.
+"  This saves backups to a special tmp folder for use
+"  rather than saving in the directory of the file
+"  Go hoos!"
+"set backup
+"set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+"set backupskip=/tmp/*,/private/tmp/*
+"set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+"set writebackup
+
 " no swap/backup files
-set nobackup
-set nowb
+set nobackup nowritebackup
 set noswapfile
-set nowritebackup
+
+
 
 " Shows incomplete command in the bottom
  set wildmenu
