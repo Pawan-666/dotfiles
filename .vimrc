@@ -13,7 +13,6 @@ Plug 'mcchrish/nnn.vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'ervandew/supertab'
 Plug 'vim-syntastic/syntastic'
-
 "{{ Git integration" ---> git commands within vim <---
 Plug 'tpope/vim-fugitive'" ---> git changes on the gutter <---
 Plug 'airblade/vim-gitgutter'" ---> nerdtree git changes <---
@@ -43,11 +42,16 @@ call plug#end()
 "Gruvbox theme settings
 colorscheme gruvbox
 set bg=dark
-let g:gruvbox_contrast_dark='default'
+let g:gruvbox_contrast_dark='hard'
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
+augroup CursorLine
+  au!
+  au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
+  au WinLeave * setlocal nocursorline
+augroup END
 
 "Syntastic recommended settings
 let g:syntastic_always_populate_loc_list = 1
@@ -227,11 +231,6 @@ hi User4 ctermfg=239 ctermbg=239 guibg=#4e4e4e guifg=#4e4e4e
 hi clear SpellBad
 hi SpellBad cterm=underline
 
-augroup CursorLine
-  au!
-  au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
-  au WinLeave * setlocal nocursorline
-augroup END
 
 set splitbelow splitright
 
