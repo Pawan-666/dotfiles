@@ -2,12 +2,18 @@ env:
   TERM: alacritty  
   #  TERM: xterm-256color
 
+  #shell:
+  #      program: /usr/local/bin/tmux
+  #      args:
+  #       - -u # force UTF-8 in tmux
+
+
 window:
   dynamic_title: true
   decorations: full
-  dimensions:
-   columns: 100
-   lines: 26
+  #  dimensions:
+  #   columns: 100
+  #   lines: 26
     
   padding:
     x: 0

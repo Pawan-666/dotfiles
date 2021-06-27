@@ -1,3 +1,4 @@
+bindkey "^[d" backward-delete-char
 xset r rate 300 50
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -133,3 +134,4 @@ alias u="flatpak update; snap refresh"
 alias config='/usr/bin/git --git-dir=/home/pawan/dotfiles/ --work-tree=/home/pawan'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+#bindkey -v

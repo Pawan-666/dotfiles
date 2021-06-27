@@ -110,7 +110,7 @@ nnoremap <silent> <Leader>h :History<CR>
 nnoremap <silent> <Leader>h: :History:<CR>
 nnoremap <silent> <Leader>h/ :History/<CR>
 nnoremap <silent> <leader>v <C-v>
-nnoremap s :%s//g<left><left>
+nnoremap S :%s//g<left><left>
 
 command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
 
@@ -232,7 +232,11 @@ hi clear SpellBad
 hi SpellBad cterm=underline
 
 
+
 set splitbelow splitright
+
+" vv to generate new vertical split
+nnoremap <silent> s <C-w>v
 
 " resize panes
 nnoremap <silent> <Right> :vertical resize +5<cr>
