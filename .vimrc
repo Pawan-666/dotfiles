@@ -6,10 +6,12 @@ Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'RyanMillerC/better-vim-tmux-resizer'
 Plug 'junegunn/goyo.vim'
-Plug 'morhetz/gruvbox'
+"Plug 'morhetz/gruvbox'
+Plug 'tomasiser/vim-code-dark'
+
 Plug 'mattn/emmet-vim'
 Plug 'preservim/nerdtree'
-Plug 'mcchrish/nnn.vim'
+Plug 'ryanoasis/vim-devicons'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'ervandew/supertab'
 Plug 'vim-syntastic/syntastic'
@@ -39,13 +41,17 @@ Plug 'honza/vim-snippets'
   "}}
 call plug#end()
 
+
+set term=screen-256color
+colorscheme codedark
+
 "Gruvbox theme settings
-colorscheme gruvbox
-set bg=dark
-let g:gruvbox_contrast_dark='hard'
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+"colorscheme gruvbox
+"set bg=dark
+"let g:gruvbox_contrast_dark='hard'
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
 
 augroup CursorLine
   au!
@@ -82,7 +88,11 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
  nnoremap <C-t> :NERDTreeToggle<CR>
 
 "nerd tree window size
-let g:NERDTreeWinSize=20
+let g:NERDTreeWinSize=40
+
+      
+set encoding=UTF-8
+
 
 
 "For VTE compatible terminals (urxvt, st, xterm, gnome-terminal 3.x, Konsole KDE5 and others) and wsltty,Cursor changes according to mode
@@ -96,8 +106,6 @@ highlight VertSplit cterm=NONE
 "Mapping esc to jj
 inoremap jj <ESc>
 
-" Opens the n³ window in a split
-let g:nnn#layout = 'new' " or vnew, tabnew etc.
 
 nnoremap <silent> <Leader>b :Buffers<CR>
 nnoremap <silent> <C-f> :Files<CR>
@@ -109,8 +117,11 @@ nnoremap <silent> <Leader>H :Helptags<CR>
 nnoremap <silent> <Leader>h :History<CR>
 nnoremap <silent> <Leader>h: :History:<CR>
 nnoremap <silent> <Leader>h/ :History/<CR>
+nnoremap <silent> <Leader>t :terminal<CR>
 nnoremap <silent> <leader>v <C-v>
 nnoremap S :%s//g<left><left>
+
+cmap w!! w !sudo tee > /dev/null %
 
 command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
 
@@ -122,7 +133,7 @@ nnoremap <leader><leader> <c-^>
 
 " space + q  to quit without making any changes
 " space + d  to quit after making changes
-nnoremap <leader>s :xa<cr>
+"nnoremap <leader>s :w!!<cr>
 nnoremap <leader>q :qa!<cr>
 nnoremap <leader>d :q!<cr>
 nnoremap <leader>w :wa<cr>

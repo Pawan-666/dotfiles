@@ -3,11 +3,12 @@ env:
   #  TERM: xterm-256color
 
   #shell:
-  #      program: /usr/local/bin/tmux
-  #      args:
-  #       - -u # force UTF-8 in tmux
-
-
+  #  program: /bin/zsh
+  #  args:
+  #    - -l
+  #    - -c
+  #    - "tmux"
+  #
 window:
   dynamic_title: true
   decorations: full
@@ -31,12 +32,12 @@ window:
     gtk_theme_variant: None
 
 scrolling:
-   history: 10000
+   history: 20000
    multiplier: 1
 
 font:
   normal:
-    family: JetBrains Mono Medium
+    family: JetBrains Mono Medium 
     style: Medium
 
   size: 14

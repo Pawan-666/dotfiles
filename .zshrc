@@ -1,5 +1,8 @@
-bindkey "^[d" backward-delete-char
 xset r rate 300 50
+EDITOR=vim
+VISUAL=vim
+#export TERM=screen-256color
+#export TERM=xterm-256color
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -118,10 +121,7 @@ fi
 alias F="nnn"
 alias f="fzf"
 alias c="clear"
-alias ifconfig="ip a"
 alias h="history"
-alias top="htop"
-alias b="bashtop"
 alias a="sudo apt update && sudo apt upgrade"
 alias s='sudo $(fc -ln -1)'
 alias r="source .zshrc" 
@@ -129,7 +129,7 @@ alias l="ls -la"
 alias rm="trash"
 alias python="python3"
 alias v="vim"
-alias cat="bat"
+alias less="bat"
 alias u="flatpak update; snap refresh"
 alias config='/usr/bin/git --git-dir=/home/pawan/dotfiles/ --work-tree=/home/pawan'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
