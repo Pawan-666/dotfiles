@@ -2,12 +2,12 @@ env:
   TERM: alacritty  
   #  TERM: xterm-256color
 
-shell:
-  program: /bin/zsh
-  args:
-    - -l
-    - -c
-    - "tmux"
+  #shell:
+  #  program: /bin/zsh
+  #  args:
+  #    - -l
+  #    - -c
+  #    - "tmux"
   
 window:
   dynamic_title: true
