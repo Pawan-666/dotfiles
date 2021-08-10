@@ -1,6 +1,3 @@
-xset r rate 300 50
-EDITOR=vim
-VISUAL=vim
 #export TERM=screen-256color
 #export TERM=xterm-256color
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.

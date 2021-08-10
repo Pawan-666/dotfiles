@@ -159,6 +159,7 @@ set nu
 set relativenumber
 set numberwidth=4
 syntax on
+set mouse=a
 
 
 " Backups are annoying, but necessary.
