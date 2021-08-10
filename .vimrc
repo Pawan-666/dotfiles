@@ -4,7 +4,7 @@ let mapleader = " "
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'RyanMillerC/better-vim-tmux-resizer'
+"Plug 'RyanMillerC/better-vim-tmux-resizer'
 Plug 'junegunn/goyo.vim'
 "Plug 'morhetz/gruvbox'
 Plug 'tomasiser/vim-code-dark'
@@ -12,7 +12,7 @@ Plug 'tomasiser/vim-code-dark'
 Plug 'mattn/emmet-vim'
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
-Plug 'christoomey/vim-tmux-navigator'
+"Plug 'christoomey/vim-tmux-navigator'
 Plug 'ervandew/supertab'
 Plug 'vim-syntastic/syntastic'
 "{{ Git integration" ---> git commands within vim <---
