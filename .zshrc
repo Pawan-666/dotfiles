@@ -119,7 +119,7 @@ alias F="nnn"
 alias f="fzf"
 alias c="clear"
 alias h="history"
-alias a="sudo apt update && sudo apt upgrade"
+alias u="sudo apt -y update && sudo apt  -y upgrade && pkcon update;flatpak update; snap refresh"
 alias s='sudo $(fc -ln -1)'
 alias r="source .zshrc" 
 alias l="ls -la"
@@ -127,8 +127,9 @@ alias rm="trash"
 alias python="python3"
 alias v="vim"
 alias less="bat"
-alias u="flatpak update; snap refresh"
+#alias u="flatpak -y update; snap -y refresh"
 alias config='/usr/bin/git --git-dir=/home/pawan/dotfiles/ --work-tree=/home/pawan'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 #bindkey -v
+
