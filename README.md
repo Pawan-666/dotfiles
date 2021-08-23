@@ -1,2 +1,2 @@
-# Dotfiles
-MY KDE desktop environment plus Zsh shell configs plus Tmux and Vim configuration files. The rabbit hole goes deep.. Basically Progamming my pc workflow
+![normal](https://user-images.githubusercontent.com/41996335/130461018-1ad04291-1630-4986-9f67-d46f04bb45ae.png)
+Everything is a ASCII text problem.
