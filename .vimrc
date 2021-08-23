@@ -1,30 +1,15 @@
 " Set space as leader key
 let mapleader = " "
- 
+
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-"Plug 'RyanMillerC/better-vim-tmux-resizer'
 Plug 'junegunn/goyo.vim'
-"Plug 'morhetz/gruvbox'
 Plug 'tomasiser/vim-code-dark'
-
-Plug 'mattn/emmet-vim'
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
-"Plug 'christoomey/vim-tmux-navigator'
 Plug 'ervandew/supertab'
 Plug 'vim-syntastic/syntastic'
-"{{ Git integration" ---> git commands within vim <---
-Plug 'tpope/vim-fugitive'" ---> git changes on the gutter <---
-Plug 'airblade/vim-gitgutter'" ---> nerdtree git changes <---
-Plug 'Xuyuanp/nerdtree-git-plugin'
-"}}
-
-
-
-
-
 
 "{{ Autopairs" ---> closing XML tags <---
 Plug 'alvan/vim-closetag'" ---> files on which to activate tags auto-closing <---
@@ -32,27 +17,13 @@ Plug 'alvan/vim-closetag'" ---> files on which to activate tags auto-closing <--
 Plug 'jiangmiao/auto-pairs'
 "}}
 
-"{{ Configuring UltiSnipsPlug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
-  let g:UltiSnipsExpandTrigger = "<tab>"
-  let g:UltiSnipsJumpForwardTrigger = "<tab>"
-  let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
-
-  "}}
 call plug#end()
 
 
 set term=screen-256color
 colorscheme codedark
 
-"Gruvbox theme settings
-"colorscheme gruvbox
-"set bg=dark
-"let g:gruvbox_contrast_dark='hard'
-"set statusline+=%#warningmsg#
-"set statusline+=%{SyntasticStatuslineFlag()}
-"set statusline+=%*
-
+" line in the current cursor
 augroup CursorLine
   au!
   au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
@@ -65,17 +36,18 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-"Enabling emmet for only html/css(C-y,)
-let g:user_emmet_install_global = 0
-autocmd FileType html,css EmmetInstall
-
 "map CTRL-E to end-of-line (insert mode)
-  imap <C-e> <esc>$i<right>
+imap <C-e> <esc>$i<right>
 "  " " map CTRL-A to beginning-of-line (insert mode)
-   imap <C-a> <esc>0i
+imap <C-a> <esc>0i
+
+" Vertically center  document when entering insert mode
+autocmd InsertEnter * norm zz
 
 " Goyo plugin
-map <leader>c :Goyo \| set linebreak<CR>
+map <leader>m :Goyo \| set linebreak<CR>
+
+"Nerd Tree settings
 " Open Nerd tree everytime
 "   autocmd VimEnter * NERDTree | wincmd p
 
@@ -83,29 +55,38 @@ map <leader>c :Goyo \| set linebreak<CR>
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
     \ quit | endif
 
-
 "Ctrl-t to toggle nerd tree
- nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
 
 "nerd tree window size
-let g:NERDTreeWinSize=40
+let g:NERDTreeWinSize=30
 
       
 set encoding=UTF-8
-
-
 
 "For VTE compatible terminals (urxvt, st, xterm, gnome-terminal 3.x, Konsole KDE5 and others) and wsltty,Cursor changes according to mode
 let &t_SI = "\<Esc>[6 q"
 let &t_SR = "\<Esc>[4 q"
 let &t_EI = "\<Esc>[2 q"
-
+ 
 "Better split bar
 highlight VertSplit cterm=NONE
+
+set ignorecase
+"When search stars with Uppercase only uppercase ones are searched
+set smartcase
 
 "Mapping esc to jj
 inoremap jj <ESc>
 
+
+" move lines up and down
+nnoremap <C-j> :m .+1<CR>==
+nnoremap <C-k> :m .-2<CR>==
+inoremap <C-j> <Esc>:m .+1<CR>==gi
+inoremap <C-k> <Esc>:m .-2<CR>==gi
+vnoremap <C-j> :m '>+1<CR>gv=gv
+vnoremap <C-k> :m '<-2<CR>gv=gv
 
 nnoremap <silent> <Leader>b :Buffers<CR>
 nnoremap <silent> <C-f> :Files<CR>
@@ -118,8 +99,10 @@ nnoremap <silent> <Leader>h :History<CR>
 nnoremap <silent> <Leader>h: :History:<CR>
 nnoremap <silent> <Leader>h/ :History/<CR>
 nnoremap <silent> <Leader>t :terminal<CR>
+" Ctrl-v for visual block mode 
 nnoremap <silent> <leader>v <C-v>
-nnoremap S :%s//g<left><left>
+" Substitution by S
+noremap S :%s//gI<left><left>
 
 cmap w!! w !sudo tee > /dev/null %
 
@@ -131,9 +114,6 @@ nnoremap <CR> o<Esc>
 " double space to change buffers
 nnoremap <leader><leader> <c-^>
 
-" space + q  to quit without making any changes
-" space + d  to quit after making changes
-"nnoremap <leader>s :w!!<cr>
 nnoremap <leader>q :qa!<cr>
 nnoremap <leader>d :q!<cr>
 nnoremap <leader>w :wa<cr>
@@ -144,56 +124,57 @@ nnoremap <leader>o :setlocal spell! spelllang=en_us<CR>
 " allows changing buffer without editing
 set hidden
 
+syntax on
+
 " autosave"
 autocmd TextChanged,TextChangedI <buffer> silent write
 
 " Save whenever switching windows or leaving vim. This is useful when running
 " " the tests inside vim without having to save all files first.
- au FocusLost,WinLeave * :silent! wa
+au FocusLost,WinLeave * :silent! wa
 
 " Doesn't wrap the text
 set linebreak
 
 set nocompatible
-set nu
-set relativenumber
+set number relativenumber
 set numberwidth=4
 syntax on
+" enable mouse on all modes
 set mouse=a
 
 
-" Backups are annoying, but necessary.
-"  This saves backups to a special tmp folder for use
-"  rather than saving in the directory of the file
-"  Go hoos!"
-"set backup
-"set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-"set backupskip=/tmp/*,/private/tmp/*
-"set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-"set writebackup
 
 " no swap/backup files
 set nobackup nowritebackup
 set noswapfile
 
 
+" Enable and disable auto commenting
+map <leader>c :setlocal formatoptions-=cro<CR>
+map <leader>C :setlocal formatoptions=cro<CR>
 
 " Shows incomplete command in the bottom
- set wildmenu
-" " Sets auto indentation
- set ai 
+set wildmenu
+
+" Sets auto indentation
+set ai 
+" Enable Disable Auto Indent
+map <leader>i :setlocal autoindent<CR>
+map <leader>I :setlocal noautoindent<CR>
  
 " Indentation without hard tabs 
- set expandtab
+set expandtab
 set shiftwidth=2
- set softtabstop=2
+set softtabstop=2
+set tabstop=2
 
- " don't keep search highlighted
- set nohlsearch
- " highlights as you search
- set incsearch
+" don't keep search highlighted
+set nohlsearch
+" highlights as you search
+set incsearch
 
- " status bar colors
+" status bar colors
 au InsertEnter * hi statusline guifg=black guibg=#d7afff ctermfg=black ctermbg=magenta
 au InsertLeave * hi statusline guifg=black guibg=#8fbfdc ctermfg=black ctermbg=cyan
 hi statusline guifg=black guibg=#8fbfdc ctermfg=black ctermbg=cyan
@@ -244,16 +225,15 @@ hi clear SpellBad
 hi SpellBad cterm=underline
 
 
-
+" Fix splitting orientation when splitting
 set splitbelow splitright
 
-" vv to generate new vertical split
-nnoremap <silent> s <C-w>v
+"  to generate new vertical split
+nnoremap <silent>s <C-w>v
 
-" resize panes
-nnoremap <silent> <Right> :vertical resize +5<cr>
-nnoremap <silent> <Left> :vertical resize -5<cr>
-nnoremap <silent> <Up> :resize +5<cr>
-nnoremap <silent> <Down> :resize -5<cr>
-
+" easy window navigation
+nmap <C-h> <C-w>h
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-l> <C-w>l
 
