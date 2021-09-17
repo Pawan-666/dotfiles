@@ -1,5 +1,5 @@
-#export TERM=screen-256color
-#export TERM=xterm-256color
+export TERM=xterm-256color
+source /etc/environment 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -12,6 +12,7 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/pawan/.oh-my-zsh"
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -127,7 +128,10 @@ alias rm="trash"
 alias python="python3"
 alias v="vim"
 alias less="bat"
+alias grep="rg"
+#alias mpsyt="~/.local/bin/mpsyt *"
 alias config='/usr/bin/git --git-dir=/home/pawan/dotfiles/ --work-tree=/home/pawan'
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 #bindkey -v

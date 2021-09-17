@@ -22,6 +22,7 @@ call plug#end()
 
 set term=screen-256color
 colorscheme codedark
+set background=dark
 
 " line in the current cursor
 augroup CursorLine
@@ -236,4 +237,3 @@ nmap <C-h> <C-w>h
 nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
-
