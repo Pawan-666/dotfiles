@@ -1,0 +1,12 @@
+#!/bin/zsh
+
+cd ~/django
+tmux send-keys "[ -d django_env ] && source django_env/bin/activate" C-m
+tmux send-keys "cd work;vim" C-m
+tmux split-window -v -p 20
+tmux send-keys "[ -d django_env ] && source django_env/bin/activate" C-m
+tmux send-keys "cd ./work/stock_management" C-m
+
+#tmux split-window -h -p 50
+#tmux send-keys "[ -d django_env ] && source django_env/bin/activate" C-m
+#tmux send-keys "echo 'Welcome back, Pawan!'" C-m
