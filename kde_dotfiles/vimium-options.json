@@ -2,10 +2,6 @@
   "settingsVersion": "1.67",
   "exclusionRules": [
     {
-      "pattern": "https?://mail.google.com/*",
-      "passKeys": ""
-    },
-    {
       "pattern": "https?://www.youtube.com/watch*",
       "passKeys": "f"
     },
@@ -56,6 +52,10 @@
     {
       "pattern": "https?://www.youtube.com/*",
       "passKeys": "m"
+    },
+    {
+      "pattern": "https?://www.nepkeys.site/*",
+      "passKeys": ""
     }
   ],
   "filterLinkHints": false,
