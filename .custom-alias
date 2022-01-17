@@ -1,0 +1,13 @@
+alias ls="logo-ls"
+alias v="vim"
+alias f='fzf'
+alias F='nnn'
+alias rm='trash'
+alias u="sudo apt -y update; sudo apt  -y upgrade; pkcon refresh; pkcon update; flatpak -y update ;sudo snap refresh"
+alias config='/usr/bin/git --git-dir=/home/pawan/dotfiles/ --work-tree=/home/pawan'
+alias s='sudo $(fc -ln -1)'
+alias python="python3"
+alias less="bat"
+alias pt="export XDG_CONFIG_HOME=~/.configPT; packettracer &"
+alias bmon="bmon -p wlx4401bb96c32d"
+
