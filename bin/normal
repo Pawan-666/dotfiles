@@ -3,9 +3,9 @@
 tmux new-session -s Om -n nnn -d
 tmux send-keys -t Om 'nnn -s a' C-m
 tmux new-window -n ViM -t Om
-tmux send-keys -t Om 'vim' C-m
+tmux send-keys -t Om 'vim .' C-m
 tmux new-window -n bash -t Om
-tmux send-keys -t Om 'bash' C-m
+tmux send-keys -t Om 'unclutter -idle 5 &; bash' C-m
 tmux new-window -n zsh -t Om
 tmux select-window -t Om:1
 tmux attach -t Om

@@ -6,23 +6,23 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # If you come from bash you might have to change your $PATH.
- export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-
-export LANG=en_US.UTF-8
-export LC_MESSAGES=POSIX
-
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+#
+#
+#export LANG=en_US.UTF-8
+#export LC_MESSAGES=POSIX
+#
 #Defining the base directory for cd command
 #export CDPATH=~:/:/etc:/var
 
 #Combining both mkdir and cd in a single command
 function mkdircd () { mkdir -p "$@"  && eval cd "\"\$$#\""; }
 
-# Path to your oh-my-zsh installation.
-export ZSH="/home/pawan/.oh-my-zsh"
-
 ### "bat" as manpager
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
+# Path to your oh-my-zsh installation.
+export ZSH="/home/pawan/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -121,19 +121,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls="logo-ls"
-alias v="vim"
-alias f='fzf'
-alias F='nnn'
-alias rm='trash'
-alias u="sudo apt -y update; sudo apt  -y upgrade; pkcon refresh; pkcon update; flatpak -y update ;sudo snap refresh"
-alias config='/usr/bin/git --git-dir=/home/pawan/dotfiles/ --work-tree=/home/pawan'
-alias s='sudo $(fc -ln -1)'
-alias python="python3"
-alias less="bat"
-alias pt="export XDG_CONFIG_HOME=~/.configPT; packettracer &"
-alias bmon="bmon -p wlx4401bb96c32d"
 
+source ~/.custom-alias
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

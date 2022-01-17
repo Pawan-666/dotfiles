@@ -3,10 +3,10 @@ let mapleader = " "
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/goyo.vim'
 Plug 'tomasiser/vim-code-dark'
 Plug 'preservim/nerdtree'
 Plug 'vimwiki/vimwiki'
+Plug 'mattn/calendar-vim'
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
 Plug 'ryanoasis/vim-devicons'
 Plug 'morhetz/gruvbox'
@@ -26,7 +26,8 @@ augroup END
 
 " vimwiki
 let g:vimwiki_list = [{'path': '~/MEGAsync/wiki/','syntax': 'markdown', 'ext': '.md'}]
-"let g:vimwiki_list = [{'auto_diary_index': 1}]
+let g:calendar_diary='~/MEGAsync/wiki/diary'
+let g:vimwiki_list = [{'auto_diary_index': 1}]
 
 
 "vimwiki will only set the filetype of markdown files inside a wiki directory
@@ -47,16 +48,52 @@ map <leader>M :InstantMarkdownPreview<CR>
 "let g:instant_markdown_port = 8888
 ""let g:instant_markdown_python = 1
 
+
+"Markdown shortcuts
+imap 'b ____<esc>hi
+imap 'i **<esc>i
+imap 'I ******<esc>2hi
+imap 'r ---<esc>Ojjj2ojji
+imap 'u <><esc>i
+imap 'li [![Image](s "t")](https://.com)
+"To emphasize links, add asterisks before and after the brackets and parentheses. To denote links as code, add backticks in the brackets.
+imap 'l [](https://.com t)<esc>2Ba
+imap 'a <abbr title=""></abbr><esc>2bla
+imap 'p ![Image](s "")<esc>hi
+"Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs
+imap 'q ><esc>a 
+"nested blockquotes
+imap 'qq >><esc>a 
+imap 'c ``<esc>i
+imap 'cb ``````<esc>2hi<CR><esc>O
+imap 'cs ```sh```<esc>2hi<CR><esc>O
+imap 'cp ```python```<esc>2hi<CR><esc>O
+imap 'ch ```html```<esc>2hi<CR><esc>O
+imap 'cj ```js```<esc>2hi<CR><esc>O
+imap '1 #<esc>a 
+imap '2 ##<esc>a 
+imap '3 ###<esc>a 
+imap '4 ####<esc>a 
+imap '5 ####<esc>a 
+
+
 "map CTRL-E to end-of-line (insert mode)
 imap <C-e> <esc>$i<right>
 "  " " map CTRL-A to beginning-of-line (insert mode)
 imap <C-a> <esc>0i
 
-" Vertically center  document when entering insert mode
-autocmd InsertEnter * norm zz
+" Wrapped lines goes down/up to next row, rather than next line in file.
+nnoremap j gj
+nnoremap k gk
 
-" Goyo plugin
-nmap <leader>m :Goyo 100 \| set linebreak<CR>
+" Change Working Directory to that of the cu--- ent file
+cmap cwd lcd %:p:h
+cmap cd. lcd %:p:h
+
+" visual shifting (does not exit Visual mode)
+vnoremap < <gv
+vnoremap > >gv 
+
 
 "Nerd Tree settings
 " Open Nerd tree everytime
@@ -72,8 +109,16 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 "nerd tree window size
 let g:NERDTreeWinSize=20
 
+let NERDTreeShowBookmarks=1
+let NERDTreeIgnore=['\\.pyc', '\\\~$', '\\.swo$', '\\.swp$', '\\.git', '\\.hg', '\\.svn', '\\.bzr']
+let NERDTreeChDirMode=0
+let NERDTreeQuitOnOpen=1
+let NERDTreeShowHidden=1
+"let NERDTreeKeepTreeInNewTab=1
 
 set encoding=UTF-8
+set showmatch                   " Show matching brackets/parenthesis
+
 
 "For VTE compatible terminals (urxvt, st, xterm, gnome-terminal 3.x, Konsole KDE5 and others) and wsltty,Cursor changes according to mode
 let &t_SI = "\<Esc>[6 q"
@@ -113,9 +158,10 @@ nnoremap <silent> <Leader>h/ :History/<CR>
 " Ctrl-v for visual block mode
 nnoremap <silent> <leader>v <C-v>
 " Substitution by S
-"noremap S :%s//gI<left><left>
+noremap S :%s//gI<left><left>
 nnoremap <leader>R :source ~/.vimrc<CR>
 
+nnoremap <C-c> <LocalLeader>cal
 
 cmap w!! w !sudo tee > /dev/null %
 
@@ -126,12 +172,11 @@ nnoremap <CR> o<Esc>
 
 " double space to change buffers
 nnoremap <leader><leader> <c-^>
-
 nnoremap <leader>q :qa!<cr>
 nnoremap <leader>d :q!<cr>
 "nnoremap <leader>w :wa<cr>
-nnoremap <leader>x :xa!<cr>
-nnoremap <Leader>s :mksession!<CR>
+nnoremap <leader>s :wa<cr>
+nnoremap <Leader>S :mksession!<CR>
 
 
 " Spell check set to <leader>o, 'o' for 'orthography':
@@ -163,6 +208,8 @@ autocmd InsertLeave * :setlocal relativenumber
 set numberwidth=4
 " enable mouse on all modes
 set mouse=a
+" Hide the mouse cursor while typing
+set mousehide               
 
 
 
@@ -176,7 +223,7 @@ map <leader>c :setlocal formatoptions-=cro<CR>
 map <leader>C :setlocal formatoptions=cro<CR>
 
 "Jumping point
-"map <Space>p i<__
+"map <space>p i<__
 "inoremap <Space>p <__
 "map <Space>j <Esc>/<__<Enter>"_c3l
 "inoremap <Space>j <Esc>/<__<Enter>"_c3l
@@ -282,3 +329,4 @@ nmap <C-h> <C-w>h
 nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
+
