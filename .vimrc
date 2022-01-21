@@ -12,6 +12,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'morhetz/gruvbox'
 call plug#end()
 
+inoremap jj <ESc>
 "VScode dark theme
 colorscheme codedark
 set background=dark
@@ -27,7 +28,7 @@ augroup END
 " vimwiki
 let g:vimwiki_list = [{'path': '~/MEGAsync/wiki/','syntax': 'markdown', 'ext': '.md'}]
 let g:calendar_diary='~/MEGAsync/wiki/diary'
-let g:vimwiki_list = [{'auto_diary_index': 1}]
+"let g:vimwiki_list = [{'auto_diary_index': 1}]
 
 
 "vimwiki will only set the filetype of markdown files inside a wiki directory
@@ -63,7 +64,13 @@ imap 'p ![Image](s "")<esc>hi
 "Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs
 imap 'q ><esc>a 
 "nested blockquotes
-imap 'qq >><esc>a 
+imap 'q2 >><esc>a 
+imap 'qb >____<esc>ha 
+imap 'qh >### 
+imap 'q3 >>><esc>a 
+imap 'q4 >>>><esc>a 
+imap 'q5 >>>>><esc>a 
+imap 'q6 >>>>>><esc>a 
 imap 'c ``<esc>i
 imap 'cb ``````<esc>2hi<CR><esc>O
 imap 'cs ```sh```<esc>2hi<CR><esc>O
@@ -74,7 +81,6 @@ imap '1 #<esc>a
 imap '2 ##<esc>a 
 imap '3 ###<esc>a 
 imap '4 ####<esc>a 
-imap '5 ####<esc>a 
 
 
 "map CTRL-E to end-of-line (insert mode)
@@ -131,7 +137,6 @@ set ignorecase
 set smartcase
 
 "Mapping esc to jj
-inoremap jj <ESc>
 nnoremap <silent> <Leader>t gT
 "nnoremap T :terminal<CR>
 
@@ -200,18 +205,21 @@ set linebreak
 " For backward compatibility prior to vim 8
 set nocompatible
 
-set number relativenumber
+set nu rnu
+map <leader>n :set nonu nornu<CR>
+map <leader>N :set number relativenumber<CR>
 augroup toggle_relative_number
 autocmd InsertEnter * :setlocal norelativenumber
 autocmd InsertLeave * :setlocal relativenumber
 
-set numberwidth=4
+set numberwidth=5
 " enable mouse on all modes
 set mouse=a
 " Hide the mouse cursor while typing
 set mousehide               
 
-
+set timeoutlen=500              " how long it wait for mapped commands
+set ttimeoutlen=100             " faster timeout for escape key and others
 
 " no swap/backup files
 set nobackup nowritebackup
@@ -219,8 +227,9 @@ set noswapfile
 
 
 " Enable and disable auto commenting
-map <leader>c :setlocal formatoptions-=cro<CR>
-map <leader>C :setlocal formatoptions=cro<CR>
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+map <leader>C :setlocal formatoptions-=cro<CR>
+map <leader>c :setlocal formatoptions=cro<CR>
 
 "Jumping point
 "map <space>p i<__
@@ -232,17 +241,26 @@ map <leader>C :setlocal formatoptions=cro<CR>
 set wildmenu
 
 " Sets auto indentation
-set ai
-" Enable Disable Auto Indent
-map <leader>i :setlocal autoindent<CR>
-map <leader>I :setlocal noautoindent<CR>
-
+"set ai
 " Indentation without hard tabs
-set expandtab
-set shiftwidth=2
-set softtabstop=2
-set tabstop=2
+set expandtab                   " Expand tabs to spaces
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
 
+set autoindent smartindent      " auto/smart indent
+" Enable Disable Auto Indent
+map <leader>i :set autoindent!<CR>
+
+set copyindent                  " copy previous indentation on auto indent
+set softtabstop=4               " Tab key results in # spaces
+set tabstop=4                   " Tab is # spaces
+set shiftwidth=4                " The # of spaces for indenting.
+set smarttab                    " At start of line, <Tab> inserts shift width
+                                "   spaces, <Bs> deletes shift width spaces.
+
+"set paste
+set pastetoggle=<leader>p
 " don't keep search highlighted
 set nohlsearch
 
@@ -256,8 +274,8 @@ set ic
 set nows
 
 
-"" highlight trailing whitespace
-"match ErrorMsg '\s\+$'
+"" highlight trailing whitespace  
+match ErrorMsg '\s\+$'
 " " remove trailing whitespaces automatically
 "autocmd BufWritePre * :%s/\s\+$//e
 
@@ -305,7 +323,7 @@ set statusline+=%1*\ %Y\                                 " FileType
 set statusline+=%1*\ \ %02v\                         " Colomn number
 "set statusline+=%3*│                                     " Separator
 set statusline+=%1*\ \ %02l/%L\ (%3p%%)\              " Line number / total lines, percentage of document
-
+    
 hi User1 ctermfg=007 ctermbg=239 guibg=#4e4e4e guifg=#adadad
 hi User2 ctermfg=007 ctermbg=236 guibg=#303030 guifg=#adadad
 hi User3 ctermfg=236 ctermbg=236 guibg=#303030 guifg=#303030
@@ -329,4 +347,3 @@ nmap <C-h> <C-w>h
 nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
-
