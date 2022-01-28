@@ -82,7 +82,6 @@ imap '2 ##<esc>a
 imap '3 ###<esc>a 
 imap '4 ####<esc>a 
 
-
 "map CTRL-E to end-of-line (insert mode)
 imap <C-e> <esc>$i<right>
 "  " " map CTRL-A to beginning-of-line (insert mode)
@@ -93,8 +92,11 @@ nnoremap j gj
 nnoremap k gk
 
 " Change Working Directory to that of the cu--- ent file
-cmap cwd lcd %:p:h
-cmap cd. lcd %:p:h
+"cmap cwd lcd %:p:h
+"cmap cd. lcd %:p:h
+"map <leader>F :cd %:h<CR>
+set autochdir
+autocmd BufEnter * lcd %:p:h
 
 " visual shifting (does not exit Visual mode)
 vnoremap < <gv
@@ -240,17 +242,16 @@ map <leader>c :setlocal formatoptions=cro<CR>
 " Shows incomplete command in the bottom
 set wildmenu
 
-" Sets auto indentation
-"set ai
-" Indentation without hard tabs
-set expandtab                   " Expand tabs to spaces
-set shiftwidth=4
-set softtabstop=4
-set tabstop=4
 
-set autoindent smartindent      " auto/smart indent
+"set autoindent smartindent      " auto/smart indent
+set autoindent       " auto indent
 " Enable Disable Auto Indent
 map <leader>i :set autoindent!<CR>
+" Indentation without hard tabs
+set expandtab                   " Expand tabs to spaces
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
 
 set copyindent                  " copy previous indentation on auto indent
 set softtabstop=4               " Tab key results in # spaces
