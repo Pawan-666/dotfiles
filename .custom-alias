@@ -3,7 +3,7 @@ alias v="vim"
 alias f='fzf'
 alias F='nnn'
 alias rm='trash'
-alias u="sudo apt -y update; sudo apt  -y upgrade;kcon refresh;kcon update; flatpak -y update ;sudo snap refresh"
+alias u="sudo apt -y update; sudo apt  -y upgrade;pkcon refresh;pkcon update; flatpak -y update ;sudo snap refresh"
 alias config='/usr/bin/git --git-dir=/home/pawan/dotfiles/ --work-tree=/home/pawan'
 alias s='sudo $(fc -ln -1)'
 aliasython="python3"
@@ -12,4 +12,4 @@ aliast="export XDG_CONFIG_HOME=~/.configPT;ackettracer &"
 alias bmon="bmon -p wlx4401bb96c32d"
 alias chrome="/var/lib/flatpak/app/org.chromium.Chromium/current/active/export/bin/org.chromium.Chromium"
 alias chrome1="flatpak run org.chromium.Chromium"
-
+alias y="ytfzf -t"

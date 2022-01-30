@@ -50,37 +50,37 @@ map <leader>M :InstantMarkdownPreview<CR>
 ""let g:instant_markdown_python = 1
 
 
-"Markdown shortcuts
-imap 'b ____<esc>hi
-imap 'i **<esc>i
-imap 'I ******<esc>2hi
-imap 'r ---<esc>Ojjj2ojji
-imap 'u <><esc>i
-imap 'li [![Image](s "t")](https://.com)
-"To emphasize links, add asterisks before and after the brackets and parentheses. To denote links as code, add backticks in the brackets.
-imap 'l [](https://.com t)<esc>2Ba
-imap 'a <abbr title=""></abbr><esc>2bla
-imap 'p ![Image](s "")<esc>hi
-"Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs
-imap 'q ><esc>a 
-"nested blockquotes
-imap 'q2 >><esc>a 
-imap 'qb >____<esc>ha 
-imap 'qh >### 
-imap 'q3 >>><esc>a 
-imap 'q4 >>>><esc>a 
-imap 'q5 >>>>><esc>a 
-imap 'q6 >>>>>><esc>a 
-imap 'c ``<esc>i
-imap 'cb ``````<esc>2hi<CR><esc>O
-imap 'cs ```sh```<esc>2hi<CR><esc>O
-imap 'cp ```python```<esc>2hi<CR><esc>O
-imap 'ch ```html```<esc>2hi<CR><esc>O
-imap 'cj ```js```<esc>2hi<CR><esc>O
-imap '1 #<esc>a 
-imap '2 ##<esc>a 
-imap '3 ###<esc>a 
-imap '4 ####<esc>a 
+""Markdown shortcuts
+"imap 'b ____<esc>hi
+"imap 'i **<esc>i
+"imap 'I ******<esc>2hi
+"imap 'r ---<esc>Ojjj2ojji
+"imap 'u <><esc>i
+"imap 'li [![Image](s "t")](https://.com)
+""To emphasize links, add asterisks before and after the brackets and parentheses. To denote links as code, add backticks in the brackets.
+"imap 'l [](https://.com t)<esc>2Ba
+"imap 'a <abbr title=""></abbr><esc>2bla
+"imap 'p ![Image](s "")<esc>hi
+""Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs
+"imap 'q ><esc>a 
+""nested blockquotes
+"imap 'q2 >><esc>a 
+"imap 'qb >____<esc>ha 
+"imap 'qh >### 
+"imap 'q3 >>><esc>a 
+"imap 'q4 >>>><esc>a 
+"imap 'q5 >>>>><esc>a 
+"imap 'q6 >>>>>><esc>a 
+"imap 'c ``<esc>i
+"imap 'cb ``````<esc>2hi<CR><esc>O
+"imap 'cs ```sh```<esc>2hi<CR><esc>O
+"imap 'cp ```python```<esc>2hi<CR><esc>O
+"imap 'ch ```html```<esc>2hi<CR><esc>O
+"imap 'cj ```js```<esc>2hi<CR><esc>O
+"imap '1 #<esc>a 
+"imap '2 ##<esc>a 
+"imap '3 ###<esc>a 
+"imap '4 ####<esc>a 
 
 "map CTRL-E to end-of-line (insert mode)
 imap <C-e> <esc>$i<right>
@@ -254,14 +254,14 @@ set softtabstop=2
 set tabstop=2
 
 set copyindent                  " copy previous indentation on auto indent
-set softtabstop=4               " Tab key results in # spaces
-set tabstop=4                   " Tab is # spaces
-set shiftwidth=4                " The # of spaces for indenting.
-set smarttab                    " At start of line, <Tab> inserts shift width
+"set softtabstop=4               " Tab key results in # spaces
+"set tabstop=4                   " Tab is # spaces
+"set shiftwidth=4                " The # of spaces for indenting.
+"set smarttab                    " At start of line, <Tab> inserts shift width
                                 "   spaces, <Bs> deletes shift width spaces.
 
 "set paste
-set pastetoggle=<leader>p
+set pastetoggle=<F2>
 " don't keep search highlighted
 set nohlsearch
 
