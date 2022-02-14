@@ -1,28 +1,56 @@
 let mapleader = " "
 
+
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'tomasiser/vim-code-dark'
-Plug 'preservim/nerdtree'
+Plug 'mcchrish/nnn.vim'
+"Plug 'preservim/nerdtree'
 Plug 'vimwiki/vimwiki'
 Plug 'mattn/calendar-vim'
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
-Plug 'ryanoasis/vim-devicons'
+"Plug 'ryanoasis/vim-devicons'
 Plug 'morhetz/gruvbox'
 call plug#end()
 
 inoremap jj <ESc>
+
+let g:nnn#command = 'nnn -oH'
+" Exit Vim if NnnExplorer is the only window remaining in the only tab.
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && &filetype ==# 'nnn' | quit! | endif
+let g:nnn#action = {
+\ '<c-t>': 'tab split',
+\ '<c-x>': 'split',
+\ '<c-v>': 'vsplit' }
+" Close the tab if NnnExplorer is the only window remaining in it.
+autocmd BufEnter * if winnr('$') == 1 && &filetype ==# 'nnn' | quit! | endif
+" Disable default mappings
+let g:nnn#set_default_mappings = 0
+
+" Set custom mappings
+"nnoremap <silent> <leader>nn :NnnPicker<CR>
+
+" Start n³ in the current file's directory
+"nnoremap <leader>n :NnnPicker %:p:h<CR>
+nnoremap <C-t> :NnnPicker <CR>
+"nnoremap <C-t> :NnnExplorer <CR>
+
+" Or pass a dictionary with window size
+let g:nnn#layout = { 'left': '~20%' } " or right, up, down
 "VScode dark theme
-colorscheme codedark
+"colorscheme codedark
+let g:gruvbox_contrast_dark = 'hard'
+let g:gruvbox_termcolors= '256'
+colorscheme gruvbox
 set background=dark
 set term=screen-256color
 
 " line in the current cursor
 augroup CursorLine
-  au!
-  au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
-  au WinLeave * setlocal nocursorline
+au!
+au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
+au WinLeave * setlocal nocursorline
 augroup END
 
 " vimwiki
@@ -50,37 +78,37 @@ map <leader>M :InstantMarkdownPreview<CR>
 ""let g:instant_markdown_python = 1
 
 
-""Markdown shortcuts
-"imap 'b ____<esc>hi
-"imap 'i **<esc>i
-"imap 'I ******<esc>2hi
-"imap 'r ---<esc>Ojjj2ojji
-"imap 'u <><esc>i
-"imap 'li [![Image](s "t")](https://.com)
-""To emphasize links, add asterisks before and after the brackets and parentheses. To denote links as code, add backticks in the brackets.
-"imap 'l [](https://.com t)<esc>2Ba
-"imap 'a <abbr title=""></abbr><esc>2bla
-"imap 'p ![Image](s "")<esc>hi
-""Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs
-"imap 'q ><esc>a 
-""nested blockquotes
-"imap 'q2 >><esc>a 
-"imap 'qb >____<esc>ha 
-"imap 'qh >### 
-"imap 'q3 >>><esc>a 
-"imap 'q4 >>>><esc>a 
-"imap 'q5 >>>>><esc>a 
-"imap 'q6 >>>>>><esc>a 
-"imap 'c ``<esc>i
-"imap 'cb ``````<esc>2hi<CR><esc>O
-"imap 'cs ```sh```<esc>2hi<CR><esc>O
-"imap 'cp ```python```<esc>2hi<CR><esc>O
-"imap 'ch ```html```<esc>2hi<CR><esc>O
-"imap 'cj ```js```<esc>2hi<CR><esc>O
-"imap '1 #<esc>a 
-"imap '2 ##<esc>a 
-"imap '3 ###<esc>a 
-"imap '4 ####<esc>a 
+"Markdown shortcuts
+imap 'b ____<esc>hi
+imap 'i **<esc>i
+imap 'I ******<esc>2hi
+imap 'r ---<esc>Ojjj2ojji
+imap 'u <><esc>i
+imap 'li [![Image](s "t")](https://.com)
+"To emphasize links, add asterisks before and after the brackets and parentheses. To denote links as code, add backticks in the brackets.
+imap 'l [](https://.com t)<esc>2Ba
+imap 'a <abbr title=""></abbr><esc>2bla
+imap 'p ![Image](s "")<esc>hi
+"Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs
+imap 'q ><esc>a 
+"nested blockquotes
+imap 'q2 >><esc>a 
+imap 'qb >____<esc>ha 
+imap 'qh >### 
+imap 'q3 >>><esc>a 
+imap 'q4 >>>><esc>a 
+imap 'q5 >>>>><esc>a 
+imap 'q6 >>>>>><esc>a 
+imap 'c ``<esc>i
+imap 'cb ``````<esc>2hi<CR><esc>O
+imap 'cs ```sh```<esc>2hi<CR><esc>O
+imap 'cp ```python```<esc>2hi<CR><esc>O
+imap 'ch ```html```<esc>2hi<CR><esc>O
+imap 'cj ```js```<esc>2hi<CR><esc>O
+imap '1 #<esc>a 
+imap '2 ##<esc>a 
+imap '3 ###<esc>a 
+imap '4 ####<esc>a 
 
 "map CTRL-E to end-of-line (insert mode)
 imap <C-e> <esc>$i<right>
@@ -103,26 +131,26 @@ vnoremap < <gv
 vnoremap > >gv 
 
 
-"Nerd Tree settings
-" Open Nerd tree everytime
-"   autocmd VimEnter * NERDTree | wincmd p
-
-" Exit Vim if NERDTree is the only window left.
-autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
-    \ quit | endif
-
-"Ctrl-t to toggle nerd tree
-nnoremap <C-t> :NERDTreeToggle<CR>
-
-"nerd tree window size
-let g:NERDTreeWinSize=20
-
-let NERDTreeShowBookmarks=1
-let NERDTreeIgnore=['\\.pyc', '\\\~$', '\\.swo$', '\\.swp$', '\\.git', '\\.hg', '\\.svn', '\\.bzr']
-let NERDTreeChDirMode=0
-let NERDTreeQuitOnOpen=1
-let NERDTreeShowHidden=1
-"let NERDTreeKeepTreeInNewTab=1
+""Nerd Tree settings
+"" Open Nerd tree everytime
+""   autocmd VimEnter * NERDTree | wincmd p
+"
+"" Exit Vim if NERDTree is the only window left.
+"autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
+"    \ quit | endif
+"
+""Ctrl-t to toggle nerd tree
+"nnoremap <C-t> :NERDTreeToggle<CR>
+"
+""nerd tree window size
+"let g:NERDTreeWinSize=20
+"
+"let NERDTreeShowBookmarks=1
+"let NERDTreeIgnore=['\\.pyc', '\\\~$', '\\.swo$', '\\.swp$', '\\.git', '\\.hg', '\\.svn', '\\.bzr']
+"let NERDTreeChDirMode=0
+"let NERDTreeQuitOnOpen=1
+"let NERDTreeShowHidden=1
+""let NERDTreeKeepTreeInNewTab=1
 
 set encoding=UTF-8
 set showmatch                   " Show matching brackets/parenthesis
@@ -139,13 +167,14 @@ set ignorecase
 set smartcase
 
 "Mapping esc to jj
-nnoremap <silent> <Leader>t gT
+nnoremap <silent> <C-n> gt
+nnoremap <silent> <C-p> gT
 "nnoremap T :terminal<CR>
 
 
 " move lines up and down
-nnoremap <C-j> :m .+1<CR>==
-nnoremap <C-k> :m .-2<CR>==
+"nnoremap <C-j> :m .+1<CR>==
+"nnoremap <C-k> :m .-2<CR>==
 inoremap <C-j> <Esc>:m .+1<CR>==gi
 inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-j> :m '>+1<CR>gv=gv
@@ -163,7 +192,7 @@ nnoremap <silent> <Leader>h :History<CR>
 nnoremap <silent> <Leader>H :History:<CR>
 nnoremap <silent> <Leader>h/ :History/<CR>
 " Ctrl-v for visual block mode
-nnoremap <silent> <leader>v <C-v>
+"nnoremap <silent> <leader>v <C-v>
 " Substitution by S
 noremap S :%s//gI<left><left>
 nnoremap <leader>R :source ~/.vimrc<CR>
@@ -208,11 +237,11 @@ set linebreak
 set nocompatible
 
 set nu rnu
-map <leader>n :set nonu nornu<CR>
-map <leader>N :set number relativenumber<CR>
-augroup toggle_relative_number
-autocmd InsertEnter * :setlocal norelativenumber
-autocmd InsertLeave * :setlocal relativenumber
+"map <leader>n :set nonu nornu<CR>
+"map <leader>N :set number relativenumber<CR>
+"augroup toggle_relative_number
+"autocmd InsertEnter * :setlocal norelativenumber
+"autocmd InsertLeave * :setlocal relativenumber
 
 set numberwidth=5
 " enable mouse on all modes
@@ -262,6 +291,10 @@ set copyindent                  " copy previous indentation on auto indent
 
 "set paste
 set pastetoggle=<F2>
+
+" apt-get install vim-gtk  for system wide clipboard support, "+p  for pasting big text
+set clipboard=unnamedplus
+
 " don't keep search highlighted
 set nohlsearch
 

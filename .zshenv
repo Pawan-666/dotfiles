@@ -12,7 +12,7 @@ export VIDEO="mpv"
 export READER="Okular"
 export COLORTERM="truecolor"
 export TERMINAL="Alacritty"
-export BROWSER="Chromium"
+export BROWSER="chrome"
 
 
 export NNN_BMS='d:~/Downloads;l:/home/pawan/Storage/Courses/LINUX;s:~/Storage;/:/'
