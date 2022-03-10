@@ -12,11 +12,15 @@ Plug 'mattn/calendar-vim'
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
 "Plug 'ryanoasis/vim-devicons'
 Plug 'morhetz/gruvbox'
+" post install (yarn install | npm install) then load plugin only for editing supported files
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install --frozen-lockfile --production',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
 call plug#end()
 
 inoremap jj <ESc>
 
-let g:nnn#command = 'nnn -oH'
+"let g:nnn#command = 'nnn -oH'
 " Exit Vim if NnnExplorer is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && &filetype ==# 'nnn' | quit! | endif
 let g:nnn#action = {
@@ -33,7 +37,7 @@ let g:nnn#set_default_mappings = 0
 
 " Start n³ in the current file's directory
 "nnoremap <leader>n :NnnPicker %:p:h<CR>
-nnoremap <C-t> :NnnPicker <CR>
+nnoremap <C-t> :NnnPicker %:p:h<CR>
 "nnoremap <C-t> :NnnExplorer <CR>
 
 " Or pass a dictionary with window size
@@ -180,7 +184,7 @@ inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
 
-nnoremap <silent> <Leader>b :Buffers<CR>
+nnoremap <silent> <Leader>l :Buffers<CR>
 nnoremap <silent> <C-f> :Files<CR>
 nnoremap <silent> <Leader>f :Rg<CR>
 nnoremap <silent> <Leader>r :register<CR>
@@ -190,7 +194,7 @@ nnoremap <silent> <Leader>g :Commits<CR>
 nnoremap <silent> <Leader>h: :Helptags<CR>
 nnoremap <silent> <Leader>h :History<CR>
 nnoremap <silent> <Leader>H :History:<CR>
-nnoremap <silent> <Leader>h/ :History/<CR>
+nnoremap <silent> <Leader>/ :History/<CR>
 " Ctrl-v for visual block mode
 "nnoremap <silent> <leader>v <C-v>
 " Substitution by S
@@ -212,7 +216,7 @@ nnoremap <leader>q :qa!<cr>
 nnoremap <leader>d :q!<cr>
 "nnoremap <leader>w :wa<cr>
 nnoremap <leader>s :wa<cr>
-nnoremap <Leader>S :mksession!<CR>
+nnoremap <Leader>S :mksession
 
 
 " Spell check set to <leader>o, 'o' for 'orthography':
@@ -309,7 +313,7 @@ set nows
 
 
 "" highlight trailing whitespace  
-match ErrorMsg '\s\+$'
+"match ErrorMsg '\s\+$'
 " " remove trailing whitespaces automatically
 "autocmd BufWritePre * :%s/\s\+$//e
 
@@ -381,3 +385,4 @@ nmap <C-h> <C-w>h
 nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
+
