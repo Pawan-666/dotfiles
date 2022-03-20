@@ -1,6 +1,4 @@
 let mapleader = " "
-
-
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -19,7 +17,6 @@ Plug 'prettier/vim-prettier', {
 call plug#end()
 
 inoremap jj <ESc>
-
 "let g:nnn#command = 'nnn -oH'
 " Exit Vim if NnnExplorer is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && &filetype ==# 'nnn' | quit! | endif
@@ -83,36 +80,36 @@ map <leader>M :InstantMarkdownPreview<CR>
 
 
 "Markdown shortcuts
-imap 'b ____<esc>hi
-imap 'i **<esc>i
-imap 'I ******<esc>2hi
-imap 'r ---<esc>Ojjj2ojji
-imap 'u <><esc>i
-imap 'li [![Image](s "t")](https://.com)
-"To emphasize links, add asterisks before and after the brackets and parentheses. To denote links as code, add backticks in the brackets.
-imap 'l [](https://.com t)<esc>2Ba
-imap 'a <abbr title=""></abbr><esc>2bla
-imap 'p ![Image](s "")<esc>hi
-"Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs
-imap 'q ><esc>a 
-"nested blockquotes
-imap 'q2 >><esc>a 
-imap 'qb >____<esc>ha 
-imap 'qh >### 
-imap 'q3 >>><esc>a 
-imap 'q4 >>>><esc>a 
-imap 'q5 >>>>><esc>a 
-imap 'q6 >>>>>><esc>a 
-imap 'c ``<esc>i
-imap 'cb ``````<esc>2hi<CR><esc>O
-imap 'cs ```sh```<esc>2hi<CR><esc>O
-imap 'cp ```python```<esc>2hi<CR><esc>O
-imap 'ch ```html```<esc>2hi<CR><esc>O
-imap 'cj ```js```<esc>2hi<CR><esc>O
-imap '1 #<esc>a 
-imap '2 ##<esc>a 
-imap '3 ###<esc>a 
-imap '4 ####<esc>a 
+"imap 'b ____<esc>hi
+"imap 'i **<esc>i
+"imap 'I ******<esc>2hi
+"imap 'r ---<esc>Ojjj2ojji
+"imap 'u <><esc>i
+"imap 'li [![Image](s "t")](https://.com)
+""To emphasize links, add asterisks before and after the brackets and parentheses. To denote links as code, add backticks in the brackets.
+"imap 'l [](https://.com t)<esc>2Ba
+"imap 'a <abbr title=""></abbr><esc>2bla
+"imap 'p ![Image](s "")<esc>hi
+""Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs
+"imap 'q ><esc>a 
+""nested blockquotes
+"imap 'q2 >><esc>a 
+"imap 'qb >____<esc>ha 
+"imap 'qh >### 
+"imap 'q3 >>><esc>a 
+"imap 'q4 >>>><esc>a 
+"imap 'q5 >>>>><esc>a 
+"imap 'q6 >>>>>><esc>a 
+"imap 'c ``<esc>i
+"imap 'cb ``````<esc>2hi<CR><esc>O
+"imap 'cs ```sh```<esc>2hi<CR><esc>O
+"imap 'cp ```python```<esc>2hi<CR><esc>O
+"imap 'ch ```html```<esc>2hi<CR><esc>O
+"imap 'cj ```js```<esc>2hi<CR><esc>O
+"imap '1 #<esc>a 
+"imap '2 ##<esc>a 
+"imap '3 ###<esc>a 
+"imap '4 ####<esc>a 
 
 "map CTRL-E to end-of-line (insert mode)
 imap <C-e> <esc>$i<right>
@@ -385,4 +382,3 @@ nmap <C-h> <C-w>h
 nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
-

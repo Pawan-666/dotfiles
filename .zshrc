@@ -126,3 +126,5 @@ source ~/.custom-alias
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH=/home/pawan/bin:/usr/local/bin:/home/pawan/bin:/usr/local/bin:/home/pawan/bin:/usr/local/bin:/home/pawan/.cargo/bin:/home/pawan/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pawan/.local/bin::/home/pawan/.fzf/bin
+export PATH=/home/pawan/bin:/usr/local/bin:/home/pawan/bin:/usr/local/bin:/home/pawan/bin:/usr/local/bin:/home/pawan/.cargo/bin:/home/pawan/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pawan/.local/bin::/home/pawan/.fzf/bin:~/shell_scripting

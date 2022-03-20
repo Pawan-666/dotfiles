@@ -152,8 +152,10 @@ mouse_bindings:
 
 key_bindings:
   # (Windows, Linux, and BSD only)
-  - { key: P,        mods: Control|Shift,       action: Paste            }
-  - { key: Y,        mods: Control|Shift,       action: Copy            }
+  # - { key: P,        mods: Control|Shift,       action: Paste            }
+  - { key: V,        mods: ALT,       action: Paste            }
+  # - { key: Y,        mods: Control|Shift,       action: Copy            }
+  - { key: C,        mods: ALT,       action: Copy            }
     #  - { key: PageUp,   mods: Shift, action: ScrollPageUp,   mode: ~Alt       }
     #  - { key: PageDown, mods: Shift, action: ScrollPageDown, mode: ~Alt       }
     #  - { key: Home,     mods: Shift, action: ScrollToTop,    mode: ~Alt       }

@@ -15,7 +15,8 @@ export TERMINAL="Alacritty"
 export BROWSER="chrome"
 
 
-export NNN_BMS='d:~/Downloads;l:/home/pawan/Storage/Courses/LINUX;s:~/Storage;/:/'
+#export NNN_BMS='d:~/Downloads;l:/home/pawan/Storage/Courses/LINUX;s:~/Storage/movies;/:/'
+export NNN_BMS='d:~/Downloads;l:~/Downloads/Compressed/;s:~/Storage/movies;/:/'
 export NNN_TRASH=1
 export NNN_PLUG='o:fzopen;k:kdeconnect;d:dragdrop'
 . "$HOME/.cargo/env"

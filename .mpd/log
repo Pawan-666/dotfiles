@@ -619,3 +619,292 @@ Mar 10 09:25 : client: [0] opened from 127.0.0.1:44298
 Mar 10 09:25 : client: [0] closed
 Mar 10 09:25 : client: [1] opened from 127.0.0.1:44300
 Mar 10 11:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 11 10:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 11 10:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 11 10:08 : avahi: Service 'Music Player @ AnonM' successfully established.
+Mar 11 10:10 : client: [0] opened from 127.0.0.1:38318
+Mar 12 01:40 : player: played "music/collections/Victor Wooten - Isn_t She Lovely.m4a"
+Mar 12 08:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 12 08:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 12 08:21 : avahi: Service 'Music Player @ AnonM' successfully established.
+Mar 12 08:25 : client: [0] opened from 127.0.0.1:44774
+Mar 12 12:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 12 12:20 : player: played "music/collections/Victor Wooten - Isn_t She Lovely.m4a"
+Mar 12 12:23 : player: played "music/Victor Wooten - Palmystery/12 - Us 2.mp3"
+Mar 12 12:29 : player: played "music/Victor Wooten - Palmystery/04 - The Lesson.mp3"
+Mar 14 10:34 : client: [0] closed
+Mar 14 10:34 : client: [1] opened from 127.0.0.1:44792
+Mar 14 10:34 : client: [1] closed
+Mar 14 10:35 : client: [2] opened from 127.0.0.1:44794
+Mar 14 10:36 : client: [2] closed
+Mar 14 10:36 : client: [3] opened from 127.0.0.1:44796
+Mar 15 09:30 : player: played "music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/06-tool-parabol.flac"
+Mar 15 09:36 : player: played "music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/07-tool-parabola.flac"
+Mar 15 09:47 : player: played "music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/11-tool-reflection.flac"
+Mar 15 09:59 : player: played "music/TOOL DISCOGRAPHY FLAC CD/TOOL - Fear Inoculum (Deluxe) (2019) [FLAC]/02 - Pneuma.flac"
+Mar 15 10:08 : player: played "music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/09-tool-lateralus.flac"
+Mar 15 10:21 : player: played "music/TOOL DISCOGRAPHY FLAC CD/TOOL - Fear Inoculum (Deluxe) (2019) [FLAC]/04 - Invincible.flac"
+Mar 15 18:11 : zeroconf: No global port, disabling zeroconf
+Mar 15 18:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 15 18:12 : client: [0] opened from [::1]:38542
+Mar 15 18:15 : client: [0] closed
+Mar 15 18:15 : client: [1] opened from [::1]:38544
+Mar 15 19:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 15 19:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 15 19:56 : player: played "music/Buckethead flac collection/my fav/Buckethead The Flooding of Pain (320).mp3"
+Mar 16 08:07 : player: played "music/Buckethead flac collection/my fav/43 Inward Journey.flac"
+Mar 16 08:12 : player: played "music/Buckethead flac collection/my fav/04 Hills Of Eternity.flac"
+Mar 16 08:22 : player: played "music/Buckethead flac collection/my fav/Buckethead The Flooding of Pain (320).mp3"
+Mar 16 15:48 : client: [1] closed
+Mar 16 15:48 : client: [2] opened from [::1]:38548
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-Reissue-CD-FLAC-1989-SCORN/03-metallica-motorbreath.flac
+Mar 16 15:55 : update: added music/Metallica Discography STUDiO [2018] 10 CD FLAC/07-metallica-orion_(instrumental).flac
+Mar 16 15:55 : update: added music/Metallica Discography STUDiO [2018] 10 CD FLAC/03-metallica-for_whom_the_bell_tolls.flac
+Mar 16 15:55 : update: added music/Metallica Discography STUDiO [2018] 10 CD FLAC/04-metallica-fade_to_black.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-Reissue-CD-FLAC-1989-SCORN/02-metallica-the_four_horsemen.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-Reissue-CD-FLAC-1989-SCORN/01-metallica-hit_the_lights.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-JP_REMASTERED-CD-FLAC-2006-DeVOiD/10-metallica-metal_militia.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-JP_REMASTERED-CD-FLAC-2006-DeVOiD/09-metallica-seek_and_destroy.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-JP_REMASTERED-CD-FLAC-2006-DeVOiD/08-metallica-no_remorse.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-JP_REMASTERED-CD-FLAC-2006-DeVOiD/07-metallica-phantom_lord.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-JP_REMASTERED-CD-FLAC-2006-DeVOiD/06-metallica-whiplash.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-JP_REMASTERED-CD-FLAC-2006-DeVOiD/05-metallica-(anesthesia)_pulling_teeth.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-JP_REMASTERED-CD-FLAC-2006-DeVOiD/04-metallica-jump_in_the_fire.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-JP_REMASTERED-CD-FLAC-2006-DeVOiD/03-metallica-motorbreath.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-JP_REMASTERED-CD-FLAC-2006-DeVOiD/02-metallica-the_four_horsemen.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-JP_REMASTERED-CD-FLAC-2006-DeVOiD/01-metallica-hit_the_lights.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1991] Metallica/Metallica-Metallica-CD-FLAC-1991-PERFECT/08-metallica-nothing_else_matters.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1986] Master Of Puppets/Metallica-Master_Of_Puppets-CD-FLAC-1986-2Eleven/08-metallica-damage_inc..flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1986] Master Of Puppets/Metallica-Master_Of_Puppets-CD-FLAC-1986-2Eleven/07-metallica-orion_(instrumental).flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1986] Master Of Puppets/Metallica-Master_Of_Puppets-CD-FLAC-1986-2Eleven/06-metallica-leper_messiah.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1986] Master Of Puppets/Metallica-Master_Of_Puppets-CD-FLAC-1986-2Eleven/05-metallica-disposable_heroes.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1986] Master Of Puppets/Metallica-Master_Of_Puppets-CD-FLAC-1986-2Eleven/04-metallica-welcome_home_(sanitarium).flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1986] Master Of Puppets/Metallica-Master_Of_Puppets-CD-FLAC-1986-2Eleven/03-metallica-the_thing_that_should_not_be.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1986] Master Of Puppets/Metallica-Master_Of_Puppets-CD-FLAC-1986-2Eleven/02-metallica-master_of_puppets.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1986] Master Of Puppets/Metallica-Master_Of_Puppets-CD-FLAC-1986-2Eleven/01-metallica-battery.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-Reissue-CD-FLAC-1989-SCORN/08-metallica-the_call_of_ktulu.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-Reissue-CD-FLAC-1989-SCORN/07-metallica-creeping_death.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-Reissue-CD-FLAC-1989-SCORN/06-metallica-escape.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-Reissue-CD-FLAC-1989-SCORN/05-metallica-trapped_under_ice.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-Reissue-CD-FLAC-1989-SCORN/04-metallica-fade_to_black.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-Reissue-CD-FLAC-1989-SCORN/03-metallica-for_whom_the_bell_tolls.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-Reissue-CD-FLAC-1989-SCORN/02-metallica-ride_the_lightning.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-Reissue-CD-FLAC-1989-SCORN/01-metallica-fight_fire_with_fire.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-JP_REMASTERED-CD-FLAC-2006-DeVOiD/08-metallica-the_call_of_ktulu.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-JP_REMASTERED-CD-FLAC-2006-DeVOiD/07-metallica-creeping_death.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-JP_REMASTERED-CD-FLAC-2006-DeVOiD/06-metallica-escape.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-JP_REMASTERED-CD-FLAC-2006-DeVOiD/05-metallica-trapped_under_ice.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-JP_REMASTERED-CD-FLAC-2006-DeVOiD/04-metallica-fade_to_black.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-JP_REMASTERED-CD-FLAC-2006-DeVOiD/03-metallica-for_whom_the_bell_tolls.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-JP_REMASTERED-CD-FLAC-2006-DeVOiD/02-metallica-ride_the_lightning.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1984] Ride The Lightning/Metallica-Ride_The_Lightning-JP_REMASTERED-CD-FLAC-2006-DeVOiD/01-metallica-fight_fire_with_fire.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-Reissue-CD-FLAC-1989-SCORN/10-metallica-metal_militia.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-Reissue-CD-FLAC-1989-SCORN/09-metallica-seek_and_destroy.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-Reissue-CD-FLAC-1989-SCORN/08-metallica-no_remorse.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-Reissue-CD-FLAC-1989-SCORN/07-metallica-phantom_lord.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-Reissue-CD-FLAC-1989-SCORN/06-metallica-whiplash.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-Reissue-CD-FLAC-1989-SCORN/05-metallica-(anesthesia)_-_pulling_teeth.flac
+Mar 16 15:55 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/[1983] Kill 'Em All/Metallica-Kill_Em_All-Reissue-CD-FLAC-1989-SCORN/04-metallica-jump_in_the_fire.flac
+Mar 16 15:55 : update: added music/Metallica Discography STUDiO [2018] 10 CD FLAC/08-metallica-nothing_else_matters.flac
+Mar 16 15:57 : player: played "music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/01.(I Can't Get No) Satisfaction.mp3"
+Mar 17 23:57 : player: played "music/Miles Davis - Kind of Blue (1959) [24 bit FLAC] [vinyl]/A3 - Blue In Green.flac"
+Mar 18 00:09 : player: played "music/Miles Davis - Kind of Blue (1959) [24 bit FLAC] [vinyl]/B1 - All Blues.flac"
+Mar 18 00:18 : player: played "music/Miles Davis - Kind of Blue (1959) [24 bit FLAC] [vinyl]/B2 - Flamenco Sketches.flac"
+Mar 18 19:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 18 19:41 : avahi: Service 'Music Player @ PawanM' successfully established.
+Mar 19 08:53 : client: [0] opened from 127.0.0.1:59908
+Mar 19 08:55 : client: [0] closed
+Mar 19 09:00 : client: [1] opened from 127.0.0.1:59910
+Mar 20 14:27 : client: [1] closed
+Mar 20 14:27 : client: [2] opened from 127.0.0.1:60048
+Mar 20 16:27 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 20 16:28 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 20 16:28 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/07 - Goodbye.flac
+Mar 20 16:28 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/01 - Bockhanal.flac
+Mar 20 16:28 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/04 - Headline.flac
+Mar 20 16:28 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/12 - Little Old Lady (alternate take).flac
+Mar 20 16:28 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/08 - Pro Defunctus.flac
+Mar 20 16:28 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/02 - Ergo.flac
+Mar 20 16:28 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/06 - Little Old Lady.flac
+Mar 20 16:28 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/13 - Goodbye (alternate take).flac
+Mar 20 16:28 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/09 - Bockhanal (alternate take).flac
+Mar 20 16:28 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/11 - A Dandy Line (alternate take).flac
+Mar 20 16:28 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/05 - A Dandy Line.flac
+Mar 20 16:28 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/10 - Moonlight Becomes You (alternate take).flac
+Mar 20 16:28 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/03 - Moonlight Becomes You.flac
+Mar 20 16:28 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 20 16:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 20 16:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 20 16:30 : client: [2] closed
+Mar 20 16:30 : client: [3] opened from 127.0.0.1:60050
+Mar 20 16:31 : client: [3] closed
+Mar 20 16:31 : client: [4] opened from 127.0.0.1:60052
+Mar 20 16:34 : player: played "music/Chet Baker - Chet Baker Ensemble (1953)/02 - Ergo.flac"
+Mar 20 16:35 : client: [4] closed
+Mar 20 16:35 : client: [5] opened from 127.0.0.1:60054
+Mar 20 16:39 : player: played "music/Chet Baker - Chet Baker Ensemble (1953)/03 - Moonlight Becomes You.flac"
+Mar 20 16:42 : player: played "music/Chet Baker - Chet Baker Ensemble (1953)/04 - Headline.flac"
+Mar 20 16:45 : player: played "music/Chet Baker - Chet Baker Ensemble (1953)/05 - A Dandy Line.flac"
+Mar 20 16:48 : player: played "music/Chet Baker - Chet Baker Ensemble (1953)/06 - Little Old Lady.flac"
+Mar 20 16:51 : player: played "music/Chet Baker - Chet Baker Ensemble (1953)/07 - Goodbye.flac"
+Mar 20 16:55 : player: played "music/Chet Baker - Chet Baker Ensemble (1953)/08 - Pro Defunctus.flac"
+Mar 20 16:57 : player: played "music/Chet Baker - Chet Baker Ensemble (1953)/09 - Bockhanal (alternate take).flac"
+Mar 20 17:00 : player: played "music/Chet Baker - Chet Baker Ensemble (1953)/10 - Moonlight Becomes You (alternate take).flac"
+Mar 20 17:03 : player: played "music/Chet Baker - Chet Baker Ensemble (1953)/11 - A Dandy Line (alternate take).flac"
+Mar 20 17:05 : player: played "music/Chet Baker - Chet Baker Ensemble (1953)/12 - Little Old Lady (alternate take).flac"
+Mar 20 17:09 : player: played "music/Chet Baker - Chet Baker Ensemble (1953)/13 - Goodbye (alternate take).flac"
+Mar 20 17:55 : update: added Mingus Ah Um/Charles Mingus - Self-Portrait in Three Colors.mp3
+Mar 20 17:55 : update: added Mingus Ah Um/Charles Mingus - Goodbye Pork Pie Hat.mp3
+Mar 20 17:55 : update: added Mingus Ah Um/Charles Mingus - Open Letter To Duke.mp3
+Mar 20 17:55 : update: updating Mingus Ah Um/Charles Mingus - Self-Portrait in Three Colors.mp3
+Mar 20 17:55 : update: updating Mingus Ah Um/Charles Mingus - Goodbye Pork Pie Hat.mp3
+Mar 20 17:56 : update: updating Mingus Ah Um/Charles Mingus - Open Letter To Duke.mp3
+Mar 20 17:56 : update: updating Mingus Ah Um/Charles Mingus - Self-Portrait in Three Colors.mp3
+Mar 20 17:56 : update: updating Mingus Ah Um/Charles Mingus - Goodbye Pork Pie Hat.mp3
+Mar 20 17:56 : update: updating Mingus Ah Um/Charles Mingus - Open Letter To Duke.mp3
+Mar 20 17:56 : update: updating Mingus Ah Um/Charles Mingus - Goodbye Pork Pie Hat.mp3
+Mar 20 17:57 : update: updating Mingus Ah Um/Charles Mingus - Open Letter To Duke.mp3
+Mar 20 18:01 : update: added Mingus Ah Um/Charles Mingus - Pussy Cat Dues.mp3
+Mar 20 18:01 : update: added Mingus Ah Um/Charles Mingus - Jelly Roll.mp3
+Mar 20 18:01 : update: added Mingus Ah Um/Charles Mingus - Girl Of My Dreams.mp3
+Mar 20 18:01 : update: added Mingus Ah Um/Charles Mingus - Pedal Point Blues.mp3
+Mar 20 18:01 : update: added Mingus Ah Um/Charles Mingus - Fables of Faubus.mp3
+Mar 20 18:01 : update: added Mingus Ah Um/Charles Mingus - Bird Calls.mp3
+Mar 20 18:02 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 20 18:02 : update: added music/Mingus Ah Um/Charles Mingus - Pussy Cat Dues.mp3
+Mar 20 18:02 : update: added music/Mingus Ah Um/Charles Mingus - Open Letter To Duke.mp3
+Mar 20 18:02 : update: added music/Mingus Ah Um/Charles Mingus - Jelly Roll.mp3
+Mar 20 18:02 : update: added music/Mingus Ah Um/Charles Mingus - Girl Of My Dreams.mp3
+Mar 20 18:02 : update: added music/Mingus Ah Um/Charles Mingus - Pedal Point Blues.mp3
+Mar 20 18:02 : update: added music/Mingus Ah Um/Charles Mingus - Self-Portrait in Three Colors.mp3
+Mar 20 18:02 : update: added music/Mingus Ah Um/Charles Mingus - Fables of Faubus.mp3
+Mar 20 18:02 : update: added music/Mingus Ah Um/Charles Mingus - Bird Calls.mp3
+Mar 20 18:02 : update: added music/Mingus Ah Um/Charles Mingus - Goodbye Pork Pie Hat.mp3
+Mar 20 18:03 : update: added music/Karnatriix - Namaste/Karnatriix - Tuned Again.mp3
+Mar 20 18:03 : update: added music/Karnatriix - Namaste/Karnatriix - Entharo Coda.mp3
+Mar 20 18:03 : update: added music/Karnatriix - Namaste/Karnatriix - Namaste.mp3
+Mar 20 18:03 : update: added music/Karnatriix - Namaste/Karnatriix - Exorcism.mp3
+Mar 20 18:03 : update: added music/Karnatriix - Namaste/Karnatriix - Entharo Pallavi & Charanam.mp3
+Mar 20 18:03 : update: added music/Karnatriix - Namaste/Karnatriix - Entharo Chittaswaram.mp3
+Mar 20 18:03 : update: added music/Karnatriix - Namaste/Karnatriix - Delicately Tuned.mp3
+Mar 20 18:05 : update: removing Mingus Ah Um/Charles Mingus - Goodbye Pork Pie Hat.mp3
+Mar 20 18:05 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 20 18:05 : update: added music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 3 (320).mp3
+Mar 20 18:05 : update: added music/Art Blakey - Moanin/Art Blakey - Moanin'.mp3
+Mar 20 18:05 : update: added music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 6 (320).mp3
+Mar 20 18:05 : update: added music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 1 (320).mp3
+Mar 20 18:05 : update: added music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 7 (320).mp3
+Mar 20 18:05 : update: added music/Art Blakey - Moanin/Art Blakey - Along Came Betty (Remastered).mp3
+Mar 20 18:05 : update: added music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 8 (320).mp3
+Mar 20 18:05 : update: added music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 5 (320).mp3
+Mar 20 18:05 : update: removing Mingus Ah Um/Charles Mingus - Girl Of My Dreams.mp3
+Mar 20 18:05 : update: removing Mingus Ah Um/Charles Mingus - Pedal Point Blues.mp3
+Mar 20 18:05 : update: removing Mingus Ah Um/Charles Mingus - Jelly Roll.mp3
+Mar 20 18:05 : update: removing Mingus Ah Um/Charles Mingus - Pussy Cat Dues.mp3
+Mar 20 18:05 : update: removing Mingus Ah Um/Charles Mingus - Fables of Faubus.mp3
+Mar 20 18:05 : update: removing Mingus Ah Um/Charles Mingus - Bird Calls.mp3
+Mar 20 18:05 : update: removing Mingus Ah Um/Charles Mingus - Open Letter To Duke.mp3
+Mar 20 18:05 : update: removing Mingus Ah Um/Charles Mingus - Self-Portrait in Three Colors.mp3
+Mar 20 18:07 : client: [5] closed
+Mar 20 18:07 : client: [6] opened from 127.0.0.1:60100
+Mar 20 18:08 : client: [6] closed
+Mar 20 18:08 : client: [7] opened from 127.0.0.1:60102
+Mar 20 18:09 : update: removing music/Mingus Ah Um/Charles Mingus - Self-Portrait in Three Colors.mp3
+Mar 20 18:09 : update: removing music/Mingus Ah Um/Charles Mingus - Open Letter To Duke.mp3
+Mar 20 18:09 : update: removing music/Mingus Ah Um/Charles Mingus - Bird Calls.mp3
+Mar 20 18:09 : update: removing music/Mingus Ah Um/Charles Mingus - Pussy Cat Dues.mp3
+Mar 20 18:09 : update: removing music/Mingus Ah Um/Charles Mingus - Fables of Faubus.mp3
+Mar 20 18:09 : update: removing music/Mingus Ah Um/Charles Mingus - Goodbye Pork Pie Hat.mp3
+Mar 20 18:09 : update: removing music/Mingus Ah Um/Charles Mingus - Girl Of My Dreams.mp3
+Mar 20 18:09 : update: removing music/Mingus Ah Um/Charles Mingus - Pedal Point Blues.mp3
+Mar 20 18:09 : update: removing music/Mingus Ah Um/Charles Mingus - Jelly Roll.mp3
+Mar 20 18:12 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 20 18:15 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Pussy Cat Dues.mp3
+Mar 20 18:15 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Boogie Stop Shuffle.mp3
+Mar 20 18:15 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Jelly Roll.mp3
+Mar 20 18:15 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Bird Calls.mp3
+Mar 20 18:15 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Fables Of Faubus.mp3
+Mar 20 18:15 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Open Letter to Duke.mp3
+Mar 20 18:15 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Self-Portrait In Three Colours.mp3
+Mar 20 18:16 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 20 18:16 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 20 18:17 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 20 18:17 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 20 18:18 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Goodbye Pork Pie Hat.mp3
+Mar 20 18:18 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Better Get Hit In Your Soul (Instrumental).mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/01.(I Can't Get No) Satisfaction.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/02.Paint It Black.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/19.2000 Light Years From Home.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/18.She's A Rainbow.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/17.Lady Jane.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/16.Have You Seen Your Mother Baby Standing In The Shadow.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/15.Ruby Tuesday.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/14.Out Of Time.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/13.Let's Spend The Night Together.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/12.Yesterday's Papers.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/11.As Tears Go By.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/10.Under My Thumb.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/09.Get Off My Cloud.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/08.Play With Fire.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/07.Its All Over Now.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/06.The Last Time.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/05.Mother's Little Helper.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/04.Time Is On My Side.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/03.19th Nervous Breakdown.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/19.Almost Hear You Sigh.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/18.Mixed Emotions.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/17.Sad Sad Sad.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/16.Winning Ugly.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/15.Harlem Shuffle.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/14.One Hit (To The Body).mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/13.Too Tough.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/12.She Was Hot.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/11.Undercover Of The Night.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/10.Waiting On A Friend.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/09.Neighbours.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/08.Hang Fire.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/07.Start Me Up.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/06.She's So Cold.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/05.Emotional Rescue.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/04.Let Me Go.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/03.Shattered.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/02.Beast Of Burden.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 3/01.Miss You.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/19.Respectable.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/18.Crazy Mama.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/17.Fool To Cry.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/16.Hand Of Fate.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/15.Hot Stuff.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/14.It's Only Rock 'n' Roll (But I Like It).mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/13.Ain't Too Proud To Beg.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/12.Doo Doo Doo Doo Doo (Heartbreaker).mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/11.Angie.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/10.Torn And Frayed.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/09.Happy.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/08.Tumbling Dice.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/07.Wild Horses.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/06.Let It Bleed.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/05.Gimme Shelter.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/04.Brown Sugar.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/03.Honky Tonk Women.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/02.Jumpin' Jack Flash.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 2/01.Street Fighting Man.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/22.Sympathy For The Devil.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/21.You Can't Always Get What You Want.mp3
+Mar 20 19:11 : update: removing music/The Rolling Stones - Greatest Hits [3 Disc Box Set] (2008) Mp3 320 vtwin88cube/Disc 1/20.No Expectations.mp3
+Mar 20 19:11 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 20 19:11 : update: added music/John Coltrane/A Love Supreme(1965)/John Coltrane - A Love Supreme, Pt. IV - Psalm.mp3
+Mar 20 19:11 : update: added music/John Coltrane/A Love Supreme(1965)/John Coltrane - A Love Supreme, Pt. II - Resolution.mp3
+Mar 20 19:11 : update: added music/John Coltrane/A Love Supreme(1965)/John Coltrane - A Love Supreme, Pt. I – Acknowledgement.mp3
+Mar 20 19:11 : update: added music/John Coltrane/A Love Supreme(1965)/John Coltrane - A Love Supreme, Pt. III - Pursuance.mp3
+Mar 20 19:12 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/07-metallica-orion_(instrumental).flac
+Mar 20 19:12 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/08-metallica-nothing_else_matters.flac
+Mar 20 19:12 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/03-metallica-for_whom_the_bell_tolls.flac
+Mar 20 19:12 : update: removing music/Metallica Discography STUDiO [2018] 10 CD FLAC/04-metallica-fade_to_black.flac
+Mar 20 19:12 : update: added music/collections/07-metallica-orion_(instrumental).flac
+Mar 20 19:12 : update: added music/collections/03-metallica-for_whom_the_bell_tolls.flac
+Mar 20 19:12 : update: added music/collections/04-metallica-fade_to_black.flac
+Mar 20 19:12 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 20 19:12 : update: added music/collections/08-metallica-nothing_else_matters.flac
+Mar 20 20:37 : player: played "music/Karnatriix - Namaste/Karnatriix - Entharo Pallavi & Charanam.mp3"
+Mar 20 20:42 : player: played "music/Karnatriix - Namaste/Karnatriix - Entharo Chittaswaram.mp3"
