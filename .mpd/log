@@ -908,3 +908,234 @@ Mar 20 19:12 : exception: Failed to open ZIP file /home/pawan/Music/music/collec
 Mar 20 19:12 : update: added music/collections/08-metallica-nothing_else_matters.flac
 Mar 20 20:37 : player: played "music/Karnatriix - Namaste/Karnatriix - Entharo Pallavi & Charanam.mp3"
 Mar 20 20:42 : player: played "music/Karnatriix - Namaste/Karnatriix - Entharo Chittaswaram.mp3"
+Mar 21 12:21 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 21 12:21 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 21 12:26 : player: played "music/Mingus Ah Um(1959)/Charles Mingus - Goodbye Pork Pie Hat.mp3"
+Mar 21 12:30 : player: played "music/Mingus Ah Um(1959)/Charles Mingus - Boogie Stop Shuffle.mp3"
+Mar 21 12:33 : player: played "music/Mingus Ah Um(1959)/Charles Mingus - Self-Portrait In Three Colours.mp3"
+Mar 21 12:38 : player: played "music/Mingus Ah Um(1959)/Charles Mingus - Open Letter to Duke.mp3"
+Mar 21 12:41 : player: played "music/Mingus Ah Um(1959)/Charles Mingus - Bird Calls.mp3"
+Mar 21 12:49 : player: played "music/Mingus Ah Um(1959)/Charles Mingus - Fables Of Faubus.mp3"
+Mar 21 12:56 : player: played "music/Mingus Ah Um(1959)/Charles Mingus - Pussy Cat Dues.mp3"
+Mar 21 13:00 : player: played "music/Mingus Ah Um(1959)/Charles Mingus - Jelly Roll.mp3"
+Mar 21 13:07 : player: played "music/Mingus Ah Um(1959)/Charles Mingus - Better Get Hit In Your Soul (Instrumental).mp3"
+Mar 21 13:13 : player: played "music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 3 (320).mp3"
+Mar 22 15:39 : update: added music/Charles Mingus - In A Soulful Mood (1960)/07 - Mysterious Blues.flac
+Mar 22 15:39 : update: added music/Charles Mingus - In A Soulful Mood (1960)/08 - R & R.flac
+Mar 22 15:39 : update: added music/Charles Mingus - In A Soulful Mood (1960)/05 - Wrap Your Trouble In Dreams.flac
+Mar 22 15:39 : update: added music/Charles Mingus - In A Soulful Mood (1960)/06 - Body & Soul.flac
+Mar 22 15:39 : update: added music/Charles Mingus - In A Soulful Mood (1960)/01 - Bugs.flac
+Mar 22 15:39 : update: added music/Charles Mingus - In A Soulful Mood (1960)/03 - Vassarlean.flac
+Mar 22 15:39 : ffmpeg/flac: Format flac detected only with low score of 1, misdetection possible!
+Mar 22 15:39 : ffmpeg/flac: Could not find codec parameters for stream 0 (Audio: flac, 0 channels): unspecified sample format
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Mar 22 15:39 : ffmpeg: Unsupported libavcodec SampleFormat value: name   depth (-1)
+Mar 22 15:39 : update: added music/Charles Mingus - In A Soulful Mood (1960)/02 - Reincarnation Of A Love Bird.flac
+Mar 22 15:39 : ffmpeg/flac: Format flac detected only with low score of 1, misdetection possible!
+Mar 22 15:39 : ffmpeg/flac: Could not find codec parameters for stream 0 (Audio: flac, 0 channels): unspecified sample format
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Mar 22 15:39 : ffmpeg: Unsupported libavcodec SampleFormat value: name   depth (-1)
+Mar 22 15:39 : update: added music/Charles Mingus - In A Soulful Mood (1960)/04 - Stormy Weather.flac
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/11. Fair Weather.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/07. Everything Happens To Me.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/27. I Could Have Danced All Night.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/34. While My Lady Sleeps (Take 10).mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/18. How High The Moon.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/21. If You Could See Me Now.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/36. The More I See You (Take 8  Alternate).mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/23. You'd Be So Nice To Come Home To.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/06. The More I See You.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/26. I've Grown Accustomed To Your Face.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/03. You're Driving Me Crazy.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/31. Thank Heaven For Little Girls.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/33. Show Me.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/13. Hotel 49.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/10. Old Devil Moon.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/08. Dancing On The Ceiling.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/38. Soft Winds.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/15. Blue Thoughts.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/02. I'm Old Fashioned.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/19. It Never Entered My Mind.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/22. September Song.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/05. My Heart Stood Still.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/04. It Could Happen To You.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/30. Almost Like Being In Love.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/39. Early Morning Mood.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/16. When Lights Are Low.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/35. You Make Me Feel So Young (Take 5).mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/09. How Long Has This Been Going On.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/20. 'Tis Autumn.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/28. The Heather On The Hill.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/32. I Talk To The Trees.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/17. Alone Together.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/25. You And The Night And The Music.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/37. Everything Happens To Me (Take 2  Alternate).mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/14. Solar.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/29. On The Street Where You Live.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/12. Polka Dots And Moonbeams.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/24. Time On My Hands.mp3
+Mar 22 15:39 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/01. Do It The Hard Way.mp3
+Mar 22 15:39 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 22 15:42 : player: played "music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 1 (320).mp3"
+Mar 22 17:18 : client: [7] closed
+Mar 22 17:18 : client: [8] opened from 127.0.0.1:60240
+Mar 22 21:08 : exception: Failed to open ZIP file /home/pawan/Music/music/collections/music.zip
+Mar 22 21:10 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:10 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:10 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_BAD_HEADER
+Mar 22 21:10 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:10 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH
+Mar 22 21:10 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:10 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH
+Mar 22 21:10 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:11 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:11 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:11 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH
+Mar 22 21:11 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:13 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:13 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:13 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:13 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:13 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM
+Mar 22 21:13 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:14 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:14 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:14 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH
+Mar 22 21:14 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:15 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:15 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:15 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:15 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:15 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:15 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:16 : player: played "music/Charles Mingus - In A Soulful Mood (1960)/01 - Bugs.flac"
+Mar 22 21:16 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:16 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:17 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:17 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:19 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH
+Mar 22 21:19 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:19 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:19 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:19 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_BAD_HEADER
+Mar 22 21:19 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:20 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH
+Mar 22 21:20 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:20 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:20 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:20 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_BAD_HEADER
+Mar 22 21:20 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:21 : player: played "music/Charles Mingus - In A Soulful Mood (1960)/03 - Vassarlean.flac"
+Mar 22 21:22 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM
+Mar 22 21:22 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:23 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:23 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:24 : player: played "music/Charles Mingus - In A Soulful Mood (1960)/05 - Wrap Your Trouble In Dreams.flac"
+Mar 22 21:25 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:25 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:25 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM
+Mar 22 21:25 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:25 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:25 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:25 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:25 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:26 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM
+Mar 22 21:26 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:26 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:26 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:26 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM
+Mar 22 21:26 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:28 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:28 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:29 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:29 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:29 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM
+Mar 22 21:29 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:29 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:29 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:30 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:30 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:31 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:31 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:31 : player: played "music/Charles Mingus - In A Soulful Mood (1960)/06 - Body & Soul.flac"
+Mar 22 21:31 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:31 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:31 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH
+Mar 22 21:31 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:31 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:31 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:33 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH
+Mar 22 21:33 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:34 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:34 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:34 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:34 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:34 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:34 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:34 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:34 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:34 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM
+Mar 22 21:34 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM
+Mar 22 21:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_BAD_HEADER
+Mar 22 21:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM
+Mar 22 21:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:36 : player: played "music/Charles Mingus - In A Soulful Mood (1960)/07 - Mysterious Blues.flac"
+Mar 22 21:36 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:36 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:37 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:37 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:37 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:37 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:39 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM
+Mar 22 21:39 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:39 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:39 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:39 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:39 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:40 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM
+Mar 22 21:40 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:40 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM
+Mar 22 21:40 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:40 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:40 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:41 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:41 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:41 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH
+Mar 22 21:41 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:41 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:41 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:42 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:42 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:42 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM
+Mar 22 21:42 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:42 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH
+Mar 22 21:42 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 22 21:44 : player: played "music/Charles Mingus - In A Soulful Mood (1960)/08 - R & R.flac"
+Mar 22 21:51 : player: played "music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 5 (320).mp3"
+Mar 22 22:46 : player: played "music/Art Blakey - Moanin/Art Blakey - Moanin'.mp3"
+Mar 23 07:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 23 07:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 23 07:09 : avahi: Service 'Music Player @ PawanM' successfully established.
+Mar 23 07:11 : client: [0] opened from 127.0.0.1:34548
+Mar 23 18:24 : client: [0] closed
+Mar 23 18:24 : client: [1] opened from 127.0.0.1:34550
+Mar 23 18:25 : player: played "music/Art Blakey - Moanin/Art Blakey - Moanin'.mp3"
+Mar 23 18:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 23 18:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 23 18:29 : avahi: Service 'Music Player @ PM' successfully established.
+Mar 23 18:31 : client: [0] opened from 127.0.0.1:52624
+Mar 24 19:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 24 20:05 : player: played "music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/11-tool-reflection.flac"
+Mar 24 20:13 : player: played "music/KING CRIMSON Discography FLAC/1969 In The Court Of The Crimson King/03 Epitaph.flac"
+Mar 24 20:23 : player: played "music/KING CRIMSON Discography FLAC/1969 In The Court Of The Crimson King/05 The Court Of The Crimson King.flac"
+Mar 24 20:51 : client: [0] closed
+Mar 24 20:51 : client: [1] opened from 127.0.0.1:52718
