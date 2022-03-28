@@ -1,4 +1,4 @@
-sw_volume: 55
+sw_volume: 53
 audio_device_state:1:My Pulse Output
 audio_device_state:1:ncmpcpp visualizer
 state: stop
@@ -20,4 +20,10 @@ playlist_begin
 7:music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 8 (320).mp3
 8:music/Charles Mingus - In A Soulful Mood (1960)/02 - Reincarnation Of A Love Bird.flac
 9:music/Charles Mingus - In A Soulful Mood (1960)/04 - Stormy Weather.flac
+10:music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Wish You Were Here 1975 [EAC - FLAC] (oan)/04 - Wish You Were Here.flac
+11:music/collections/Across the Universe.mp4
+12:music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Meddle 1971 [EAC - FLAC] (oan)/01 - One of These Days.flac
+13:music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Division Bell 1994 [EAC - FLAC] (oan)/04 - Marooned.flac
+14:music/Chet Baker - Chet Baker Ensemble (1953)/13 - Goodbye (alternate take).flac
+15:music/Chet Baker - Chet Baker Ensemble (1953)/07 - Goodbye.flac
 playlist_end

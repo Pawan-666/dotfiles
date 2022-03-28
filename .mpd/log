@@ -1139,3 +1139,20 @@ Mar 24 20:13 : player: played "music/KING CRIMSON Discography FLAC/1969 In The C
 Mar 24 20:23 : player: played "music/KING CRIMSON Discography FLAC/1969 In The Court Of The Crimson King/05 The Court Of The Crimson King.flac"
 Mar 24 20:51 : client: [0] closed
 Mar 24 20:51 : client: [1] opened from 127.0.0.1:52718
+Mar 24 23:39 : client: [1] closed
+Mar 24 23:39 : client: [2] opened from 127.0.0.1:52742
+Mar 27 10:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 27 10:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 27 10:20 : avahi: Service 'Music Player @ PM' successfully established.
+Mar 27 10:51 : client: [0] opened from 127.0.0.1:54146
+Mar 27 18:49 : client: [0] closed
+Mar 27 18:50 : client: [1] opened from 127.0.0.1:54150
+Mar 27 18:50 : client: [1] closed
+Mar 27 18:50 : client: [2] opened from 127.0.0.1:54152
+Mar 27 18:50 : client: [2] closed
+Mar 27 18:51 : client: [3] opened from 127.0.0.1:54154
+Mar 27 18:53 : client: [3] closed
+Mar 27 18:54 : client: [4] opened from 127.0.0.1:54156
+Mar 28 10:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 28 10:17 : player: played "music/Buckethead flac collection/my fav/38 Dawn Appears.flac"
+Mar 28 10:22 : player: played "music/Buckethead flac collection/my fav/43 Inward Journey.flac"

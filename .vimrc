@@ -17,6 +17,8 @@ Plug 'prettier/vim-prettier', {
 call plug#end()
 
 inoremap jj <ESc>
+execute "set <M-f>=^[f"
+noremap <M-e> <M-f>
 "let g:nnn#command = 'nnn -oH'
 " Exit Vim if NnnExplorer is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && &filetype ==# 'nnn' | quit! | endif
