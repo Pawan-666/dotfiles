@@ -1,9 +1,11 @@
 alias ls="logo-ls"
+#alias ls='lsd'
+#alias tree='ls --tree'
 alias v="vim"
 alias f='fzf'
 alias F='nnn'
 alias rm='trash'
-alias u="sudo apt -y update; sudo apt  -y upgrade;pkcon refresh;pkcon update; flatpak -y update ;sudo snap refresh"
+alias u="sudo apt -y update; sudo apt  -y upgrade;pkcon refresh;pkcon update; sudo apt autoremove; flatpak -y update ;sudo snap refresh"
 alias config='/usr/bin/git --git-dir=/home/pawan/dotfiles/ --work-tree=/home/pawan'
 alias s='sudo $(fc -ln -1)'
 alias python="python3"
@@ -11,6 +13,7 @@ alias less="bat"
 alias pt="export XDG_CONFIG_HOME=~/.configPT;packettracer &"
 alias bmon="bmon -p wlx4401bb96c32d"
 alias chrome="/var/lib/flatpak/app/org.chromium.Chromium/current/active/export/bin/org.chromium.Chromium"
+alias n="notflix"
 alias y="ytfzf -t -s -f"
 alias ym="ytfzf -t -m "
 alias yd="ytfzf -tdf"
@@ -25,3 +28,6 @@ alias ncdu="ncdu --color dark"
 alias rec="asciinema rec"
 alias t="tldr"
 alias docker-compose="docker compose"
+alias centos="ssh root@192.168.1.134"
+alias ubuntu_server="ssh root@192.168.1.13"
+alias d="dict"

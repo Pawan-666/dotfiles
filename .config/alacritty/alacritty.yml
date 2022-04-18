@@ -8,17 +8,17 @@ env:
   #    - -l
   #    - -c
   #    - "tmux"
+
   
 window:
-  dynamic_title: true
-  decorations: full
+  decorations: none
   #  dimensions:
   #   columns: 100
   #   lines: 26
     
   padding:
-    x: 5
-    y: 5
+    x: 3
+    y: 3
 
   dynamic_padding: false
 

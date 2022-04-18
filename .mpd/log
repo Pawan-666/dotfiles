@@ -1156,3 +1156,101 @@ Mar 27 18:54 : client: [4] opened from 127.0.0.1:54156
 Mar 28 10:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Mar 28 10:17 : player: played "music/Buckethead flac collection/my fav/38 Dawn Appears.flac"
 Mar 28 10:22 : player: played "music/Buckethead flac collection/my fav/43 Inward Journey.flac"
+Mar 28 19:25 : player: played "music/Buckethead flac collection/my fav/Buckethead-Untitled4.mp3"
+Mar 28 19:28 : player: played "music/Buckethead flac collection/my fav/07 All In The Waiting.flac"
+Mar 28 19:31 : player: played "music/Buckethead flac collection/my fav/62 Coffin For A Penny.flac"
+Mar 28 19:35 : player: played "music/Buckethead flac collection/my fav/Buckethead-Untitled3.mp3"
+Mar 30 13:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 30 13:26 : avahi: Service 'Music Player @ PM' successfully established.
+Mar 30 13:33 : client: [0] opened from 127.0.0.1:34940
+Mar 30 22:24 : client: [1] opened from 127.0.0.1:34942
+Mar 30 22:24 : client: [1] closed
+Mar 31 20:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 31 20:03 : avahi: Service 'Music Player @ PM' successfully established.
+Mar 31 20:05 : client: [0] opened from 127.0.0.1:45534
+Apr 01 12:14 : client: [1] opened from 127.0.0.1:45540
+Apr 01 12:14 : client: [1] closed
+Apr 01 12:49 : client: [0] closed
+Apr 01 12:49 : client: [2] opened from 127.0.0.1:45542
+Apr 01 12:51 : client: [2] closed
+Apr 01 12:51 : client: [3] opened from 127.0.0.1:45544
+Apr 02 11:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 02 11:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 02 11:30 : player: played "music/collections/Beyond Creation - Earthborn Evolution (OFFICIAL).m4a"
+Apr 02 11:34 : exception: Failed to play on "My Pulse Output" (pulse): suspended
+Apr 02 14:49 : player: played "music/collections/Victor Wooten - Isn_t She Lovely.m4a"
+Apr 03 19:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 03 19:33 : avahi: Service 'Music Player @ PM' successfully established.
+Apr 03 19:38 : client: [0] opened from 127.0.0.1:43274
+Apr 03 19:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 03 19:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 03 19:39 : client: [0] closed
+Apr 04 00:00 : client: [1] opened from 127.0.0.1:43278
+Apr 04 00:00 : client: [2] opened from 127.0.0.1:43282
+Apr 04 00:01 : client: [2] closed
+Apr 04 00:01 : client: [1] closed
+Apr 05 15:24 : client: [3] opened from 127.0.0.1:43284
+Apr 05 15:35 : player: played "music/collections/Across the Universe.mp4"
+Apr 05 15:36 : player: played "music/collections/Across the Universe.mp4"
+Apr 05 15:48 : player: played "music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/11-tool-reflection.flac"
+Apr 05 15:49 : client: [3] closed
+Apr 05 15:49 : client: [4] opened from 127.0.0.1:43286
+Apr 05 15:52 : player: played "music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/06-tool-parabol.flac"
+Apr 05 16:34 : player: played "music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Meddle 1971 [EAC - FLAC] (oan)/06 - Echoes.flac"
+Apr 05 17:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 05 17:59 : avahi: Service 'Music Player @ PM' successfully established.
+Apr 05 20:38 : client: [0] opened from 127.0.0.1:33084
+Apr 05 20:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 05 20:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 05 20:48 : player: played "music/Explosions in the Sky - The Earth Is Not a Cold Dead Place/01 - First Breath After Coma.flac"
+Apr 05 20:58 : player: played "music/Explosions in the Sky - The Earth Is Not a Cold Dead Place/02 - The Only Moment We Were Alone.flac"
+Apr 05 21:07 : player: played "music/Explosions in the Sky - The Earth Is Not a Cold Dead Place/03 - Six Days at the Bottom of the Ocean.flac"
+Apr 07 23:17 : player: played "music/Explosions in the Sky - The Earth Is Not a Cold Dead Place/04 - Memorial.flac"
+Apr 08 07:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 08 07:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 08 07:50 : avahi: Service 'Music Player @ PM' successfully established.
+Apr 08 07:54 : client: [0] opened from 127.0.0.1:37514
+Apr 10 14:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 14:50 : player: played "music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 2] 1979 [EAC - FLAC] (oan)/06 - Comfortably Numb.flac"
+Apr 11 11:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 11 11:43 : avahi: Service 'Music Player @ PM' successfully established.
+Apr 11 13:22 : client: [0] opened from 127.0.0.1:49690
+Apr 11 14:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 11 14:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 11 14:44 : client: [0] closed
+Apr 11 14:44 : client: [1] opened from 127.0.0.1:49692
+Apr 11 14:48 : player: played "music/Buckethead flac collection/my fav/38 Dawn Appears.flac"
+Apr 11 14:53 : player: played "music/Buckethead flac collection/my fav/43 Inward Journey.flac"
+Apr 11 15:03 : player: played "music/Buckethead flac collection/my fav/Buckethead The Flooding of Pain (320).mp3"
+Apr 11 15:14 : player: played "music/Karnatriix - Namaste/Karnatriix - Entharo Pallavi & Charanam.mp3"
+Apr 12 15:42 : player: played "music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 8 (320).mp3"
+Apr 12 15:51 : player: played "music/Art Blakey - Moanin/Art Blakey - Moanin'.mp3"
+Apr 13 22:27 : player: played "music/Frederic Chopin - Complete Edition 17 CD/CDImage (16).ape"
+Apr 14 04:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 14 04:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 14 04:42 : avahi: Service 'Music Player @ PM' successfully established.
+Apr 14 04:45 : client: [0] opened from 127.0.0.1:60408
+Apr 14 21:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 14 21:20 : player: played "music/Art Blakey - Moanin/Art Blakey - Moanin'.mp3"
+Apr 15 20:43 : client: [0] closed
+Apr 15 20:44 : client: [1] opened from 127.0.0.1:60440
+Apr 17 13:32 : player: played "music/Art Blakey - Moanin/Art Blakey - Moanin'.mp3"
+Apr 17 13:38 : player: played "music/Art Blakey - Moanin/Art Blakey - Along Came Betty (Remastered).mp3"
+Apr 17 13:46 : player: played "music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 5 (320).mp3"
+Apr 17 13:52 : player: played "music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 6 (320).mp3"
+Apr 17 13:58 : player: played "music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 7 (320).mp3"
+Apr 17 14:04 : player: played "music/Art Blakey - Moanin/Art Blakey - Along Came Betty (Remastered).mp3"
+Apr 17 14:07 : player: played "music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/01. Do It The Hard Way.mp3"
+Apr 17 14:12 : player: played "music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/02. I'm Old Fashioned.mp3"
+Apr 17 14:15 : player: played "music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/03. You're Driving Me Crazy.mp3"
+Apr 17 14:18 : player: played "music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/04. It Could Happen To You.mp3"
+Apr 17 14:21 : player: played "music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/05. My Heart Stood Still.mp3"
+Apr 17 14:24 : player: played "music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/06. The More I See You.mp3"
+Apr 17 14:29 : player: played "music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/07. Everything Happens To Me.mp3"
+Apr 17 14:32 : player: played "music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/08. Dancing On The Ceiling.mp3"
+Apr 17 14:37 : player: played "music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/09. How Long Has This Been Going On.mp3"
+Apr 17 14:40 : player: played "music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/10. Old Devil Moon.mp3"
+Apr 17 14:47 : player: played "music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/11. Fair Weather.mp3"
+Apr 17 14:54 : player: played "music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/12. Polka Dots And Moonbeams.mp3"
+Apr 17 15:04 : player: played "music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/13. Hotel 49.mp3"
+Apr 17 15:10 : player: played "music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/14. Solar.mp3"

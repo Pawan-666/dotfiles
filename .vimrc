@@ -93,30 +93,31 @@ map <leader>M :InstantMarkdownPreview<CR>
 "imap 'a <abbr title=""></abbr><esc>2bla
 "imap 'p ![Image](s "")<esc>hi
 ""Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs
-"imap 'q ><esc>a 
+"imap 'q ><esc>a
 ""nested blockquotes
-"imap 'q2 >><esc>a 
-"imap 'qb >____<esc>ha 
-"imap 'qh >### 
-"imap 'q3 >>><esc>a 
-"imap 'q4 >>>><esc>a 
-"imap 'q5 >>>>><esc>a 
-"imap 'q6 >>>>>><esc>a 
+"imap 'q2 >><esc>a
+"imap 'qb >____<esc>ha
+"imap 'qh >###
+"imap 'q3 >>><esc>a
+"imap 'q4 >>>><esc>a
+"imap 'q5 >>>>><esc>a
+"imap 'q6 >>>>>><esc>a
 "imap 'c ``<esc>i
 "imap 'cb ``````<esc>2hi<CR><esc>O
 "imap 'cs ```sh```<esc>2hi<CR><esc>O
 "imap 'cp ```python```<esc>2hi<CR><esc>O
 "imap 'ch ```html```<esc>2hi<CR><esc>O
 "imap 'cj ```js```<esc>2hi<CR><esc>O
-"imap '1 #<esc>a 
-"imap '2 ##<esc>a 
-"imap '3 ###<esc>a 
-"imap '4 ####<esc>a 
+"imap '1 #<esc>a
+"imap '2 ##<esc>a
+"imap '3 ###<esc>a
+"imap '4 ####<esc>a
 
 "map CTRL-E to end-of-line (insert mode)
 imap <C-e> <esc>$i<right>
 "  " " map CTRL-A to beginning-of-line (insert mode)
 imap <C-a> <esc>0i
+
 
 " Wrapped lines goes down/up to next row, rather than next line in file.
 nnoremap j gj
@@ -131,7 +132,7 @@ autocmd BufEnter * lcd %:p:h
 
 " visual shifting (does not exit Visual mode)
 vnoremap < <gv
-vnoremap > >gv 
+vnoremap > >gv
 
 
 ""Nerd Tree settings
@@ -197,8 +198,8 @@ nnoremap <silent> <Leader>/ :History/<CR>
 " Ctrl-v for visual block mode
 "nnoremap <silent> <leader>v <C-v>
 " Substitution by S
-noremap S :%s//gI<left><left>
 nnoremap <leader>R :source ~/.vimrc<CR>
+nnoremap <leader>S :%s//gI<left><left>
 
 nnoremap <C-c> <LocalLeader>cal
 
@@ -250,7 +251,7 @@ set numberwidth=5
 " enable mouse on all modes
 set mouse=a
 " Hide the mouse cursor while typing
-set mousehide               
+set mousehide
 
 set timeoutlen=500              " how long it wait for mapped commands
 set ttimeoutlen=100             " faster timeout for escape key and others
@@ -311,10 +312,10 @@ set ic
 set nows
 
 
-"" highlight trailing whitespace  
-"match ErrorMsg '\s\+$'
+"" highlight trailing whitespace
+match ErrorMsg '\s\+$'
 " " remove trailing whitespaces automatically
-"autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufWritePre * :%s/\s\+$//e
 
 
 
@@ -360,7 +361,7 @@ set statusline+=%1*\ %Y\                                 " FileType
 set statusline+=%1*\ \ %02v\                         " Colomn number
 "set statusline+=%3*│                                     " Separator
 set statusline+=%1*\ \ %02l/%L\ (%3p%%)\              " Line number / total lines, percentage of document
-    
+
 hi User1 ctermfg=007 ctermbg=239 guibg=#4e4e4e guifg=#adadad
 hi User2 ctermfg=007 ctermbg=236 guibg=#303030 guifg=#adadad
 hi User3 ctermfg=236 ctermbg=236 guibg=#303030 guifg=#303030
