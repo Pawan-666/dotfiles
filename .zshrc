@@ -16,6 +16,9 @@ fi
 #Combining both mkdir and cd in a single command
 function mkdircd () { mkdir -p "$@"  && eval cd "\"\$$#\""; }
 
+
+HISTCONTROL=ignorespace
+HISTTIMEFORMAT="%Y-%m-%d %T "
 ### "bat" as manpager
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
@@ -119,10 +122,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+bindkey -s '^g' 'cd "$(dirname "$(fzf)")"\n'
+#bindkey -s '^m' '^uncmpcpp\n'
+#bindkey -s '^e' '^uvim .\n'
 source ~/.custom-alias
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+bindkey -s '^t' '^unnn\n'                       # binding C-t to open nnn file browser

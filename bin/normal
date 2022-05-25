@@ -1,12 +1,17 @@
 #!/bin/bash
 tmux new-session -s Om -n nnn -d
 tmux send-keys -t Om 'unclutter -idle 5 &; nnn -s a' C-m
-tmux new-window -n mpd -t Om
-tmux send-keys -t Om 'mpd; ncmpcpp' C-m
+#tmux new-window -n mpd -t Om
+#tmux send-keys -t Om 'mpd; ncmpcpp' C-m
 tmux new-window -n ViM -t Om
 tmux send-keys -t Om 'cd ~/MEGAsync/wiki;nnn ' C-m
 tmux new-window -n bash -t Om
-tmux send-keys -t Om ' flatpak run nz.mega.MEGAsync & flatpak run org.chromium.Chromium google.com & sleep 1m ;kill %1 ; bash' C-m
+#tmux send-keys -t Om ' flatpak run nz.mega.MEGAsync & flatpak run com.mattermost.Desktop & flatpak run com.skype.Client & flatpak run org.chromium.Chromium google.com & sleep 2m ;kill %1 ; bash' C-m
+tmux send-keys -t Om ' flatpak run nz.mega.MEGAsync & sleep 2m ;kill %1 ; bash' C-m
 tmux new-window -n zsh -t Om
-tmux select-window -t Om:5
+tmux new-window -n ekbana -t Om
+tmux send-keys -t Om 'ssh ekbana' C-m
+tmux new-window -n devops -t Om
+tmux send-keys -t Om 'ssh devops' C-m
+tmux select-window -t Om:4
 tmux attach -t Om

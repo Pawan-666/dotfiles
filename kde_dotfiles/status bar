@@ -4,5 +4,5 @@ cut -d " " -f 1-3 /proc/loadavg             # load average
 curl ifconfig.co                            # external ip
 ip -br addr show wlx4401bb96c32d | awk '{print $3}' | cut -f 1 -d '/'                   # internal ip
 df -Th /dev/sda1 | awk 'NR>=2 && NR<=2 {print $5}'                                      # free disk space
-free -h | awk '/^Mem:/ {print $3}' | cut -f 1 -d'i'                                     # ram usage
-## need to add download and upload speed.
+free -h | awk '/^Mem:/ {print $3}' | cut -f 1 -d'i'                                     # available ram usage
+##   add download and upload speed.

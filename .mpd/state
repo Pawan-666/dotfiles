@@ -1,9 +1,7 @@
-sw_volume: 54
+sw_volume: 38
 audio_device_state:1:My Pulse Output
 audio_device_state:1:ncmpcpp visualizer
-state: pause
-current: 24
-time: 411.000000
+state: stop
 random: 0
 repeat: 0
 single: 0
@@ -12,93 +10,4 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:music/Art Blakey - Moanin/Art Blakey - Along Came Betty (Remastered).mp3
-1:music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 1 (320).mp3
-2:music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 3 (320).mp3
-3:music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 5 (320).mp3
-4:music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 6 (320).mp3
-5:music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 7 (320).mp3
-6:music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 8 (320).mp3
-7:music/Charles Mingus - In A Soulful Mood (1960)/02 - Reincarnation Of A Love Bird.flac
-8:music/Charles Mingus - In A Soulful Mood (1960)/04 - Stormy Weather.flac
-9:music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Wish You Were Here 1975 [EAC - FLAC] (oan)/04 - Wish You Were Here.flac
-10:music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Meddle 1971 [EAC - FLAC] (oan)/01 - One of These Days.flac
-11:music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Division Bell 1994 [EAC - FLAC] (oan)/04 - Marooned.flac
-12:music/Chet Baker - Chet Baker Ensemble (1953)/13 - Goodbye (alternate take).flac
-13:music/Chet Baker - Chet Baker Ensemble (1953)/07 - Goodbye.flac
-14:music/collections/Peace Train.mp4
-15:music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Animals 1977 [EAC - FLAC] (oan)/02 - Dogs.flac
-16:music/collections/03-metallica-for_whom_the_bell_tolls.flac
-17:music/collections/04-metallica-fade_to_black.flac
-18:music/collections/08-metallica-nothing_else_matters.flac
-19:music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/07-tool-parabola.flac
-20:music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 5 (320).mp3
-21:music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 6 (320).mp3
-22:music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 7 (320).mp3
-23:music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 8 (320).mp3
-24:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/15. Blue Thoughts.mp3
-25:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/16. When Lights Are Low.mp3
-26:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/17. Alone Together.mp3
-27:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/18. How High The Moon.mp3
-28:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/19. It Never Entered My Mind.mp3
-29:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/20. 'Tis Autumn.mp3
-30:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/21. If You Could See Me Now.mp3
-31:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/22. September Song.mp3
-32:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/23. You'd Be So Nice To Come Home To.mp3
-33:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/24. Time On My Hands.mp3
-34:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/25. You And The Night And The Music.mp3
-35:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/26. I've Grown Accustomed To Your Face.mp3
-36:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/27. I Could Have Danced All Night.mp3
-37:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/28. The Heather On The Hill.mp3
-38:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/29. On The Street Where You Live.mp3
-39:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/30. Almost Like Being In Love.mp3
-40:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/31. Thank Heaven For Little Girls.mp3
-41:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/32. I Talk To The Trees.mp3
-42:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/33. Show Me.mp3
-43:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/34. While My Lady Sleeps (Take 10).mp3
-44:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/35. You Make Me Feel So Young (Take 5).mp3
-45:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/36. The More I See You (Take 8  Alternate).mp3
-46:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/37. Everything Happens To Me (Take 2  Alternate).mp3
-47:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/38. Soft Winds.mp3
-48:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/39. Early Morning Mood.mp3
-49:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/01. Do It The Hard Way.mp3
-50:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/02. I'm Old Fashioned.mp3
-51:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/03. You're Driving Me Crazy.mp3
-52:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/04. It Could Happen To You.mp3
-53:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/05. My Heart Stood Still.mp3
-54:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/06. The More I See You.mp3
-55:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/07. Everything Happens To Me.mp3
-56:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/08. Dancing On The Ceiling.mp3
-57:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/09. How Long Has This Been Going On.mp3
-58:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/10. Old Devil Moon.mp3
-59:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/11. Fair Weather.mp3
-60:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/12. Polka Dots And Moonbeams.mp3
-61:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/13. Hotel 49.mp3
-62:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/14. Solar.mp3
-63:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/15. Blue Thoughts.mp3
-64:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/16. When Lights Are Low.mp3
-65:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/17. Alone Together.mp3
-66:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/18. How High The Moon.mp3
-67:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/19. It Never Entered My Mind.mp3
-68:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/20. 'Tis Autumn.mp3
-69:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/21. If You Could See Me Now.mp3
-70:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/22. September Song.mp3
-71:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/23. You'd Be So Nice To Come Home To.mp3
-72:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/24. Time On My Hands.mp3
-73:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/25. You And The Night And The Music.mp3
-74:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/26. I've Grown Accustomed To Your Face.mp3
-75:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/27. I Could Have Danced All Night.mp3
-76:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/28. The Heather On The Hill.mp3
-77:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/29. On The Street Where You Live.mp3
-78:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/30. Almost Like Being In Love.mp3
-79:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/31. Thank Heaven For Little Girls.mp3
-80:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/32. I Talk To The Trees.mp3
-81:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/33. Show Me.mp3
-82:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/34. While My Lady Sleeps (Take 10).mp3
-83:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/35. You Make Me Feel So Young (Take 5).mp3
-84:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/36. The More I See You (Take 8  Alternate).mp3
-85:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/37. Everything Happens To Me (Take 2  Alternate).mp3
-86:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/38. Soft Winds.mp3
-87:music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/39. Early Morning Mood.mp3
-88:music/Frederic Chopin - Complete Edition 17 CD/CDImage (16).ape
 playlist_end

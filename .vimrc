@@ -4,11 +4,10 @@ Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'tomasiser/vim-code-dark'
 Plug 'mcchrish/nnn.vim'
-"Plug 'preservim/nerdtree'
 Plug 'vimwiki/vimwiki'
 Plug 'mattn/calendar-vim'
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
-"Plug 'ryanoasis/vim-devicons'
+Plug 'airblade/vim-gitgutter'
 Plug 'morhetz/gruvbox'
 " post install (yarn install | npm install) then load plugin only for editing supported files
 Plug 'prettier/vim-prettier', {
@@ -70,6 +69,7 @@ filetype plugin on
 ""let g:instant_markdown_slow = 1
 let g:instant_markdown_autostart = 0   " disable autostart
 map <leader>M :InstantMarkdownPreview<CR>
+"              #markdown  41j
 ""let g:instant_markdown_open_to_the_world = 1
 "let g:instant_markdown_allow_unsafe_content = 1
 ""let g:instant_markdown_allow_external_content = 0
@@ -79,7 +79,6 @@ map <leader>M :InstantMarkdownPreview<CR>
 ""let g:instant_markdown_autoscroll = 0
 "let g:instant_markdown_port = 8888
 ""let g:instant_markdown_python = 1
-
 
 "Markdown shortcuts
 "imap 'b ____<esc>hi
@@ -135,27 +134,6 @@ vnoremap < <gv
 vnoremap > >gv
 
 
-""Nerd Tree settings
-"" Open Nerd tree everytime
-""   autocmd VimEnter * NERDTree | wincmd p
-"
-"" Exit Vim if NERDTree is the only window left.
-"autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
-"    \ quit | endif
-"
-""Ctrl-t to toggle nerd tree
-"nnoremap <C-t> :NERDTreeToggle<CR>
-"
-""nerd tree window size
-"let g:NERDTreeWinSize=20
-"
-"let NERDTreeShowBookmarks=1
-"let NERDTreeIgnore=['\\.pyc', '\\\~$', '\\.swo$', '\\.swp$', '\\.git', '\\.hg', '\\.svn', '\\.bzr']
-"let NERDTreeChDirMode=0
-"let NERDTreeQuitOnOpen=1
-"let NERDTreeShowHidden=1
-""let NERDTreeKeepTreeInNewTab=1
-
 set encoding=UTF-8
 set showmatch                   " Show matching brackets/parenthesis
 
@@ -199,7 +177,7 @@ nnoremap <silent> <Leader>/ :History/<CR>
 "nnoremap <silent> <leader>v <C-v>
 " Substitution by S
 nnoremap <leader>R :source ~/.vimrc<CR>
-nnoremap <leader>S :%s//gI<left><left>
+"nnoremap <leader>S :%s//gI<left><left>
 
 nnoremap <C-c> <LocalLeader>cal
 
@@ -216,7 +194,7 @@ nnoremap <leader>q :qa!<cr>
 nnoremap <leader>d :q!<cr>
 "nnoremap <leader>w :wa<cr>
 nnoremap <leader>s :wa<cr>
-nnoremap <Leader>S :mksession
+"nnoremap <Leader>S :mksession
 
 
 " Spell check set to <leader>o, 'o' for 'orthography':
@@ -313,9 +291,10 @@ set nows
 
 
 "" highlight trailing whitespace
-match ErrorMsg '\s\+$'
-" " remove trailing whitespaces automatically
-autocmd BufWritePre * :%s/\s\+$//e
+nnoremap <leader>S :match ErrorMsg '\s\+$'<CR>
+ " remove trailing whitespaces automatically
+"autocmd BufWritePre * :%s/\s\+$//e
+"nnoremap <leader>S :autocmd BufWritePre * :%s/\s\+$//e<CR>
 
 
 
