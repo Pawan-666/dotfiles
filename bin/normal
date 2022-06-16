@@ -13,5 +13,6 @@ tmux new-window -n ekbana -t Om
 tmux send-keys -t Om 'ssh ekbana' C-m
 tmux new-window -n devops -t Om
 tmux send-keys -t Om 'ssh devops' C-m
+tmux new-window -n monitor -t Om
 tmux select-window -t Om:4
 tmux attach -t Om

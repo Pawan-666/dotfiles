@@ -5,8 +5,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'tomasiser/vim-code-dark'
 Plug 'mcchrish/nnn.vim'
 Plug 'vimwiki/vimwiki'
-Plug 'mattn/calendar-vim'
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
+Plug 'ferrine/md-img-paste.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'morhetz/gruvbox'
 " post install (yarn install | npm install) then load plugin only for editing supported files
@@ -15,9 +15,16 @@ Plug 'prettier/vim-prettier', {
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
 call plug#end()
 
+
+" For backward compatibility prior to vim 8
+set nocompatible
+syntax on
+
 inoremap jj <ESc>
+
 execute "set <M-f>=^[f"
 noremap <M-e> <M-f>
+nnoremap <expr> 0 (col('.') == 1) ? '^' : '0'
 "let g:nnn#command = 'nnn -oH'
 " Exit Vim if NnnExplorer is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && &filetype ==# 'nnn' | quit! | endif
@@ -67,18 +74,32 @@ let g:vimwiki_global_ext = 0
 filetype plugin on
 "Uncomment to override defaults:
 ""let g:instant_markdown_slow = 1
-let g:instant_markdown_autostart = 0   " disable autostart
-map <leader>M :InstantMarkdownPreview<CR>
+"let g:instant_markdown_autostart = 0   " disable autostart
+
+
+"map <leader>M :InstantMarkdownPreview<CR>
+" let g:instant_markdown_autostart = 0
+"    augroup InstantMarkdownGroup
+"        au! BufRead,BufNewFile,BufEnter ~/MEGAsync/wiki/*.md let g:instant_markdown_autostart=1
+"    augroup END
+
+
 "              #markdown  41j
 ""let g:instant_markdown_open_to_the_world = 1
 "let g:instant_markdown_allow_unsafe_content = 1
 ""let g:instant_markdown_allow_external_content = 0
+"let g:instant_markdown_browser = "firefox --new-window"
 "let g:instant_markdown_mathjax = 1
 "let g:instant_markdown_mermaid = 1
 "let g:instant_markdown_logfile = '/tmp/instant_markdown.log'
 ""let g:instant_markdown_autoscroll = 0
-"let g:instant_markdown_port = 8888
-""let g:instant_markdown_python = 1
+"let g:instant_markdown_port = 8890
+"let g:instant_markdown_python = 1
+
+autocmd FileType markdown nmap <buffer><silent> <leader>P :call mdip#MarkdownClipboardImage()<CR>
+" there are some defaults for image directory and image name, you can change them
+" let g:mdip_imgdir = 'img'
+" let g:mdip_imgname = 'image'
 
 "Markdown shortcuts
 "imap 'b ____<esc>hi
@@ -203,7 +224,6 @@ nnoremap <leader>o :setlocal spell! spelllang=en_us<CR>
 " allows changing buffer without editing
 set hidden
 
-syntax on
 
 " autosave
 autocmd TextChanged,TextChangedI <buffer> silent write
@@ -215,8 +235,6 @@ au FocusLost,WinLeave * :silent! wa
 " Doesn't wrap the text
 set linebreak
 
-" For backward compatibility prior to vim 8
-set nocompatible
 
 set nu rnu
 "map <leader>n :set nonu nornu<CR>

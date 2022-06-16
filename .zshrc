@@ -21,7 +21,7 @@ HISTCONTROL=ignorespace
 HISTTIMEFORMAT="%Y-%m-%d %T "
 ### "bat" as manpager
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-
+export CHEAT_USE_FZF=true
 # Path to your oh-my-zsh installation.
 export ZSH="/home/pawan/.oh-my-zsh"
 
@@ -51,7 +51,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
-# zstyle ':omz:update' frequency 13
+ zstyle ':omz:update' frequency 33
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
@@ -122,7 +122,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-bindkey -s '^g' 'cd "$(dirname "$(fzf)")"\n'
+#bindkey -s '^g' 'cd "$(dirname "$(fzf)")"\n nnn'
+bindkey -s '^g' 'cd "$(dirname "$(fzf)")"; nnn \n'
 #bindkey -s '^m' '^uncmpcpp\n'
 #bindkey -s '^e' '^uvim .\n'
 source ~/.custom-alias
