@@ -1,0 +1,13 @@
+#!/bin/zsh
+#tmux send-keys "nnn" C-m
+tmux split-window -v -p 50
+tmux split-window -h -p 50
+tmux send-keys -t 1 'ssh ekbana' C-m
+tmux select-pane -t 1
+tmux split-window -h -p 50
+tmux select-pane -t 3
+tmux send-keys -t 2 'nnn' C-m
+#tmux split-window -h -p 50
+#tmux split-window -v -p 30
+#tmux split-window -h -p 50
+#

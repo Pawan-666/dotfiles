@@ -1,0 +1,7 @@
+map gd cd ~/Downloads
+map gp cd ~/Pictures
+map gv cd ~/Videos
+map gt cd ~/test
+map ge cd ~/MEGAsync/wiki/ekbana/
+map g/ cd /
+map g~ cd ~

@@ -1,0 +1,3 @@
+#!/bin/bash
+export PATH=/bin:/usr/bin
+/usr/bin/flatpak run org.chromium.Chromium https://interns.ekbana.com/home#

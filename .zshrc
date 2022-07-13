@@ -97,6 +97,19 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+#lfcd () {
+#    tmp="$(mktemp)"
+#    lf -last-dir-path="$tmp" "$@"
+#    if [ -f "$tmp" ]; then
+#        dir="$(cat "$tmp")"
+#        rm -f "$tmp"
+#        if [ -d "$dir" ]; then
+#            if [ "$dir" != "$(pwd)" ]; then
+#                cd "$dir"
+#            fi
+#        fi
+#    fi
+#}
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -122,8 +135,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#bindkey -s '^g' 'cd "$(dirname "$(fzf)")"\n nnn'
-bindkey -s '^g' 'cd "$(dirname "$(fzf)")"; nnn \n'
+bindkey -s '^g' 'cd "$(dirname "$(fzf)")"; lf \n'
 #bindkey -s '^m' '^uncmpcpp\n'
 #bindkey -s '^e' '^uvim .\n'
 source ~/.custom-alias
@@ -132,4 +144,4 @@ source ~/.custom-alias
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-bindkey -s '^t' '^unnn\n'                       # binding C-t to open nnn file browser
+bindkey -s '^t' '^ulf\n'                       # binding C-t to open lf file browser

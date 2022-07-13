@@ -1,5 +1,6 @@
 let mapleader = " "
 call plug#begin('~/.vim/plugged')
+Plug 'https://github.com/christoomey/vim-tmux-navigator'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'tomasiser/vim-code-dark'
@@ -46,7 +47,7 @@ nnoremap <C-t> :NnnPicker %:p:h<CR>
 "nnoremap <C-t> :NnnExplorer <CR>
 
 " Or pass a dictionary with window size
-let g:nnn#layout = { 'left': '~20%' } " or right, up, down
+let g:nnn#layout = { 'left': '~25%' } " or right, up, down
 "VScode dark theme
 "colorscheme codedark
 let g:gruvbox_contrast_dark = 'hard'
@@ -74,10 +75,10 @@ let g:vimwiki_global_ext = 0
 filetype plugin on
 "Uncomment to override defaults:
 ""let g:instant_markdown_slow = 1
-"let g:instant_markdown_autostart = 0   " disable autostart
+let g:instant_markdown_autostart = 0   " disable autostart
 
 
-"map <leader>M :InstantMarkdownPreview<CR>
+map <leader>M :InstantMarkdownPreview<CR>
 " let g:instant_markdown_autostart = 0
 "    augroup InstantMarkdownGroup
 "        au! BufRead,BufNewFile,BufEnter ~/MEGAsync/wiki/*.md let g:instant_markdown_autostart=1
@@ -93,7 +94,7 @@ filetype plugin on
 "let g:instant_markdown_mermaid = 1
 "let g:instant_markdown_logfile = '/tmp/instant_markdown.log'
 ""let g:instant_markdown_autoscroll = 0
-"let g:instant_markdown_port = 8890
+let g:instant_markdown_port = 8890
 "let g:instant_markdown_python = 1
 
 autocmd FileType markdown nmap <buffer><silent> <leader>P :call mdip#MarkdownClipboardImage()<CR>
