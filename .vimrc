@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'https://github.com/christoomey/vim-tmux-navigator'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'tomasiser/vim-code-dark'
+"Plug 'tomasiser/vim-code-dark'
 Plug 'mcchrish/nnn.vim'
 Plug 'vimwiki/vimwiki'
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
@@ -21,7 +21,7 @@ call plug#end()
 set nocompatible
 syntax on
 
-inoremap jj <ESc>
+"inoremap jj <ESc>
 
 execute "set <M-f>=^[f"
 noremap <M-e> <M-f>
@@ -200,12 +200,18 @@ nnoremap <silent> <Leader>/ :History/<CR>
 " Substitution by S
 nnoremap <leader>R :source ~/.vimrc<CR>
 "nnoremap <leader>S :%s//gI<left><left>
+      
+" show diffs 
+nnoremap <leader>D :w !diff % -<CR>
 
 nnoremap <C-c> <LocalLeader>cal
 
 cmap w!! w !sudo tee > /dev/null %
 
 command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
+
+"let g:fzf_preview_window = 'right:50%'
+"let g:fzf_layout = { 'window': { 'width': 0.9, 'height': 0.6  }  }
 
 "Use enter to create new lines w/o entering insert mode
 nnoremap <CR> o<Esc>
@@ -291,7 +297,13 @@ set copyindent                  " copy previous indentation on auto indent
                                 "   spaces, <Bs> deletes shift width spaces.
 
 "set paste
-set pastetoggle=<F2>
+"set pastetoggle=<F2>
+
+" Convert Inserted Text to Normal Mode Commands
+inoremap <F1> <ESC>u@.
+
+" :abbr mws pawanchhetri.com.np
+ :abbr mws pawanchhetri.com.np
 
 " apt-get install vim-gtk  for system wide clipboard support, "+p  for pasting big text
 set clipboard=unnamedplus

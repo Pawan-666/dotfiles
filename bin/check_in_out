@@ -1,3 +1,2 @@
 #!/bin/bash
-export PATH=/bin:/usr/bin
-/usr/bin/flatpak run org.chromium.Chromium https://interns.ekbana.com/home#
+flatpak run org.chromium.Chromium --url https://oaver2.ekbana.info/checkIncheck

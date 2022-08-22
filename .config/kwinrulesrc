@@ -1,0 +1,340 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[1]
+Description=Window settings for qbittorrent
+clientmachine=localhost
+desktops=66ecfc42-b223-4773-a11f-2e7d96c8207b
+desktopsrule=3
+opacityactive=98
+title=[D: 0 B/s, U: 0 B/s] qBittorrent v4.4.3.1
+titlematch=1
+types=1
+windowrole=browser-window
+wmclass=qbittorrent
+wmclassmatch=1
+
+[1196526c-1101-4497-98b6-a0a1969843c7]
+Description=Window settings for vmware
+clientmachine=localhost
+desktops=66ecfc42-b223-4773-a11f-2e7d96c8207b
+desktopsrule=3
+title=ubuntu server - VMware Workstation
+titlematch=1
+types=1
+wmclass=vmware
+wmclassmatch=1
+
+[2]
+Description=Window settings for vmware
+clientmachine=localhost
+desktops=66ecfc42-b223-4773-a11f-2e7d96c8207b
+desktopsrule=3
+noborder=true
+opacityactive=98
+title=ubuntu server - VMware Workstation
+titlematch=1
+types=1
+windowrole=browser-window
+wmclass=vmware
+wmclassmatch=1
+
+[3]
+Description=Window settings for telegramdesktop
+clientmachine=localhost
+desktops=66ecfc42-b223-4773-a11f-2e7d96c8207b
+desktopsrule=3
+noborder=true
+opacityactive=98
+title=Telegram (1108)
+types=1
+windowrole=browser-window
+wmclass=telegram-desktop telegramdesktop
+wmclasscomplete=true
+wmclassmatch=1
+
+[307bbf27-d61c-4a17-a620-cba88a35d38e]
+Description=Window settings for barrier
+clientmachine=localhost
+desktops=66ecfc42-b223-4773-a11f-2e7d96c8207b
+desktopsrule=3
+title=Barrier
+titlematch=1
+types=32
+wmclass=barrier
+wmclassmatch=1
+
+[3171360a-3f82-4834-96dc-cca2f0a791d2]
+Description=Application settings for vmware
+clientmachine=localhost
+desktops=fe481e85-0a73-483c-b9da-23c5fc9e4c06
+desktopsrule=3
+fullscreen=true
+fullscreenrule=3
+noborder=true
+noborderrule=3
+wmclass=vmware
+wmclassmatch=1
+
+[35d06679-c455-4239-90da-d780480c0143]
+Description=Application settings for alacritty
+clientmachine=localhost
+desktops=06ba36e8-071c-4886-bb54-8cd30bbeb419
+desktopsrule=3
+noborder=true
+noborderrule=3
+size=683,748
+sizerule=3
+wmclass=alacritty
+wmclassmatch=1
+
+[4]
+Description=Window settings for barrier
+clientmachine=localhost
+desktops=66ecfc42-b223-4773-a11f-2e7d96c8207b
+desktopsrule=3
+noborder=true
+opacityactive=98
+title=Barrier
+titlematch=1
+types=32
+windowrole=browser-window
+wmclass=barrier
+wmclassmatch=1
+
+[5]
+Description=Window settings for simplescreenrecorder
+clientmachine=localhost
+desktops=66ecfc42-b223-4773-a11f-2e7d96c8207b
+desktopsrule=3
+noborder=true
+opacityactive=98
+title=SimpleScreenRecorder
+titlematch=1
+types=1
+windowrole=browser-window
+wmclass=simplescreenrecorder
+wmclassmatch=1
+
+[5c773e64-5bcf-48c2-bfa6-a71710116a14]
+Description=Window settings for artha
+clientmachine=localhost
+opacityactive=85
+opacityactiverule=2
+placement=5
+placementrule=2
+skiptaskbarrule=3
+title=Artha ~ The Open Thesaurus
+titlematch=1
+types=1
+wmclass=artha
+wmclassmatch=1
+
+[6]
+Description=Window settings for mattermost
+clientmachine=localhost
+desktops=fe481e85-0a73-483c-b9da-23c5fc9e4c06
+desktopsrule=3
+noborder=true
+opacityactive=98
+title=Mattermost Desktop App
+types=1
+windowrole=browser-window
+windowrolematch=1
+wmclass=mattermost
+wmclassmatch=1
+
+[67df306b-eeba-4a81-b3bf-f765e09c3b02]
+Description=Window settings for alacritty
+clientmachine=localhost
+opacityactive=90
+opacityactiverule=2
+title=pawan@AnonM:~
+titlematch=1
+types=1
+wmclass=alacritty
+wmclassmatch=1
+
+[7]
+Description=Window settings for skype
+clientmachine=localhost
+desktops=827c3d95-76e4-4bf5-9236-eeda81e6e4de
+desktopsrule=3
+noborder=true
+opacityactive=98
+title=Skype
+types=1
+windowrole=browser-window
+windowrolematch=1
+wmclass=skype
+wmclassmatch=1
+
+[8]
+Description=Window settings for alacritty
+clientmachine=localhost
+noborder=true
+opacityactive=98
+opacityactiverule=2
+title=pawan@AnonM:~
+titlematch=1
+types=1
+windowrole=mainwindow#1
+wmclass=alacritty
+wmclassmatch=1
+
+[9]
+Description=No titlebars
+noborder=true
+noborderrule=2
+wmclass=.*
+wmclassmatch=3
+
+[913c7b42-0585-4555-bc37-5c806c10e240]
+Description=Window settings for dolphin
+clientmachine=localhost
+opacityactive=52
+opacityactiverule=2
+opacityinactive=24
+opacityinactiverule=2
+title=Downloads — Dolphin
+types=1
+windowrole=dolphin#1
+windowrolematch=1
+wmclass=dolphin
+wmclassmatch=1
+
+[9fc673ff-cfc9-48ae-b0ea-23e03b25a4ad]
+Description=Window settings for dolphin
+clientmachine=localhost
+position=248,122
+positionrule=2
+title=Downloads — Dolphin
+types=1
+windowrole=dolphin#1
+windowrolematch=1
+wmclass=dolphin
+wmclassmatch=1
+
+[General]
+count=10
+rules=dbff4ae3-42f2-4fe7-83fd-aba6e33dd13c,1,2,3,4,5,6,7,8,9
+
+[a80abb7d-21b2-4000-bc38-231b69312cec]
+Description=Window settings for vmware
+clientmachine=localhost
+title=CentOS 8 64-bit - VMware Workstation
+titlematch=1
+types=1
+wmclass=vmware
+wmclassmatch=1
+
+[bd14047f-4106-49d9-9a5e-e0d33d44b858]
+Description=No titlebars
+noborder=true
+noborderrule=2
+wmclass=.*
+wmclassmatch=3
+
+[c0da0d18-9927-420b-ae38-56880990294e]
+Description=Window settings for skype
+clientmachine=localhost
+desktops=827c3d95-76e4-4bf5-9236-eeda81e6e4de
+desktopsrule=3
+title=Skype
+types=1
+windowrole=browser-window
+windowrolematch=1
+wmclass=skype
+wmclassmatch=1
+
+[c101f4df-fcfa-4bc3-98ea-fa4cc2dbe8dc]
+Description=Window settings for simplescreenrecorder
+clientmachine=localhost
+desktops=66ecfc42-b223-4773-a11f-2e7d96c8207b
+desktopsrule=3
+title=SimpleScreenRecorder
+titlematch=1
+types=1
+wmclass=simplescreenrecorder
+wmclassmatch=1
+
+[d4208fe8-53fe-4031-aadc-76570bfa6819]
+Description=Window settings for telegramdesktop
+clientmachine=localhost
+desktops=66ecfc42-b223-4773-a11f-2e7d96c8207b
+desktopsrule=3
+title=Telegram (1108)
+types=1
+wmclass=telegram-desktop telegramdesktop
+wmclasscomplete=true
+wmclassmatch=1
+
+[d6d9aca3-1355-4782-bfb0-005af170c152]
+Description=No titlebars
+noborder=true
+noborderrule=2
+wmclass=.*
+wmclassmatch=3
+
+[d883c4fc-cb53-44d3-9e24-b8ec8632809c]
+Description=Window settings for mattermost
+clientmachine=localhost
+desktops=fe481e85-0a73-483c-b9da-23c5fc9e4c06
+desktopsrule=3
+title=Mattermost Desktop App
+types=1
+windowrole=browser-window
+windowrolematch=1
+wmclass=mattermost
+wmclassmatch=1
+
+[d8dc8fd8-dec7-4038-b474-aa4e1c55d49d]
+Description=Window settings for systemsettings
+clientmachine=localhost
+opacityactive=85
+opacityactiverule=2
+title=Quick Settings — System Settings
+types=1
+windowrole=mainwindow#1
+windowrolematch=1
+wmclass=systemsettings5 systemsettings
+wmclasscomplete=true
+wmclassmatch=1
+
+[da069676-944b-40a4-a164-1e8e38603476]
+Description=No titlebars
+noborder=true
+noborderrule=2
+wmclass=.*
+wmclassmatch=3
+
+[dbff4ae3-42f2-4fe7-83fd-aba6e33dd13c]
+Description=Window settings for viberpc
+clientmachine=localhost
+desktops=66ecfc42-b223-4773-a11f-2e7d96c8207b
+desktopsrule=3
+title=Viber
+types=1
+wmclass=viber viberpc
+wmclasscomplete=true
+wmclassmatch=1
+
+[e0576c0a-e965-40fa-b561-c6208ccf3633]
+Description=Window settings for alacritty
+clientmachine=localhost
+title=pawan@AnonM:~
+titlematch=1
+types=1
+wmclass=alacritty
+wmclassmatch=1
+
+[ecd47ea5-4470-4e05-a418-18490b68bba4]
+Description=Window settings for qbittorrent
+clientmachine=localhost
+desktops=66ecfc42-b223-4773-a11f-2e7d96c8207b
+desktopsrule=3
+title=[D: 0 B/s, U: 0 B/s] qBittorrent v4.4.3.1
+titlematch=1
+types=1
+wmclass=qbittorrent
+wmclassmatch=1

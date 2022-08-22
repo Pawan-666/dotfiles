@@ -1,18 +1,23 @@
 #!/bin/bash
+tmux ls | grep Om &> /dev/null
+if [[ $? != 0 ]]; then
 tmux new-session -s Om -n lf -d
 tmux send-keys -t Om 'unclutter -idle 5 &;lf' C-m
 #tmux new-window -n mpd -t Om
 #tmux send-keys -t Om 'mpd; ncmpcpp' C-m
 tmux new-window -n ViM -t Om
-tmux send-keys -t Om 'cd ~/MEGAsync/wiki;vi index.md' C-m
+tmux send-keys -t Om 'xcape -e 'Control_L=Escape' -t 200; cd ~/MEGAsync/wiki;vi index.md' C-m
 tmux new-window -n bash -t Om
 #tmux send-keys -t Om ' flatpak run nz.mega.MEGAsync & flatpak run com.mattermost.Desktop & flatpak run com.skype.Client & flatpak run org.chromium.Chromium google.com & sleep 2m ;kill %1 ; bash' C-m
-tmux send-keys -t Om ' flatpak run nz.mega.MEGAsync & sleep 2m ;kill %1 ; bash' C-m
+tmux send-keys -t Om ' flatpak run nz.mega.MEGAsync & sleep 4m ;kill %1 ; bash' C-m
 tmux new-window -n zsh -t Om
 tmux new-window -n ekbana -t Om
-tmux send-keys -t Om 'ssh ekbana' C-m
+tmux send-keys -t Om 'play-with-mpv & ssh ekbana' C-m
 tmux new-window -n devops -t Om
 tmux send-keys -t Om 'ssh devops' C-m
 tmux new-window -n monitor -t Om
 tmux select-window -t Om:4
 tmux attach -t Om
+else
+  ~/bin/normal
+fi

@@ -33,14 +33,15 @@ cmd open ${{
         text/*|application/json|inode/x-empty) $EDITOR $fx;;
 	image/x-xcf) setsid -f gimp $f >/dev/null 2>&1 ;;
 	image/svg+xml) display -- $f ;;
-	image/*) rotdir $f | grep -i "\.\(png\|jpg\|jpeg\|gif\|webp\|tif\|ico\)\(_large\)*$" |
-		setsid -f gwenview -aio 2>/dev/null | while read -r file; do
-			[ -z "$file" ] && continue
-			lf -remote "send select \"$file\""
-			lf -remote "send toggle"
-		done &
-		;;
-	audio/*) mpv --audio-display=no $f ;;
+#	image/*) rotdir $f | grep -i "\.\(png\|jpg\|jpeg\|gif\|webp\|tif\|ico\)\(_large\)*$" |
+#		setsid -f gwenview -aio 2>/dev/null | while read -r file; do
+#			[ -z "$file" ] && continue
+#			lf -remote "send select \"$file\""
+#			lf -remote "send toggle"
+#		done &
+#		;;
+#	audio/*) mpv --audio-display=no $f ;;
+	audio/*)  setsid -f mpv $f -quiet >/dev/null 2>&1;;
 	video/*) setsid -f mpv $f -quiet >/dev/null 2>&1 ;;
 	application/pdf|application/vnd*|application/epub*) setsid -f okular $fx >/dev/null 2>&1 ;;
 	application/pgp-encrypted) $EDITOR $fx ;;
@@ -82,8 +83,29 @@ cmd chmod ${{
 cmd mkfile ${{
   printf "File Name: "
   read ans
-  sudo $EDITOR $ans
+  #sudo $EDITOR $ans
+  touch $ans
+  vi $ans
 }}
+
+cmd mkscript ${{
+  printf "File Name: "
+  read ans
+  touch $ans
+  chmod 770 $ans
+  #sudo $EDITOR $ans
+  vi $ans
+}}
+
+cmd exscript ${{
+	clear; tput cup $(($(tput lines)/3)); tput bold
+	set -f
+	printf "%s\n\t" "$fx"
+	printf "Run the script?[y/N]"
+	read ans
+	[ $ans = "y" ] && bash $fx
+}}
+
 
 cmd sudomkfile ${{
   printf "File Name: "
@@ -103,6 +125,9 @@ cmd sudomkdir ${{
   sudo mkdir -p $ans
 }}
 
+cmd bulkrename ${{
+  qmv -f do
+}}
 #cmd moveto ${{
 #	clear; tput cup $(($(tput lines)/3)); tput bold
 #	set -f
@@ -126,7 +151,7 @@ cmd sudomkdir ${{
 #}}
 
 cmd setbg "$1"
-cmd bulkrename "$vidir"
+#cmd bulkrename "$vidir"
 
 #cmd dragon %dragon-drag-and-drop -a -x $fx
 #cmd dragon-stay %dragon-drag-and-drop -a $fx
@@ -185,12 +210,14 @@ map m
 map a
 map o
 #map n
+#map N
 map M
 #map "'"
 #map '"'
 map d
 map c
 map e
+map E
 map f
 map b
 map t
@@ -222,6 +249,7 @@ map y copy
 #map <c-n> push :mkdir<space>
 map md mkdir
 map mf mkfile
+map ms mkscript
 map Md sudomkdir 
 map Mf sudomkfile
 map ch chmod
@@ -230,6 +258,7 @@ map . set hidden!
 map <enter> open
 map <c-j> open
 map e open
+map E exscript
 map 
 #map x $$f
 #map X !$f
@@ -242,7 +271,7 @@ map I push A<c-a> # at the very beginning
 map i push A<a-b><a-b><a-f> # before extension
 #map a push A<a-b> # after extension
 map r rename
-map B bulkrename
+map R bulkrename
 #map b $setbg $f
 
 map <c-e> down
@@ -260,3 +289,4 @@ map di dragon-individual
 
 # Source Bookmarks
 source "~/.config/lf/shortcutrc"
+
