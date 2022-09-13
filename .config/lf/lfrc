@@ -204,6 +204,16 @@ cmd tar %tar cvf "$f.tar" "$f"
 cmd targz %tar cvzf "$f.tar.gz" "$f"
 cmd tarbz2 %tar cjvf "$f.tar.bz2" "$f"
 
+
+cmd kdeconnectx ${{
+clear; tput cup $(($(tput lines)/3)); tput bold
+set -f
+printf "%s\n\t" "$fx"
+printf "Share to Phone? [y/N]"
+read ans
+[ $ans = "y" ] && kdeconnect-cli --share $fx -n SM-A037F
+}}
+
 # Bindings
 # Remove some defaults
 map m
@@ -286,6 +296,9 @@ map do dragon
 map dm dragon-stay
 map di dragon-individual
 #map dl dlfile
+
+map KX kdeconnectx
+
 
 # Source Bookmarks
 source "~/.config/lf/shortcutrc"

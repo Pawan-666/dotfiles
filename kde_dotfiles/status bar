@@ -7,3 +7,6 @@ df -Th /dev/sda1 | awk 'NR>=2 && NR<=2 {print $5}'                              
 free -h | awk '/^Mem:/ {print $3}' | cut -f 1 -d'i'                                     # used ram usage
 free -h | awk '/^Mem:/ {print $7}' | cut -f 1 -d'i'                                     # available ram usage
 ##   add download and upload speed.
+
+
+awk '{u=$2+$4; t=$2+$4+$5; if (NR==1){u1=u; t1=t;} else print ($2+$4-u1) * 100 / (t-t1) "%"; }' <(grep 'cpu ' /proc/stat) <(sleep 1;grep 'cpu ' /proc/stat) | cut -c -5 | awk '{print $1"%"}'     # cpu consumption in percentage ..

@@ -31,8 +31,8 @@ window:
     gtk_theme_variant: None
 
 scrolling:
-   history: 10000
-   multiplier: 3
+   history: 50000
+   multiplier: 4
 
 font:
  normal:
@@ -163,7 +163,8 @@ key_bindings:
   - { key: Space,  mods: Control,       mode: Vi, action: ScrollToBottom          }
   - { key: Space,  mods: Control,                 action: ToggleViMode            }
   - { key: N, mods: Control|Shift, action: SpawnNewInstance }
-  - { key: PageUp,   mods: Shift,   action: ScrollPageUp   }
+  - { key: U,   mods: Shift,   action: ScrollPageUp   }
+    #- { key: PageUp,   mods: Shift,   action: ScrollPageUp   }
   - { key: PageDown, mods: Shift,   action: ScrollPageDown }
   - { key: End,      mods: Shift,   action: ScrollToBottom }
   - { key: Home,     mods: Shift,   action: ScrollToTop    }

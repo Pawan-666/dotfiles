@@ -1,0 +1,546 @@
+Sep 08 09:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 08 09:31 : update: added music/Charles Mingus - In A Soulful Mood (1960)/07 - Mysterious Blues.flac
+Sep 08 09:31 : update: added music/Charles Mingus - In A Soulful Mood (1960)/08 - R & R.flac
+Sep 08 09:31 : update: added music/Charles Mingus - In A Soulful Mood (1960)/05 - Wrap Your Trouble In Dreams.flac
+Sep 08 09:31 : update: added music/Charles Mingus - In A Soulful Mood (1960)/06 - Body & Soul.flac
+Sep 08 09:31 : update: added music/Charles Mingus - In A Soulful Mood (1960)/01 - Bugs.flac
+Sep 08 09:31 : update: added music/Charles Mingus - In A Soulful Mood (1960)/03 - Vassarlean.flac
+Sep 08 09:31 : avahi: Service 'Music Player @ PM' successfully established.
+Sep 08 09:31 : ffmpeg/flac: Format flac detected only with low score of 1, misdetection possible!
+Sep 08 09:31 : ffmpeg/flac: Could not find codec parameters for stream 0 (Audio: flac, 0 channels): unspecified sample format
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 08 09:31 : ffmpeg: Unsupported libavcodec SampleFormat value: name   depth (-1)
+Sep 08 09:31 : update: added music/Charles Mingus - In A Soulful Mood (1960)/02 - Reincarnation Of A Love Bird.flac
+Sep 08 09:31 : ffmpeg/flac: Format flac detected only with low score of 1, misdetection possible!
+Sep 08 09:31 : ffmpeg/flac: Could not find codec parameters for stream 0 (Audio: flac, 0 channels): unspecified sample format
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 08 09:31 : ffmpeg: Unsupported libavcodec SampleFormat value: name   depth (-1)
+Sep 08 09:31 : update: added music/Charles Mingus - In A Soulful Mood (1960)/04 - Stormy Weather.flac
+Sep 08 09:31 : update: added music/Jaco Pastorius - Jaco Pastorius/10 - (Used To Be A) Cha-Cha (Album Version).mp3
+Sep 08 09:31 : update: added music/Jaco Pastorius - Jaco Pastorius/09 - Forgotten Love.mp3
+Sep 08 09:31 : update: added music/Jaco Pastorius - Jaco Pastorius/04 - Kuru_Speak Like A Child (Album Version).mp3
+Sep 08 09:31 : update: added music/Jaco Pastorius - Jaco Pastorius/05 - Portrait of Tracy.mp3
+Sep 08 09:31 : update: added music/Jaco Pastorius - Jaco Pastorius/06 - Opus Pocus (Album Version).mp3
+Sep 08 09:31 : update: added music/Jaco Pastorius - Jaco Pastorius/02 - Come On, Come Over.mp3
+Sep 08 09:31 : update: added music/Jaco Pastorius - Jaco Pastorius/07 - Okonkole y Trompa.mp3
+Sep 08 09:31 : update: added music/Jaco Pastorius - Jaco Pastorius/08 - (Used To Be A) Cha-Cha (Album Version).mp3
+Sep 08 09:31 : update: added music/Jaco Pastorius - Jaco Pastorius/01 - Donna Lee.mp3
+Sep 08 09:31 : update: added music/Jaco Pastorius - Jaco Pastorius/11 - 6_4 Jam.mp3
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/Buckethead The Miracle of Surrender.mp3
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/44 Rim Of The World.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/57 La Gavotte.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/56 Point Doom.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/Buckethead-The Way to Heaven.mp3
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/54 Beyond The Knowing.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/06 Wishing Well.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/51 Crack The Sky.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/61 The Homing Beacon.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/04 Hills Of Eternity.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/36 Broken Mirror.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/09 Padmasana.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/Buckethead-Sail on Soothsayer.mp3
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/Buckethead-Untitled3.mp3
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/52 Look Up There.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/Buckethead-Untitled4.mp3
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/62 Coffin For A Penny.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/Buckethead The Flooding of Pain (320).mp3
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/15 Who Me (Early Version).flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/19 Asylum Of Glass.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/43 Inward Journey.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/03 For Mom.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/59 Yokohama.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/07 All In The Waiting.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/53 Electric Sea.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/37 Big D's Touch.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/14 For Mom (Early Version).flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/42 Shadows Between The Sky.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/16 Little Gracie.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/39 Four Rivers.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/55 Swomee Swan.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/25 Carpal Tunnel Slug.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/38 Dawn Appears.flac
+Sep 08 09:31 : update: added music/Buckethead flac collection/my fav/08 Sketches Of Spain (For Miles).flac
+Sep 08 09:31 : update: added music/Karnatriix - Namaste/Karnatriix - Tuned Again.mp3
+Sep 08 09:31 : update: added music/Karnatriix - Namaste/Karnatriix - Entharo Coda.mp3
+Sep 08 09:31 : update: added music/Karnatriix - Namaste/Karnatriix - Namaste.mp3
+Sep 08 09:31 : update: added music/Karnatriix - Namaste/Karnatriix - Exorcism.mp3
+Sep 08 09:31 : update: added music/Karnatriix - Namaste/Karnatriix - Entharo Pallavi & Charanam.mp3
+Sep 08 09:31 : update: added music/Karnatriix - Namaste/Karnatriix - Entharo Chittaswaram.mp3
+Sep 08 09:31 : update: added music/Karnatriix - Namaste/Karnatriix - Delicately Tuned.mp3
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1981 Discipline/02 Frame By Frame.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1981 Discipline/03 Matte Kudasai.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1981 Discipline/05 Thela Hun Ginjeet.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1981 Discipline/06 The Sheltering Sky.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1981 Discipline/07 Discipline.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1981 Discipline/01 Elephant Talk.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1981 Discipline/08 Matte Kudasai (alternative version).flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1981 Discipline/04 Indiscipline.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/06 Islands.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/08 Requiem.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1973 Larks' Tongues In Aspic/06 Larks' Tongues In Aspic (part 2).flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1973 Larks' Tongues In Aspic/03 Exiles.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1973 Larks' Tongues In Aspic/05 The Talking Drum.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1973 Larks' Tongues In Aspic/01 Larks' Tongues In Aspic (part 1).flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1973 Larks' Tongues In Aspic/04 Easy Money.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1973 Larks' Tongues In Aspic/02 Book Of Saturday.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/02 The ConstruKction Of Light.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1974 Red/04 Providence (1).flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1974 Red/05 Providence (2).flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1974 Red/01 Red.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1974 Red/06 Starless.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1974 Red/03 One More Red Nightmare.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1974 Red/02 Fallen Angel.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1969 In The Court Of The Crimson King/01 21st Century Schizoid Man.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1969 In The Court Of The Crimson King/02 I Talk To The Wind.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1969 In The Court Of The Crimson King/05 The Court Of The Crimson King.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1969 In The Court Of The Crimson King/04 Moonchild.flac
+Sep 08 09:31 : update: added music/KING CRIMSON Discography FLAC/1969 In The Court Of The Crimson King/03 Epitaph.flac
+Sep 08 09:31 : update: added music/Miles Davis - Kind of Blue (1959) [24 bit FLAC] [vinyl]/B1 - All Blues.flac
+Sep 08 09:31 : update: added music/Miles Davis - Kind of Blue (1959) [24 bit FLAC] [vinyl]/A3 - Blue In Green.flac
+Sep 08 09:31 : update: added music/Miles Davis - Kind of Blue (1959) [24 bit FLAC] [vinyl]/B2 - Flamenco Sketches.flac
+Sep 08 09:31 : update: added music/Miles Davis - Kind of Blue (1959) [24 bit FLAC] [vinyl]/A2 - Freddie Freeloader.flac
+Sep 08 09:31 : update: added music/Miles Davis - Kind of Blue (1959) [24 bit FLAC] [vinyl]/A1 - So What.flac
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/11. Fair Weather.mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/07. Everything Happens To Me.mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/27. I Could Have Danced All Night.mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/34. While My Lady Sleeps (Take 10).mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/18. How High The Moon.mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/21. If You Could See Me Now.mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/36. The More I See You (Take 8  Alternate).mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/23. You'd Be So Nice To Come Home To.mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/06. The More I See You.mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/26. I've Grown Accustomed To Your Face.mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/03. You're Driving Me Crazy.mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/31. Thank Heaven For Little Girls.mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/33. Show Me.mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/13. Hotel 49.mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/10. Old Devil Moon.mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/08. Dancing On The Ceiling.mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/38. Soft Winds.mp3
+Sep 08 09:31 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/15. Blue Thoughts.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/02. I'm Old Fashioned.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/19. It Never Entered My Mind.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/22. September Song.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/05. My Heart Stood Still.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/04. It Could Happen To You.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/30. Almost Like Being In Love.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/39. Early Morning Mood.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/16. When Lights Are Low.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/35. You Make Me Feel So Young (Take 5).mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/09. How Long Has This Been Going On.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/20. 'Tis Autumn.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/28. The Heather On The Hill.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/32. I Talk To The Trees.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/17. Alone Together.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/25. You And The Night And The Music.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/37. Everything Happens To Me (Take 2  Alternate).mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/14. Solar.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/29. On The Street Where You Live.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/12. Polka Dots And Moonbeams.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/24. Time On My Hands.mp3
+Sep 08 09:32 : update: added music/Chet Baker - The Legendary Riverside Albums (Remastered) (2019) [pradyutvam]/01. Do It The Hard Way.mp3
+Sep 08 09:32 : update: added music/Black Sabbath - Black Sabbath (1970) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/01.-Black Sabbath.flac
+Sep 08 09:32 : update: added music/Black Sabbath - Black Sabbath (1970) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/02.-The Wizard.flac
+Sep 08 09:32 : update: added music/Black Sabbath - Black Sabbath (1970) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/03.-Behind The Wall Of Sleep.flac
+Sep 08 09:32 : update: added music/Black Sabbath - Black Sabbath (1970) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/05.-Evil Woman.flac
+Sep 08 09:32 : update: added music/Black Sabbath - Black Sabbath (1970) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/04.-N.I.B..flac
+Sep 08 09:32 : update: added music/Black Sabbath - Black Sabbath (1970) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/06.-Sleeping Village.flac
+Sep 08 09:32 : update: added music/Black Sabbath - Black Sabbath (1970) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/07.-Warning.flac
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (6).ape
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (11).ape
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (3).ape
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (16).ape
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (9).ape
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (4).ape
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (1).ape
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (15).ape
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (2).ape
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (10).ape
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (5).ape
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (12).ape
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (7).ape
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (8).ape
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (13).ape
+Sep 08 09:32 : update: added music/Frederic Chopin - Complete Edition 17 CD/CDImage (14).ape
+Sep 08 09:32 : update: added music/np/Bokejhar.mp3
+Sep 08 09:32 : update: added music/np/JALJALA जलजला by Kulendra _ Sunita _ Basanta Thapa New Nepali Lok Dohori Song 2078 ft Prakash _ Juna.m4a
+Sep 08 09:32 : update: added music/np/Ravi Shankar - Prabhujee (720p).m4a
+Sep 08 09:32 : update: added music/np/Night- Singing through the Woods.opus
+Sep 08 09:32 : update: added music/np/Maile#Bolne..Promoted#by#www.tamangsamaj.com.mp3_new.mp3
+Sep 08 09:32 : update: added music/np/Ankit#Shrestha#-#Yaadharu#(Lyric#Video).mp3_new.mp3
+Sep 08 09:32 : update: added music/np/Lukna  Deu - A Decade (Album) - The Axe.m4a
+Sep 08 09:32 : update: added music/np/Arko Mukhaerjee and Hari Maharjan Ensemble _ Timro nai maya _ Kolkata to Kathmandu _ Rooftop Live.opus
+Sep 08 09:32 : update: added music/np/Peace Train.mp4
+Sep 08 09:32 : update: added music/np/Jyasang#Limbu#-#Khoji#Rahe#Ma#(Official#Audio).mp3_new.mp3
+Sep 08 09:32 : update: added music/np/Roshan Sharma - Sunshine _ Eastern and Rock Music Fusion.opus
+Sep 08 09:32 : update: added music/np/08-metallica-nothing_else_matters.flac
+Sep 08 09:32 : update: added music/np/Sunideu#-#Apurva#Tamang#(Official#Video).mp3_new.mp3
+Sep 08 09:32 : update: added music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 3 (320).mp3
+Sep 08 09:32 : update: added music/Art Blakey - Moanin/Art Blakey - Moanin'.mp3
+Sep 08 09:32 : update: added music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 6 (320).mp3
+Sep 08 09:32 : update: added music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 1 (320).mp3
+Sep 08 09:32 : update: added music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 7 (320).mp3
+Sep 08 09:32 : update: added music/Art Blakey - Moanin/Art Blakey - Along Came Betty (Remastered).mp3
+Sep 08 09:32 : update: added music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 8 (320).mp3
+Sep 08 09:32 : update: added music/Art Blakey - Moanin/Moanin  (The Rudy Van Gelder Edition) CD 1 TRACK 5 (320).mp3
+Sep 08 09:32 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/07 - Goodbye.flac
+Sep 08 09:32 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/01 - Bockhanal.flac
+Sep 08 09:32 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/04 - Headline.flac
+Sep 08 09:32 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/12 - Little Old Lady (alternate take).flac
+Sep 08 09:32 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/08 - Pro Defunctus.flac
+Sep 08 09:32 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/02 - Ergo.flac
+Sep 08 09:32 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/06 - Little Old Lady.flac
+Sep 08 09:32 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/13 - Goodbye (alternate take).flac
+Sep 08 09:32 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/09 - Bockhanal (alternate take).flac
+Sep 08 09:32 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/11 - A Dandy Line (alternate take).flac
+Sep 08 09:32 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/05 - A Dandy Line.flac
+Sep 08 09:32 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/10 - Moonlight Becomes You (alternate take).flac
+Sep 08 09:32 : update: added music/Chet Baker - Chet Baker Ensemble (1953)/03 - Moonlight Becomes You.flac
+Sep 08 09:32 : update: added music/The Contortionist - Language/The Contortionist - The Source.flac
+Sep 08 09:32 : update: added music/The Contortionist - Language/The Contortionist - Ebb & Flow.flac
+Sep 08 09:32 : update: added music/The Contortionist - Language/02 - Language I_ Intuition.flac
+Sep 08 09:32 : update: added music/The Contortionist - Language/06 - Primordial Sound.flac
+Sep 08 09:32 : update: added music/The Contortionist - Language/The Contortionist - The Parable.flac
+Sep 08 09:32 : update: added music/The Contortionist - Language/04 - Integration.flac
+Sep 08 09:32 : update: added music/The Contortionist - Language/07 - Arise.flac
+Sep 08 09:32 : update: added music/The Contortionist - Language/05 - Thrive.flac
+Sep 08 09:32 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Pussy Cat Dues.mp3
+Sep 08 09:32 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Boogie Stop Shuffle.mp3
+Sep 08 09:32 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Jelly Roll.mp3
+Sep 08 09:32 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Bird Calls.mp3
+Sep 08 09:32 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Goodbye Pork Pie Hat.mp3
+Sep 08 09:32 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Fables Of Faubus.mp3
+Sep 08 09:32 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Open Letter to Duke.mp3
+Sep 08 09:32 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Better Get Hit In Your Soul (Instrumental).mp3
+Sep 08 09:32 : update: added music/Mingus Ah Um(1959)/Charles Mingus - Self-Portrait In Three Colours.mp3
+Sep 08 09:32 : update: added music/Explosions in the Sky - The Earth Is Not a Cold Dead Place/05 - Your Hand in Mine.flac
+Sep 08 09:32 : update: added music/Explosions in the Sky - The Earth Is Not a Cold Dead Place/03 - Six Days at the Bottom of the Ocean.flac
+Sep 08 09:32 : update: added music/Explosions in the Sky - The Earth Is Not a Cold Dead Place/04 - Memorial.flac
+Sep 08 09:32 : update: added music/Explosions in the Sky - The Earth Is Not a Cold Dead Place/02 - The Only Moment We Were Alone.flac
+Sep 08 09:32 : update: added music/Explosions in the Sky - The Earth Is Not a Cold Dead Place/01 - First Breath After Coma.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Vicarious-CDS-FLAC-2006-SCORN/01-tool-vicarious_(album_version).flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Undertow-CD-FLAC-1993-SCORN/07-tool-undertow.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Undertow-CD-FLAC-1993-SCORN/02-tool-prison_sex.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Undertow-CD-FLAC-1993-SCORN/08-tool-4_degrees.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Undertow-CD-FLAC-1993-SCORN/05-tool-crawl_away.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Undertow-CD-FLAC-1993-SCORN/06-tool-swamp_song.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Undertow-CD-FLAC-1993-SCORN/09-tool-flood.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Undertow-CD-FLAC-1993-SCORN/03-tool-sober.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Undertow-CD-FLAC-1993-SCORN/10-tool-disgustipated.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Undertow-CD-FLAC-1993-SCORN/04-tool-bottom.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Undertow-CD-FLAC-1993-SCORN/01-tool-intolerance.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/TOOL - Fear Inoculum (Deluxe) (2019) [FLAC]/09 - 7empest.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/TOOL - Fear Inoculum (Deluxe) (2019) [FLAC]/08 - Chocolate Chip Trip.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/TOOL - Fear Inoculum (Deluxe) (2019) [FLAC]/10 - Mockingbeat.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/TOOL - Fear Inoculum (Deluxe) (2019) [FLAC]/04 - Invincible.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/TOOL - Fear Inoculum (Deluxe) (2019) [FLAC]/02 - Pneuma.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/TOOL - Fear Inoculum (Deluxe) (2019) [FLAC]/03 - Litanie contre la Peur.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/TOOL - Fear Inoculum (Deluxe) (2019) [FLAC]/07 - Culling Voices.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/TOOL - Fear Inoculum (Deluxe) (2019) [FLAC]/05 - Legion Inoculant.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/TOOL - Fear Inoculum (Deluxe) (2019) [FLAC]/01 - Fear Inoculum.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/TOOL - Fear Inoculum (Deluxe) (2019) [FLAC]/06 - Descending.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-10000_Days-CD-FLAC-2006-SCORN/04-tool-10000_days_(wings_part_2).flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-10000_Days-CD-FLAC-2006-SCORN/01-tool-vicarious.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-10000_Days-CD-FLAC-2006-SCORN/05-tool-the_pot.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-10000_Days-CD-FLAC-2006-SCORN/06-tool-lipan_conjuring.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-10000_Days-CD-FLAC-2006-SCORN/10-tool-right_in_two.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-10000_Days-CD-FLAC-2006-SCORN/08-tool-rosetta_stoned.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-10000_Days-CD-FLAC-2006-SCORN/02-tool-jambi.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-10000_Days-CD-FLAC-2006-SCORN/07-tool-lost_keys_(blame_hofmann).flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-10000_Days-CD-FLAC-2006-SCORN/09-tool-intension.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-10000_Days-CD-FLAC-2006-SCORN/11-tool-viginti_tres.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-10000_Days-CD-FLAC-2006-SCORN/03-tool-wings_for_marie_(part_1).flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Sober_-_Tales_From_The_Darkside-CDS-FLAC-1994-FlacoFF/02-tool-undertow_(live)-flacoff.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Sober_-_Tales_From_The_Darkside-CDS-FLAC-1994-FlacoFF/08-tool-prison_sex_(live)-flacoff.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Sober_-_Tales_From_The_Darkside-CDS-FLAC-1994-FlacoFF/06-tool-prison_sex_(live)-flacoff.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Sober_-_Tales_From_The_Darkside-CDS-FLAC-1994-FlacoFF/03-tool-sober_(live)-flacoff.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Sober_-_Tales_From_The_Darkside-CDS-FLAC-1994-FlacoFF/05-tool-flood_(live)-flacoff.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Sober_-_Tales_From_The_Darkside-CDS-FLAC-1994-FlacoFF/01-tool-sober_(album_version)-flacoff.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Sober_-_Tales_From_The_Darkside-CDS-FLAC-1994-FlacoFF/07-tool-jerk-off_(live)-flacoff.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Sober_-_Tales_From_The_Darkside-CDS-FLAC-1994-FlacoFF/04-tool-opiate_(live)-flacoff.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Sober_-_Tales_From_The_Darkside-CDS-FLAC-1994-FlacoFF/09-tool-bottom_(live)-flacoff.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Opiate-CDEP-FLAC-1992-SCORN/03-tool-part_of_me.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Opiate-CDEP-FLAC-1992-SCORN/01-tool-sweat.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Opiate-CDEP-FLAC-1992-SCORN/02-tool-hush.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Opiate-CDEP-FLAC-1992-SCORN/06-tool-opiate.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Opiate-CDEP-FLAC-1992-SCORN/05-tool-jerk-off_(live).flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Opiate-CDEP-FLAC-1992-SCORN/04-tool-cold_and_ugly_(live).flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Salival-CD-FLAC-2000-DeVOiD/03-tool-pushit_(live).flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Salival-CD-FLAC-2000-DeVOiD/02-tool-part_of_me_(live).flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Salival-CD-FLAC-2000-DeVOiD/07-tool-no_quarter.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Salival-CD-FLAC-2000-DeVOiD/04-tool-message_to_harry_manback_ii.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Salival-CD-FLAC-2000-DeVOiD/05-tool-you_lied_(live).flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Salival-CD-FLAC-2000-DeVOiD/06-tool-merkaba_(live).flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Salival-CD-FLAC-2000-DeVOiD/08-tool-l.a.m.c._and_hidden_track_maynards_dick.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Salival-CD-FLAC-2000-DeVOiD/01-tool-third_eye_(live).flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Aenima-CD-FLAC-1996-SCORN/15-tool-third_eye.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Aenima-CD-FLAC-1996-SCORN/03-tool-h.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Aenima-CD-FLAC-1996-SCORN/12-tool-cesaro_summability.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Aenima-CD-FLAC-1996-SCORN/01-tool-stinkfist.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Aenima-CD-FLAC-1996-SCORN/07-tool-hooker_with_a_penis.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Aenima-CD-FLAC-1996-SCORN/11-tool-pushit.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Aenima-CD-FLAC-1996-SCORN/09-tool-jimmy.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Aenima-CD-FLAC-1996-SCORN/10-tool-die_eier_von_satan.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Aenima-CD-FLAC-1996-SCORN/05-tool-forty_six_and_2.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Aenima-CD-FLAC-1996-SCORN/13-tool-aenema.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Aenima-CD-FLAC-1996-SCORN/06-tool-message_to_harry_manback.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Aenima-CD-FLAC-1996-SCORN/04-tool-useful_idiot.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Aenima-CD-FLAC-1996-SCORN/08-tool-intermission.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Aenima-CD-FLAC-1996-SCORN/14-tool-(-)_ions.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Aenima-CD-FLAC-1996-SCORN/02-tool-eulogy.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-72826-[Remastered]-FLAC-ACAB/72826/02-hush.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-72826-[Remastered]-FLAC-ACAB/72826/06-jerk-off.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-72826-[Remastered]-FLAC-ACAB/72826/05-sober.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-72826-[Remastered]-FLAC-ACAB/72826/01-cold_and_ugly.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-72826-[Remastered]-FLAC-ACAB/72826/04-crawl_away.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-72826-[Remastered]-FLAC-ACAB/72826/03-part_of_me.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/04-tool-mantra.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/03-tool-the_patient.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/12-tool-triad.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/01-tool-the_grudge.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/08-tool-ticks_and_leeches.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/07-tool-parabola.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/10-tool-disposition.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/11-tool-reflection.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/02-tool-eon_blue_apocalypse.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/09-tool-lateralus.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/13-tool-faaip_de_oiad.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/06-tool-parabol.flac
+Sep 08 09:32 : update: added music/TOOL DISCOGRAPHY FLAC CD/Tool-Lateralus-CD-FLAC-2001-SCORN/05-tool-schism.flac
+Sep 08 09:32 : update: added music/Black Sabbath - Paranoid (1970) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/02.-Paranoid.flac
+Sep 08 09:32 : update: added music/Black Sabbath - Paranoid (1970) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/04.-Iron Man.flac
+Sep 08 09:32 : update: added music/Black Sabbath - Paranoid (1970) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/01.-War Pigs.flac
+Sep 08 09:32 : update: added music/Black Sabbath - Paranoid (1970) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/07.-Rat Salad.flac
+Sep 08 09:32 : update: added music/Black Sabbath - Paranoid (1970) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/06.-Hand Of Doom.flac
+Sep 08 09:32 : update: added music/Black Sabbath - Paranoid (1970) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/05.-Electric Funeral.flac
+Sep 08 09:32 : update: added music/Black Sabbath - Paranoid (1970) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/03.-Planet Caravan.flac
+Sep 08 09:32 : update: added music/Black Sabbath - Paranoid (1970) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/08.-Fairies Wear Boots.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Wish You Were Here 1975 [EAC - FLAC] (oan)/05 - Shine On You Crazy Diamond [Parts VI–IX].flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Wish You Were Here 1975 [EAC - FLAC] (oan)/03 - Have a Cigar.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Wish You Were Here 1975 [EAC - FLAC] (oan)/02 - Welcome to The Machine.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Wish You Were Here 1975 [EAC - FLAC] (oan)/04 - Wish You Were Here.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Wish You Were Here 1975 [EAC - FLAC] (oan)/01 - Shine On You Crazy Diamond [Parts I–V].flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Division Bell 1994 [EAC - FLAC] (oan)/10 - Lost For Words.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Division Bell 1994 [EAC - FLAC] (oan)/09 - Keep Talking.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Division Bell 1994 [EAC - FLAC] (oan)/08 - Coming Back To Life.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Division Bell 1994 [EAC - FLAC] (oan)/11 - High Hopes.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Division Bell 1994 [EAC - FLAC] (oan)/07 - Take It Back.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Division Bell 1994 [EAC - FLAC] (oan)/05 - A Great Day For Freedom.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Division Bell 1994 [EAC - FLAC] (oan)/06 - Wearing The Inside Out.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Division Bell 1994 [EAC - FLAC] (oan)/04 - Marooned.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Division Bell 1994 [EAC - FLAC] (oan)/01 - Cluster One.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Division Bell 1994 [EAC - FLAC] (oan)/03 - Poles Apart.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Division Bell 1994 [EAC - FLAC] (oan)/02 - What Do You Want From Me.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 2] 1979 [EAC - FLAC] (oan)/13 - Outside The Wall.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 2] 1979 [EAC - FLAC] (oan)/07 - The Show Must Go On.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 2] 1979 [EAC - FLAC] (oan)/09 - Run Like Hell.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 2] 1979 [EAC - FLAC] (oan)/02 - Is There Anybody Out There.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 2] 1979 [EAC - FLAC] (oan)/04 - Vera.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 2] 1979 [EAC - FLAC] (oan)/10 - Waiting For The Worms.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 2] 1979 [EAC - FLAC] (oan)/11 - Stop.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 2] 1979 [EAC - FLAC] (oan)/01 - Hey You.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 2] 1979 [EAC - FLAC] (oan)/05 - Bring The Boys Back Home.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 2] 1979 [EAC - FLAC] (oan)/12 - The Trial.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 2] 1979 [EAC - FLAC] (oan)/03 - Nobody Home.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 2] 1979 [EAC - FLAC] (oan)/06 - Comfortably Numb.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 2] 1979 [EAC - FLAC] (oan)/08 - In The Flesh.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - A Momentary Lapse Of Reason 1987 [EAC - FLAC] (oan)/09 - A New Machine [Part 2].flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - A Momentary Lapse Of Reason 1987 [EAC - FLAC] (oan)/01 - Signs Of Life.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - A Momentary Lapse Of Reason 1987 [EAC - FLAC] (oan)/03 - The Dogs Of War.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - A Momentary Lapse Of Reason 1987 [EAC - FLAC] (oan)/04 - One Slip.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - A Momentary Lapse Of Reason 1987 [EAC - FLAC] (oan)/02 - Learning To Fly.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - A Momentary Lapse Of Reason 1987 [EAC - FLAC] (oan)/10 - Sorrow.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - A Momentary Lapse Of Reason 1987 [EAC - FLAC] (oan)/08 - Terminal Frost.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - A Momentary Lapse Of Reason 1987 [EAC - FLAC] (oan)/06 - Yet Another Movie , Round And Around.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - A Momentary Lapse Of Reason 1987 [EAC - FLAC] (oan)/05 - On The Turning Away.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - A Momentary Lapse Of Reason 1987 [EAC - FLAC] (oan)/07 - A New Machine [Part 1].flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Meddle 1971 [EAC - FLAC] (oan)/01 - One of These Days.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Meddle 1971 [EAC - FLAC] (oan)/05 - Seamus.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Meddle 1971 [EAC - FLAC] (oan)/02 - A Pillow of Winds.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Meddle 1971 [EAC - FLAC] (oan)/06 - Echoes.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Meddle 1971 [EAC - FLAC] (oan)/03 - Fearless.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Meddle 1971 [EAC - FLAC] (oan)/04 - San Tropez.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Animals 1977 [EAC - FLAC] (oan)/01 - Pigs on the wing 1.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Animals 1977 [EAC - FLAC] (oan)/02 - Dogs.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Animals 1977 [EAC - FLAC] (oan)/03 - Pigs [Three Different Ones].flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Animals 1977 [EAC - FLAC] (oan)/05 - Pigs on the wing 2.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - Animals 1977 [EAC - FLAC] (oan)/04 - Sheep.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 1] 1979 [EAC - FLAC] (oan)/06 - Mother.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 1] 1979 [EAC - FLAC] (oan)/13 - Goodbye Cruel World.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 1] 1979 [EAC - FLAC] (oan)/11 - Don't Leave Me Now.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 1] 1979 [EAC - FLAC] (oan)/10 - One Of My Turns.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 1] 1979 [EAC - FLAC] (oan)/05 - Another Brick In The Wall [Part 2].flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 1] 1979 [EAC - FLAC] (oan)/12 - Another Brick In The Wall [Part 3].flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 1] 1979 [EAC - FLAC] (oan)/07 - Goodbye Blue Sky.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 1] 1979 [EAC - FLAC] (oan)/08 - Empty Spaces.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 1] 1979 [EAC - FLAC] (oan)/09 - Young Lust.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 1] 1979 [EAC - FLAC] (oan)/04 - The Happiest Days Of Our Lives.flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 1] 1979 [EAC - FLAC] (oan)/01 - In The Flesh .flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 1] 1979 [EAC - FLAC] (oan)/03 - Another Brick In The Wall [Part 1].flac
+Sep 08 09:32 : update: added music/Pink Floyd - Discography [EAC - FLAC] (oan)/Pink Floyd - The Wall [Disc 1] 1979 [EAC - FLAC] (oan)/02 - The Thin Ice.flac
+Sep 08 09:32 : update: added music/Victor Wooten - Palmystery/05 - Left, Right, and Center.mp3
+Sep 08 09:32 : update: added music/Victor Wooten - Palmystery/04 - The Lesson.mp3
+Sep 08 09:32 : update: added music/Victor Wooten - Palmystery/11 - Happy Song.mp3
+Sep 08 09:32 : update: added music/Victor Wooten - Palmystery/09 - The Gospel.mp3
+Sep 08 09:32 : update: added music/Victor Wooten - Palmystery/06 - Sifu.mp3
+Sep 08 09:32 : update: added music/Victor Wooten - Palmystery/01 - 2 Timers.mp3
+Sep 08 09:32 : update: added music/Victor Wooten - Palmystery/02 - Cambo.mp3
+Sep 08 09:32 : update: added music/Victor Wooten - Palmystery/12 - Us 2.mp3
+Sep 08 09:32 : update: added music/Victor Wooten - Palmystery/08 - Flex.mp3
+Sep 08 09:32 : update: added music/Victor Wooten - Palmystery/10 - Song for My Father.mp3
+Sep 08 09:32 : update: added music/John Coltrane/A Love Supreme(1965)/John Coltrane - A Love Supreme, Pt. IV - Psalm.mp3
+Sep 08 09:33 : update: added music/John Coltrane/A Love Supreme(1965)/John Coltrane - A Love Supreme, Pt. II - Resolution.mp3
+Sep 08 09:33 : update: added music/John Coltrane/A Love Supreme(1965)/John Coltrane - A Love Supreme, Pt. I – Acknowledgement.mp3
+Sep 08 09:33 : update: added music/John Coltrane/A Love Supreme(1965)/John Coltrane - A Love Supreme, Pt. III - Pursuance.mp3
+Sep 08 09:33 : update: added AAudio Books/audiobook_-_just_for_fun_-_linus_torvalds_david_diamond/Just for Fun - 4 of 5 - Linus Torvalds.mp3
+Sep 08 09:33 : update: added AAudio Books/audiobook_-_just_for_fun_-_linus_torvalds_david_diamond/Just for Fun - 3 of 5 - Linus Torvalds.mp3
+Sep 08 09:33 : update: added AAudio Books/audiobook_-_just_for_fun_-_linus_torvalds_david_diamond/Just for Fun - 2 of 5 - Linus Torvalds.mp3
+Sep 08 09:33 : update: added AAudio Books/audiobook_-_just_for_fun_-_linus_torvalds_david_diamond/Just for Fun - 5 of 5 - Linus Torvalds.mp3
+Sep 08 09:33 : update: added AAudio Books/audiobook_-_just_for_fun_-_linus_torvalds_david_diamond/Just for Fun - 1 of 5 - Linus Torvalds.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 03 - Chapter 2.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 10 - Chapter 4.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 11 - Chapter 5.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 09 - Chapter 4.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 01 - Chapter 1 - Introduction.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 04 - Chapter 2.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 12 - Chapter 5.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 14 - Chapter 6.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 08 - Chapter 4.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 15 - Chapter 7.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 07 - Chapter 3.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 02 - Chapter 1.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 05 - Chapter 3.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 16 - Chapter 7.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 13 - Chapter 6.mp3
+Sep 08 09:33 : update: added AAudio Books/Ekhart Tolle - The Power Of Now (Audio Book)/Ekhart Tolle - The Power Of Now (Audio Book) - 06 - Chapter 3.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/3-01 Introduction.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/3-06 Existance As A Function Of Rela.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/9-05 Self As Play.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/5-06 The Sensation Of The Happening.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/1-03 The Myth Of The Ceramic Constru.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/9-07 Rules Of The Game.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/7-01 Introduction.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/6-01 Introduction.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/9-02 The Totality Of All Being.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/6-02 Seeing Beyond The Game.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/5-04 The Awareness Of A Baby.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/11-02 The Essence Of Hinduism.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/3-08 An Implicit Agreement.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/6-10 The Line Of Least Resistance.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/10-10 How Not To Use The Mind.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/1-04 The Myth Of The Automatic Unive.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/9-01 Introduction.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/6-04 The Illusion Of The Ego.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/6-07 So What's The Problem.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/11-11 Peaks And Valleys Go Together.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/11-08 A Finger Pointing At The Moon.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/1-02 Our Image Of The World.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/10-06 The Role Of The Trickster.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/4-06 What Game Would You Like To Pla.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/8-03 The In Defines The Out Defines.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/11-10 The Mystery Of Change.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/9-04 The Fundamental I.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/1-08 Whose Game Is It_.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/8-05 Entering The Temple.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/12-06 The World As Void.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/7-03 Zen's Appeal To The West.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/7-09 Disturbing Confusions Of The Mi.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/10-04 Shedding The Masks.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/2-09 A Re-Examination Of Common Sens.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/8-04 The Japanese Zen Monastery.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/12-07 Voiding The Void.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/10-01 Introduction.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/4-05 The Sound Of Rain Needs No Tran.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/5-10 The Aversion To Death.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/6-09 The State Of Nothing.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/3-02 What Did You Forget.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/7-08 Who Are You_.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/8-08 The Decline Of Modern Temples.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/3-07 Understanding The Unitive World.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/4-08 An Invitation To Dance.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/12-01 Introduction.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/11-06 The Five Good Conducts.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/7-06 The Golden Age Of Zen.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/2-04 The Game Of Hide And Seek.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/4-04 A Perfectly Genuine Act.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/2-05 Consciousness Beyond Awareness.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/10-12 A Place For The Hermit.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/9-09 Western Difficulty With Hindu M.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/5-12 The Spectrum Of Vibrations.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/1-06 A Game That's Worth The Candle.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/11-03 The Four Noble Truths.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/10-02 The Human World As Self.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/12-03 Willing To Die.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/12-08 Consider Death Now.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/10-05 The Limits Of Self-Awareness.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/10-03 Stages Of Citizenship In India.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/11-04 The Cause Of Suffering.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/6-05 The Meaningless Life.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/12-05 Raising The Alarm.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/9-03 Awareness Of The Self.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/10-09 The Yoga Sutra.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/7-05 The Origins Of Zen.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/11-07 Presence Of Mind.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/8-06 Answering The Koan.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/1-05 A Wiggly World.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/6-03 A Conspiracy We Play On Ourselv.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/2-08 The Road To Here.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/2-02 Being Aware Of Awareness.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/7-07 No Mind No Deliberation.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/8-02 Escaping The Tangle.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/5-05 The Fallacy Of Misplaced Concre.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/6-08 Every Incarnation Is This One.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/3-09 To Beware Of The Melody.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/8-01 Introduction.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/4-03 The Nature Of Selfishness.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/6-06 This Is The Game.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/5-11 The Eroticism Of Pain.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/1-09 The World As A Drama.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/5-03 The Marriage Of An Illusion To.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/11-01 Introduction.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/9-06 The Rythmic Dance.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/7-10 Who Is The Thinker Behind The T.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/11-05 The Eight-Fold Path.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/7-04 Direct Pointing.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/3-05 Intervals Between What Happens.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/4-07 Is It Serious_.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/12-02 The Buddhist Attitude Of Chang.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/12-09 Thunderous Silence.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/10-11 Gamesmanship In Spiritual Prac.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/12-04 A Happy Death.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/3-03 A Spontaneous Life.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/2-01 Introduction.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/4-01 Introduction.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/9-08 The Hindu Yugas.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/2-07 What It Is To See.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/10-08 Fear Of Enlightenment.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/11-09 The Nature Of Change.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/1-01 Introduction.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/1-07 An Independent System.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/2-03 Captivated By The Drama.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/5-01 Introduction.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/5-09 A Natural Satori.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/5-02 Undifferentiated Vs Differentia.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/7-02 To Say What Can't Be Said.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/8-07 Seeing Past The Illusion.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/5-07 Of Pain And Suffering.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/5-08 Must Life Go On And On_.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/8-09 The Truth Of Birthless Mind.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/3-04 Seeing Beyond Our Separateness.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/10-07 The Journey To Where You Alrea.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/4-02 Web As Mutuality.mp3
+Sep 08 09:33 : update: added AAudio Books/Alan Watts- Out of Your Mind (Essential Lectures)/2-06 How Do We Define Ourselves.mp3
+Sep 08 09:33 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 08 09:33 : update: added AAudio Books/Can't Hurt Me by David Goggins (Audiobook)/Can't Hurt Me by David Goggins.m4b
+Sep 08 09:33 : update: added AAudio Books/Hackers___Painters.mp3
+Sep 08 09:33 : update: added AAudio Books/Breathe James Nester/4James Nestor - Breath Audiobook - Free Audiobooks.mp3
+Sep 08 09:33 : update: added AAudio Books/Breathe James Nester/2James Nestor - Breath Audiobook - Free Audiobooks.mp3
+Sep 08 09:33 : update: added AAudio Books/Breathe James Nester/5James Nestor - Breath Audiobook - Free Audiobooks.mp3
+Sep 08 09:33 : update: added AAudio Books/Breathe James Nester/8James Nestor - Breath Audiobook - Free Audiobooks.mp3
+Sep 08 09:33 : update: added AAudio Books/Breathe James Nester/7James Nestor - Breath Audiobook - Free Audiobooks.mp3
+Sep 08 09:33 : update: added AAudio Books/Breathe James Nester/6James Nestor - Breath Audiobook - Free Audiobooks.mp3
+Sep 08 09:33 : update: added AAudio Books/Breathe James Nester/1James Nestor - Breath Audiobook - Free Audiobooks.mp3
+Sep 09 14:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 09 14:13 : avahi: Service 'Music Player @ PM' successfully established.
+Sep 13 18:30 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 13 18:30 : avahi: Service 'Music Player @ PM' successfully established.

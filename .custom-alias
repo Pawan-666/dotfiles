@@ -53,3 +53,6 @@ alias ekup='nmcli connection up EK-WIFI'
 alias ekdown='nmcli connection down EK-WIFI'
 alias btdown='bluetoothctl power off'
 alias btup='./bin/btup'
+alias burp="cd /home/pawan/Downloads/'burpsuite pro creacked'/burp && java -noverify -javaagent:burploader.jar -jar burpsuite_pro_v2021.4.3.jar"
+
+alias xclip="xclip -sel clip"

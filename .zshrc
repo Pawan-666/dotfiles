@@ -136,7 +136,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-bindkey -s '^g' 'cd "$(dirname "$(fzf)")"; lf \n'
+#bindkey -s '^g' 'cd "$(dirname "$(fzf)")"; lf \n'
+#bindkey -s '^g' 'cd "$(dirname "$(fzf)")"; lf \n'
+
+bindkey -s '^g' 'vim "$(find . -type f | fzf)";\n'
 #bindkey -s '^m' '^uncmpcpp\n'
 #bindkey -s '^e' '^uvim .\n'
 source ~/.custom-alias
