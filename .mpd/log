@@ -544,3 +544,22 @@ Sep 09 14:13 : exception: RTIOThread could not get realtime scheduling, continui
 Sep 09 14:13 : avahi: Service 'Music Player @ PM' successfully established.
 Sep 13 18:30 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Sep 13 18:30 : avahi: Service 'Music Player @ PM' successfully established.
+Sep 16 21:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 16 21:54 : avahi: Service 'Music Player @ PM' successfully established.
+Sep 20 16:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 16:46 : avahi: Service 'Music Player @ PM' successfully established.
+Sep 25 16:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 25 16:25 : avahi: Service 'Music Player @ PM' successfully established.
+Sep 27 23:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 27 23:29 : avahi: Service 'Music Player @ PM' successfully established.
+Oct 01 19:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 19:55 : avahi: Service 'Music Player @ PM' successfully established.
+Oct 10 08:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 10 08:21 : avahi: Service 'Music Player @ PM' successfully established.
+Oct 14 12:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 14 12:10 : avahi: Service 'Music Player @ PM' successfully established.
+Oct 18 15:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 15:49 : exception: Failed to open '/home/pawan/.mpd/state': No such file or directory
+Oct 18 15:49 : avahi: Service 'Music Player @ PM' successfully established.
+Oct 24 22:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 22:22 : avahi: Service 'Music Player @ PM' successfully established.

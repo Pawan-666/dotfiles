@@ -41,7 +41,8 @@ cmd open ${{
 #		done &
 #		;;
 #	audio/*) mpv --audio-display=no $f ;;
-	audio/*)  setsid -f mpv $f -quiet >/dev/null 2>&1;;
+#	audio/*) mpv $f ;;
+	audio/*) setsid -f mpv $f -quiet >/dev/null 2>&1 ;;
 	video/*) setsid -f mpv $f -quiet >/dev/null 2>&1 ;;
 	application/pdf|application/vnd*|application/epub*) setsid -f okular $fx >/dev/null 2>&1 ;;
 	application/pgp-encrypted) $EDITOR $fx ;;
@@ -111,12 +112,14 @@ cmd sudomkfile ${{
   printf "File Name: "
   read ans
   sudo $EDITOR $ans
+  cd $ans
 }}
 
 cmd mkdir ${{
   printf "Dir Name:"
   read ans
   mkdir -p $ans
+  cd $ans
 }}
 
 cmd sudomkdir ${{
@@ -293,7 +296,7 @@ map <c-y> up
 map Y $printf "%s" "$fx" | xclip -selection clipboard
 
 map do dragon
-map dm dragon-stay
+map ds dragon-stay
 map di dragon-individual
 #map dl dlfile
 

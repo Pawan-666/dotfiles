@@ -36,7 +36,6 @@ alias d="dict"
 alias telegram="flatpak run org.telegram.desktop &"
 alias qbittorrent="flatpak run org.qbittorrent.qBittorrent &"
 alias libreoffice="flatpak run org.libreoffice.LibreOffice &"
-alias chromium="flatpak run org.chromium.Chromium google.com &"
 alias skype="flatpak run com.skype.Client &"
 alias mega="flatpak run nz.mega.MEGAsync &"
 alias mattermost="flatpak run com.mattermost.Desktop &"
@@ -56,3 +55,4 @@ alias btup='./bin/btup'
 alias burp="cd /home/pawan/Downloads/'burpsuite pro creacked'/burp && java -noverify -javaagent:burploader.jar -jar burpsuite_pro_v2021.4.3.jar"
 
 alias xclip="xclip -sel clip"
+alias sshek="ssh -i ~/.ssh/id_rsa_ek"
