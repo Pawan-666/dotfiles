@@ -4,6 +4,7 @@
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
+PROMPT="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}  ➜ )"
 
 xcape -e 'Control_L=Escape' -t 200
 
@@ -30,7 +31,8 @@ export ZSH="/home/pawan/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
+#ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="alanpeabody"
 # POWERLEVEL9k_MODE="nerdfont-complete"
 
 # Set list of themes to pick from when loading at random
