@@ -16,10 +16,14 @@ Plug 'prettier/vim-prettier', {
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
 call plug#end()
 
-
+"if &term == "xterm-256color"
+"  set t_st=
+"endif
+"
 " For backward compatibility prior to vim 8
 set nocompatible
 syntax on
+
 
 "inoremap jj <ESc>
 
@@ -48,14 +52,11 @@ nnoremap <C-t> :NnnPicker %:p:h<CR>
 
 " Or pass a dictionary with window size
 let g:nnn#layout = { 'left': '~25%' } " or right, up, down
-"VScode dark theme
-"colorscheme codedark
-let g:gruvbox_contrast_dark = 'hard'
-let g:gruvbox_termcolors= '256'
 colorscheme gruvbox
 set background=dark
-set term=screen-256color
 
+"set termguicolors
+hi Normal ctermbg=NONE
 " line in the current cursor
 augroup CursorLine
 au!
@@ -67,7 +68,6 @@ augroup END
 let g:vimwiki_list = [{'path': '~/MEGAsync/wiki/','syntax': 'markdown', 'ext': '.md'}]
 let g:calendar_diary='~/MEGAsync/wiki/diary'
 "let g:vimwiki_list = [{'auto_diary_index': 1}]
-
 
 "vimwiki will only set the filetype of markdown files inside a wiki directory
 let g:vimwiki_global_ext = 0
@@ -143,6 +143,12 @@ imap <C-a> <esc>0i
 " Wrapped lines goes down/up to next row, rather than next line in file.
 nnoremap j gj
 nnoremap k gk
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
+nnoremap n nzz
+nnoremap N Nzz
+
+
 
 " Change Working Directory to that of the cu--- ent file
 "cmap cwd lcd %:p:h
@@ -155,6 +161,8 @@ autocmd BufEnter * lcd %:p:h
 vnoremap < <gv
 vnoremap > >gv
 
+vnoremap("J", ":m '>+1<CR>gv=gv")
+vnoremap("K", ":m '>-2<CR>gv=gv")
 
 set encoding=UTF-8
 set showmatch                   " Show matching brackets/parenthesis
@@ -330,52 +338,55 @@ nnoremap <leader>S :match ErrorMsg '\s\+$'<CR>
 
 
 
-" status bar colors
-au InsertEnter * hi statusline guifg=black guibg=#d7afff ctermfg=black ctermbg=magenta
-au InsertLeave * hi statusline guifg=black guibg=#8fbfdc ctermfg=black ctermbg=cyan
-hi statusline guifg=black guibg=#8fbfdc ctermfg=black ctermbg=cyan
+"" status bar colors
 
+autocmd InsertLeave * highlight StatusLine ctermfg=none
+autocmd InsertEnter * highlight StatusLine ctermfg=yellow
+""au InsertEnter * hi statusline guifg=black guibg=#d7afff ctermfg=black ctermbg=magenta
+""au InsertLeave * hi statusline guifg=black guibg=#8fbfdc ctermfg=black ctermbg=cyan
+""hi statusline guifg=black guibg=#8fbfdc ctermfg=black ctermbg=cyan
+"
+"
+"" Status Line Custom
+"let g:currentmode={
+"    \ 'n'  : 'Normal',
+"    \ 'no' : 'Normal·Operator Pending',
+"    \ 'v'  : 'Visual',
+"    \ 'V'  : 'V·Line',
+"    \ '^V' : 'V·Block',
+"    \ 's'  : 'Select',
+"    \ 'S'  : 'S·Line',
+"    \ '^S' : 'S·Block',
+"    \ 'i'  : 'Insert',
+"    \ 'R'  : 'Replace',
+"    \ 'Rv' : 'V·Replace',
+"    \ 'c'  : 'Command',
+"    \ 'cv' : 'Vim Ex',
+"    \ 'ce' : 'Ex',
+"    \ 'r'  : 'Prompt',
+"    \ 'rm' : 'More',
+"    \ 'r?' : 'Confirm',
+"    \ '!'  : 'Shell',
+"   \ 't'  : 'Terminal'
+"    \}
+"
+"set laststatus=2
+"set noshowmode
+"set statusline=
+"""set statusline+=%1*\ %n\                                 " Buffer number
+""set statusline+=%1*\ %{toupper(g:currentmode[mode()])}\  " The current mode
+"set statusline+=%1*\ %<%F%m%r%h%w\                       " File path, modified, readonly, helpfile, preview
+"set statusline+=%=                                       " Right Side
+"set statusline+=%1*\ %Y\                                 " FileType
+"""set statusline+=%3*│                                     " Separator
+"set statusline+=%1*\ \ %02v\                         " Colomn number
+"""set statusline+=%3*│                                     " Separator
+"set statusline+=%1*\ \ %02l/%L\ (%3p%%)\              " Line number / total lines, percentage of document
 
-" Status Line Custom
-let g:currentmode={
-    \ 'n'  : 'Normal',
-    \ 'no' : 'Normal·Operator Pending',
-    \ 'v'  : 'Visual',
-    \ 'V'  : 'V·Line',
-    \ '^V' : 'V·Block',
-    \ 's'  : 'Select',
-    \ 'S'  : 'S·Line',
-    \ '^S' : 'S·Block',
-    \ 'i'  : 'Insert',
-    \ 'R'  : 'Replace',
-    \ 'Rv' : 'V·Replace',
-    \ 'c'  : 'Command',
-    \ 'cv' : 'Vim Ex',
-    \ 'ce' : 'Ex',
-    \ 'r'  : 'Prompt',
-    \ 'rm' : 'More',
-    \ 'r?' : 'Confirm',
-    \ '!'  : 'Shell',
-   \ 't'  : 'Terminal'
-    \}
-
-set laststatus=2
-set noshowmode
-set statusline=
-set statusline+=%1*\ %n\                                 " Buffer number
-set statusline+=%1*\ %{toupper(g:currentmode[mode()])}\  " The current mode
-set statusline+=%1*\ %<%F%m%r%h%w\                       " File path, modified, readonly, helpfile, preview
-set statusline+=%=                                       " Right Side
-set statusline+=%1*\ %Y\                                 " FileType
-"set statusline+=%3*│                                     " Separator
-set statusline+=%1*\ \ %02v\                         " Colomn number
-"set statusline+=%3*│                                     " Separator
-set statusline+=%1*\ \ %02l/%L\ (%3p%%)\              " Line number / total lines, percentage of document
-
-hi User1 ctermfg=007 ctermbg=239 guibg=#4e4e4e guifg=#adadad
-hi User2 ctermfg=007 ctermbg=236 guibg=#303030 guifg=#adadad
-hi User3 ctermfg=236 ctermbg=236 guibg=#303030 guifg=#303030
-hi User4 ctermfg=239 ctermbg=239 guibg=#4e4e4e guifg=#4e4e4e
+"hi User1 ctermfg=007 ctermbg=239 guibg=#4e4e4e guifg=#adadad
+"hi User2 ctermfg=007 ctermbg=236 guibg=#303030 guifg=#adadad
+"hi User3 ctermfg=236 ctermbg=236 guibg=#303030 guifg=#303030
+"hi User4 ctermfg=239 ctermbg=239 guibg=#4e4e4e guifg=#4e4e4e
 
 hi clear SpellBad
 hi SpellBad cterm=underline
@@ -395,3 +406,4 @@ nmap <C-h> <C-w>h
 nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
+

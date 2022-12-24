@@ -1,2 +1,0 @@
-#!/bin/bash
-flatpak run org.chromium.Chromium --url https://oaver2.ekbana.info/checkIncheck

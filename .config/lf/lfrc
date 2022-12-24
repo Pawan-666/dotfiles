@@ -112,14 +112,12 @@ cmd sudomkfile ${{
   printf "File Name: "
   read ans
   sudo $EDITOR $ans
-  cd $ans
 }}
 
-cmd mkdir ${{
+cmd mkd ${{
   printf "Dir Name:"
   read ans
   mkdir -p $ans
-  cd $ans
 }}
 
 cmd sudomkdir ${{
@@ -260,7 +258,7 @@ map C clear
 map U unselect
 map y copy
 #map <c-n> push :mkdir<space>
-map md mkdir
+map md mkd
 map mf mkfile
 map ms mkscript
 map Md sudomkdir 

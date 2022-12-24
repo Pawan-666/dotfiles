@@ -11,6 +11,7 @@ env:
 
   
 window:
+  opacity: 0.9
   decorations: none
   #  dimensions:
   #   columns: 100
@@ -31,20 +32,21 @@ window:
     gtk_theme_variant: None
 
 scrolling:
-   history: 50000
-   multiplier: 4
+   history: 10000
+   multiplier: 1
+
 
 font:
  normal:
    family: JetBrains Mono Nerd font
    style: Medium
- bold:
-   family: JetBrains Mono Nerd font
-   style: Bold
- Italic:
-   family: JetBrains Mono Nerd font
-   style: Italic
- size: 12
+     # bold:
+     #   family: JetBrains Mono Nerd font
+     #   style: Bold
+     # Italic:
+     #   family: JetBrains Mono Nerd font
+     #   style: Italic
+ size: 13
 
  offset:
    x: 0 
@@ -120,7 +122,7 @@ bell:
   duration: 0
   color: '#ffffff'
 
-
+    #window_opacity: 0.5
 
 url:
     # URL launcher
@@ -148,7 +150,10 @@ draw_bold_text_with_bright_colors: true
 mouse_bindings:
     - { mouse: Middle, action: Copy  }
       
-      #window.opacity: 0.8
+# increase opacity
+
+features:
+  - opacity
 
 key_bindings:
   # (Windows, Linux, and BSD only)
@@ -160,10 +165,10 @@ key_bindings:
     #  - { key: PageDown, mods: Shift, action: ScrollPageDown, mode: ~Alt       }
     #  - { key: Home,     mods: Shift, action: ScrollToTop,    mode: ~Alt       }
     #  - { key: End,      mods: Shift, action: ScrollToBottom, mode: ~Alt       }
-    #  - { key: Space,  mods: Control,       mode: Vi, action: ScrollToBottom          }
   - { key: Space,  mods: Control,                 action: ToggleViMode            }
-  - { key: N, mods: Control|Shift, action: SpawnNewInstance }
+    #  - { key: N, mods: Control|Shift, action: SpawnNewInstance }
     #- { key: PageUp,   mods: Shift,   action: ScrollPageUp   }
-  - { key: PageDown, mods: Shift,   action: ScrollPageDown }
-  - { key: End,      mods: Shift,   action: ScrollToBottom }
-  - { key: Home,     mods: Shift,   action: ScrollToTop    }
+    #- { key: PageDown, mods: Shift,   action: ScrollPageDown }
+    #- { key: End,      mods: Shift,   action: ScrollToBottom }
+    #- { key: Home,     mods: Shift,   action: ScrollToTop    }
+
