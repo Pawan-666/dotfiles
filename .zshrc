@@ -6,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 PROMPT="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}  ➜ )"
 
-xcape -e 'Control_L=Escape' -t 200
+#xcape -e 'Control_L=Escape' -t 200
 
 
 # If you come from bash you might have to change your $PATH.

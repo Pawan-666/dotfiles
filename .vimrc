@@ -260,9 +260,9 @@ set nu rnu
 
 set numberwidth=5
 " enable mouse on all modes
-set mouse=a
+"set mouse=a
 " Hide the mouse cursor while typing
-set mousehide
+"set mousehide
 
 set timeoutlen=500              " how long it wait for mapped commands
 set ttimeoutlen=100             " faster timeout for escape key and others
@@ -308,10 +308,10 @@ set copyindent                  " copy previous indentation on auto indent
 "set pastetoggle=<F2>
 
 " Convert Inserted Text to Normal Mode Commands
-inoremap <F1> <ESC>u@.
+"inoremap <F1> <ESC>u@.
 
 " :abbr mws pawanchhetri.com.np
- :abbr mws pawanchhetri.com.np
+" :abbr mws pawanchhetri.com.np
 
 " apt-get install vim-gtk  for system wide clipboard support, "+p  for pasting big text
 set clipboard=unnamedplus
@@ -402,8 +402,8 @@ highlight VertSplit cterm=NONE
 "nnoremap <silent>s <C-w>v
 
 " easy window navigation
-nmap <C-h> <C-w>h
-nmap <C-j> <C-w>j
-nmap <C-k> <C-w>k
-nmap <C-l> <C-w>l
-
+"nmap <C-h> <C-w>h
+"nmap <C-l> <C-w>l
+"nmap <C-j> <C-w>j
+"nmap <C-k> <C-w>k
+"
