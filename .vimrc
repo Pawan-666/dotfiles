@@ -1,31 +1,25 @@
 let mapleader = " "
 call plug#begin('~/.vim/plugged')
-Plug 'https://github.com/christoomey/vim-tmux-navigator'
 Plug 'junegunn/fzf.vim'
+Plug 'ptzz/lf.vim'
+Plug 'voldikss/vim-floaterm'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-"Plug 'tomasiser/vim-code-dark'
 Plug 'mcchrish/nnn.vim'
 Plug 'vimwiki/vimwiki'
-Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
+"Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
 Plug 'ferrine/md-img-paste.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'morhetz/gruvbox'
-" post install (yarn install | npm install) then load plugin only for editing supported files
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install --frozen-lockfile --production',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
 call plug#end()
 
-"if &term == "xterm-256color"
-"  set t_st=
-"endif
-"
 " For backward compatibility prior to vim 8
 set nocompatible
 syntax on
 
 
-"inoremap jj <ESc>
 
 execute "set <M-f>=^[f"
 noremap <M-e> <M-f>
@@ -135,9 +129,9 @@ autocmd FileType markdown nmap <buffer><silent> <leader>P :call mdip#MarkdownCli
 "imap '4 ####<esc>a
 
 "map CTRL-E to end-of-line (insert mode)
-imap <C-e> <esc>$i<right>
-"  " " map CTRL-A to beginning-of-line (insert mode)
-imap <C-a> <esc>0i
+"imap <C-e> <esc>$i<right>
+""  " " map CTRL-A to beginning-of-line (insert mode)
+"imap <C-a> <esc>0i
 
 
 " Wrapped lines goes down/up to next row, rather than next line in file.
@@ -179,11 +173,11 @@ set ignorecase
 set smartcase
 
 "Mapping esc to jj
-nnoremap <silent> <C-n> gt
-nnoremap <silent> <C-p> gT
+"nnoremap <silent> <C-p> gT
+"nnoremap <silent> <C-n> gt
 "nnoremap T :terminal<CR>
 
-
+  
 " move lines up and down
 "nnoremap <C-j> :m .+1<CR>==
 "nnoremap <C-k> :m .-2<CR>==
@@ -192,17 +186,18 @@ inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
 
-nnoremap <silent> <Leader>l :Buffers<CR>
-nnoremap <silent> <C-f> :Files<CR>
-nnoremap <silent> <Leader>f :Rg<CR>
-nnoremap <silent> <Leader>r :register<CR>
+nnoremap <silent> <Leader>fl :Buffers<CR>
+nnoremap <silent> <Leader>lf :Lf<CR>
+nnoremap <silent> <Leader>ff :Files<CR>
+nnoremap <silent> <Leader>fs :Rg<CR>
+nnoremap <silent> <Leader>fr :register<CR>
 "nnoremap <silent> <Leader>l :BLines<CR>
-nnoremap <silent> <Leader>' :Marks<CR>
+nnoremap <silent> <Leader>m :Marks<CR>
 nnoremap <silent> <Leader>g :Commits<CR>
 nnoremap <silent> <Leader>h: :Helptags<CR>
-nnoremap <silent> <Leader>h :History<CR>
-nnoremap <silent> <Leader>H :History:<CR>
-nnoremap <silent> <Leader>/ :History/<CR>
+nnoremap <silent> <Leader>fh :History<CR>
+nnoremap <silent> <Leader>ch :History:<CR>
+nnoremap <silent> <Leader>sh :History/<CR>
 " Ctrl-v for visual block mode
 "nnoremap <silent> <leader>v <C-v>
 " Substitution by S
@@ -398,12 +393,3 @@ set splitbelow splitright
 "Better split bar
 highlight VertSplit cterm=NONE
 
-"  to generate new vertical split
-"nnoremap <silent>s <C-w>v
-
-" easy window navigation
-"nmap <C-h> <C-w>h
-"nmap <C-l> <C-w>l
-"nmap <C-j> <C-w>j
-"nmap <C-k> <C-w>k
-"

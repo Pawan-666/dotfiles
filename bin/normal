@@ -8,9 +8,9 @@ tmux send-keys -t Om 'bash /home/pawan/bin/fehhh.sh;lf' C-m
 #tmux send-keys -t Om 'mpd; ncmpcpp' C-m
 tmux new-window -n ViM -t Om
 #tmux send-keys -t Om 'xcape -e 'Control_L=Escape' -t 200; cd ~/MEGAsync/wiki;vi index.md' C-m
-tmux send-keys -t Om 'vi ~/MEGAsync/wiki/index.md' C-m
+tmux send-keys -t Om "xcape -e 'Control_L=Escape' -t 200;vi ~/MEGAsync/wiki/index.md" C-m
 tmux split-window -v -p 2
-tmux send-keys -t Om ' flatpak run nz.mega.MEGAsync & sleep 4m ;kill %1;exit' C-m
+tmux send-keys -t Om ' flatpak run nz.mega.MEGAsync & sleep 4m; kill %1 ;exit' C-m
 tmux new-window -n zsh -t Om
 #tmux send-keys -t Om ' flatpak run nz.mega.MEGAsync & flatpak run com.mattermost.Desktop & flatpak run com.skype.Client & flatpak run org.chromium.Chromium google.com & sleep 2m ;kill %1 ; bash' C-m
 #tmux new-window -n zsh1 -t Om

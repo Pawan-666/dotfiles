@@ -56,3 +56,4 @@ alias burp="cd /home/pawan/Downloads/'burpsuite pro creacked'/burp && java -nove
 
 alias xclip="xclip -sel clip"
 alias sshek="ssh -i ~/.ssh/id_rsa_ek"
+alias n='nvim'
