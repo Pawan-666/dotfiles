@@ -15,11 +15,12 @@ an executable
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = false
 lvim.transparent_window = true
---lvim.colorscheme = "gruvbox"
+lvim.colorscheme = "gruvbox"
 --vim.opt.relativenumber = true -- set relative numbered lines
 -- X closes a buffer
 -- General
------------------------------------------------------------
+lvim.builtin.lualine.active = false
+vim.opt.laststatus = 0
 vim.opt.expandtab = true      -- use spaces instead of tabs
 vim.opt.shiftwidth = 2        -- shift 4 spaces when tab
 vim.opt.tabstop = 2           -- 1 tab == 4 spaces
@@ -35,7 +36,7 @@ vim.opt.showmatch = true          -- highlight matching parenthesis
 vim.opt.relativenumber = true     -- show relative distance between rows
 vim.opt.scrolloff = 10            -- keep 10 row buffer on screen edges
 vim.opt.foldmethod = 'marker'     -- enable folding (default 'foldmarker')
-vim.opt.colorcolumn = '120'        -- line length marker at 80 columns
+--vim.opt.colorcolumn = '120'        -- line length marker at 80 columns
 vim.opt.splitright = true         -- vertical split to the right
 vim.opt.splitbelow = true         -- horizontal split to the bottom
 vim.opt.ignorecase = true         -- ignore case letters when search
@@ -49,7 +50,7 @@ lvim.keys.normal_mode["<Leader>q"] = ":qa!<CR>"
 lvim.keys.normal_mode["<C-t>"] = ":NvimTreeToggle<CR>"
 lvim.keys.normal_mode["<Leader><Leader>"] = "<C-^><CR>"
 --lvim.builtin.lualine.options.theme = "gruvbox"
-lvim.builtin.lualine.style = "default" -- or "none"
+--lvim.builtin.lualine.style = "none" -- or "none"
 lvim.keys.normal_mode["<C-h>"] = false
 lvim.keys.normal_mode["<C-j>"] = false
 lvim.keys.normal_mode["<C-k>"] = false
@@ -327,13 +328,10 @@ lvim.builtin.treesitter.highlight.enable = true
 -- }
 
 -- Additional Plugins
--- lvim.plugins = {
---     {
---       "folke/trouble.nvim",
---       cmd = "TroubleToggle",
---     },
--- }
-
+lvim.plugins = {
+    { "ellisonleao/gruvbox.nvim" },
+    { "Pocco81/auto-save.nvim" },
+ }
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {
 --   pattern = { "*.json", "*.jsonc" },
