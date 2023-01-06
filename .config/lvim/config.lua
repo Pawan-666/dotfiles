@@ -1,4 +1,5 @@
 --[[
+lvim.builtin.which_key
 lvim is the global options object
     
 -- Tabs, indent
@@ -12,13 +13,18 @@ an executable
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
 
 -- general
-lvim.log.level = "warn"
+lvim.log.level = "warn|debug"
 lvim.format_on_save.enabled = false
 lvim.transparent_window = true
 lvim.colorscheme = "gruvbox"
 --vim.opt.relativenumber = true -- set relative numbered lines
 -- X closes a buffer
 -- General
+lvim.builtin.terminal.active = false
+lvim.builtin.nvimtree.active = false
+lvim.builtin.breadcrumbs.active = false
+lvim.builtin.project.active = false
+lvim.builtin.gitsigns.active = false
 lvim.builtin.lualine.active = false
 vim.opt.laststatus = 0
 vim.opt.expandtab = true      -- use spaces instead of tabs
@@ -43,11 +49,20 @@ vim.opt.ignorecase = true         -- ignore case letters when search
 vim.opt.smartcase = true          -- ignore lowercase for the whole pattern
 vim.opt.hlsearch = false          -- remove highlighting after search
 
-lvim.keys.normal_mode["<Leader>d"] = ":q!<CR>"
+lvim.keys.insert_mode["<C-e>"] = "<esc>$i<right>"
+lvim.keys.insert_mode["<C-a>"] = "<esc>0i"
+lvim.keys.normal_mode["T"] = ":Telescope buffers<CR>"
+lvim.keys.normal_mode["gt"] = ":BufferLineCycleNext<CR>"
+lvim.keys.normal_mode["gT"] = ":BufferLineCyclePrev<CR>"
+lvim.keys.normal_mode["<C-n>"] = ":BufferLineCycleNext<CR>"
+lvim.keys.normal_mode["<C-p>"] = ":BufferLineCyclePrev<CR>"
+--lvim.keys.normal_mode["<Leader>r"] = ":LspRestart<CR>"
 lvim.keys.normal_mode["<Leader>s"] = ":w<CR>"
+lvim.keys.normal_mode["<Leader>d"] = ":bd<CR>"
 lvim.keys.normal_mode["<Leader>w"] = ":wa<CR>"
 lvim.keys.normal_mode["<Leader>q"] = ":qa!<CR>"
-lvim.keys.normal_mode["<C-t>"] = ":NvimTreeToggle<CR>"
+--lvim.keys.normal_mode["<C-t>"] = ":NnnPicker %:p:h<CR>"
+lvim.keys.normal_mode["<C-t>"] = ":Lf<CR>"
 lvim.keys.normal_mode["<Leader><Leader>"] = "<C-^><CR>"
 --lvim.builtin.lualine.options.theme = "gruvbox"
 --lvim.builtin.lualine.style = "none" -- or "none"
@@ -77,12 +92,14 @@ lvim.builtin.which_key.mappings["f"] = {
   f = { "<cmd>Telescope find_files<cr>", "Find files" },
   s = { "<cmd>Telescope live_grep<cr>", "Find Text" },
   c = { "<cmd>Telescope grep_string<cr>", "Find String" },
+
 --  h = { "<cmd>Telescope help_tags<cr>", "Help" },
 --  H = { "<cmd>Telescope highlights<cr>", "Highlights" },
 --  i = { "<cmd>lua require('telescope').extensions.media_files.media_files()<cr>", "Media" },
 -- l = { "<cmd>Telescope resume<cr>", "Last Search" },
 --  M = { "<cmd>Telescope man_pages<cr>", "Man Pages" },
   h= { "<cmd>Telescope oldfiles<cr>", "Recent File" },
+  g= { "<cmd>Telescope git_status<cr>", "Recent File" },
   m= { "<cmd>Telescope marks<cr>", "Marks File" },
   r = { "<cmd>Telescope registers<cr>", "Registers" },
   k = { "<cmd>Telescope keymaps<cr>", "Keymaps" },
@@ -225,16 +242,15 @@ lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Project
 -- }
 -- TODO: User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
-lvim.builtin.alpha.active = true
-lvim.builtin.alpha.mode = "dashboard"
-lvim.builtin.terminal.active = true
-lvim.builtin.nvimtree.setup.view.side = "left"
-lvim.builtin.nvimtree.setup.view.mappings.list = {
-  { key = "<C-v>", action = "vsplit" },
-  { key = "<C-x>", action = "split" },
-}
+--lvim.builtin.alpha.active = true
+--lvim.builtin.alpha.mode = "dashboard"
+--lvim.builtin.terminal.active = true
+--lvim.builtin.nvimtree.setup.view.side = "left"
+--lvim.builtin.nvimtree.setup.view.mappings.list = {
+--  { key = "<C-v>", action = "vsplit" },
+--  { key = "<C-x>", action = "split" },
+--}
 lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
-lvim.builtin.telescope_project = { active = true }
 lvim.builtin.treesitter.ensure_installed = {
   "bash",
   "c",
@@ -252,7 +268,6 @@ lvim.builtin.treesitter.ensure_installed = {
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
 lvim.builtin.treesitter.highlight.enable = true
-
 -- generic LSP settings
 
 -- -- make sure server will always be installed even if the server is in skipped_servers list
@@ -330,8 +345,10 @@ lvim.builtin.treesitter.highlight.enable = true
 -- Additional Plugins
 lvim.plugins = {
     { "ellisonleao/gruvbox.nvim" },
-    { "Pocco81/auto-save.nvim" },
- }
+    {"mcchrish/nnn.vim" },
+    { "voldikss/vim-floaterm" },
+    { "ptzz/lf.vim" },
+}
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {
 --   pattern = { "*.json", "*.jsonc" },
