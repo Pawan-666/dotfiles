@@ -49,6 +49,7 @@ vim.opt.ignorecase = true         -- ignore case letters when search
 vim.opt.smartcase = true          -- ignore lowercase for the whole pattern
 vim.opt.hlsearch = false          -- remove highlighting after search
 
+lvim.keys.command_mode["w!!"] = "w !sudo tee > /dev/null %<CR>"
 lvim.keys.insert_mode["<C-e>"] = "<esc>$i<right>"
 lvim.keys.insert_mode["<C-a>"] = "<esc>0i"
 lvim.keys.normal_mode["T"] = ":Telescope buffers<CR>"

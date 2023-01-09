@@ -6,7 +6,7 @@ Plug 'voldikss/vim-floaterm'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'mcchrish/nnn.vim'
 Plug 'vimwiki/vimwiki'
-"Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
+Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
 Plug 'ferrine/md-img-paste.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'morhetz/gruvbox'
@@ -129,9 +129,9 @@ autocmd FileType markdown nmap <buffer><silent> <leader>P :call mdip#MarkdownCli
 "imap '4 ####<esc>a
 
 "map CTRL-E to end-of-line (insert mode)
-"imap <C-e> <esc>$i<right>
-""  " " map CTRL-A to beginning-of-line (insert mode)
-"imap <C-a> <esc>0i
+imap <C-e> <esc>$i<right>
+"map CTRL-A to beginning-of-line (insert mode)
+imap <C-a> <esc>0i
 
 
 " Wrapped lines goes down/up to next row, rather than next line in file.
