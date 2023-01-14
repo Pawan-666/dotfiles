@@ -53,6 +53,8 @@ lvim.keys.command_mode["w!!"] = "w !sudo tee > /dev/null %<CR>"
 lvim.keys.insert_mode["<C-e>"] = "<esc>$i<right>"
 lvim.keys.insert_mode["<C-a>"] = "<esc>0i"
 lvim.keys.normal_mode["T"] = ":Telescope buffers<CR>"
+lvim.keys.normal_mode["j"] = "gj"
+lvim.keys.normal_mode["k"] = "gk"
 lvim.keys.normal_mode["gt"] = ":BufferLineCycleNext<CR>"
 lvim.keys.normal_mode["gT"] = ":BufferLineCyclePrev<CR>"
 lvim.keys.normal_mode["<C-n>"] = ":BufferLineCycleNext<CR>"
@@ -62,8 +64,8 @@ lvim.keys.normal_mode["<Leader>s"] = ":w<CR>"
 lvim.keys.normal_mode["<Leader>d"] = ":bd<CR>"
 lvim.keys.normal_mode["<Leader>w"] = ":wa<CR>"
 lvim.keys.normal_mode["<Leader>q"] = ":qa!<CR>"
---lvim.keys.normal_mode["<C-t>"] = ":NnnPicker %:p:h<CR>"
-lvim.keys.normal_mode["<C-t>"] = ":Lf<CR>"
+lvim.keys.normal_mode["<C-t>"] = ":NnnPicker %:p:h<CR>"
+--lvim.keys.normal_mode["<C-t>"] = ":Lf<CR>"
 lvim.keys.normal_mode["<Leader><Leader>"] = "<C-^><CR>"
 --lvim.builtin.lualine.options.theme = "gruvbox"
 --lvim.builtin.lualine.style = "none" -- or "none"
@@ -347,8 +349,7 @@ lvim.builtin.treesitter.highlight.enable = true
 lvim.plugins = {
     { "ellisonleao/gruvbox.nvim" },
     {"mcchrish/nnn.vim" },
-    { "voldikss/vim-floaterm" },
-    { "ptzz/lf.vim" },
+--    { "voldikss/vim-floaterm" },
 }
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {
