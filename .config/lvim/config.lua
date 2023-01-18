@@ -1,7 +1,6 @@
 --[[
 lvim.builtin.which_key
 lvim is the global options object
-    
 -- Tabs, indent
 -----------------------------------------------------------
     
@@ -11,9 +10,9 @@ a global executable or a path to
 an executable
 ]]
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
-
 -- general
-lvim.log.level = "warn|debug"
+lvim.log.level = "warn"
+--lvim.log.level = "warn|debug"
 lvim.format_on_save.enabled = false
 lvim.transparent_window = true
 lvim.colorscheme = "gruvbox"
@@ -43,6 +42,7 @@ vim.opt.relativenumber = true     -- show relative distance between rows
 vim.opt.scrolloff = 10            -- keep 10 row buffer on screen edges
 vim.opt.foldmethod = 'marker'     -- enable folding (default 'foldmarker')
 --vim.opt.colorcolumn = '120'        -- line length marker at 80 columns
+--vim.opt.colorcolumn = true
 vim.opt.splitright = true         -- vertical split to the right
 vim.opt.splitbelow = true         -- horizontal split to the bottom
 vim.opt.ignorecase = true         -- ignore case letters when search
@@ -60,9 +60,11 @@ lvim.keys.normal_mode["gT"] = ":BufferLineCyclePrev<CR>"
 lvim.keys.normal_mode["<C-n>"] = ":BufferLineCycleNext<CR>"
 lvim.keys.normal_mode["<C-p>"] = ":BufferLineCyclePrev<CR>"
 --lvim.keys.normal_mode["<Leader>r"] = ":LspRestart<CR>"
+lvim.keys.normal_mode["<C-s>"] = ":w<CR>"
 lvim.keys.normal_mode["<Leader>s"] = ":w<CR>"
 lvim.keys.normal_mode["<Leader>d"] = ":bd<CR>"
 lvim.keys.normal_mode["<Leader>w"] = ":wa<CR>"
+lvim.keys.normal_mode["<Leader>a"] = ":ASToggle<CR>"
 lvim.keys.normal_mode["<Leader>q"] = ":qa!<CR>"
 lvim.keys.normal_mode["<C-t>"] = ":NnnPicker %:p:h<CR>"
 --lvim.keys.normal_mode["<C-t>"] = ":Lf<CR>"
@@ -349,6 +351,7 @@ lvim.builtin.treesitter.highlight.enable = true
 lvim.plugins = {
     { "ellisonleao/gruvbox.nvim" },
     {"mcchrish/nnn.vim" },
+    {"Pocco81/auto-save.nvim"},
 --    { "voldikss/vim-floaterm" },
 }
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
