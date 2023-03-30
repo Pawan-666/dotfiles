@@ -1,16 +1,16 @@
 #!/bin/bash
-tmux ls | grep init &> /dev/null
+tmux ls | grep init >& /dev/null
 if [[ $? != 0 ]]; then
 tmux new-session -s init -n lf -d
 #tmux send-keys -t init 'unclutter -idle 5 &;lf' C-m
-tmux send-keys -t init 'bash /home/pawan/bin/fehhh.sh;lf' C-m
+tmux send-keys -t init 'xcape -e 'Control_L=Escape' -t 200;bash /home/pawan/bin/fehhh.sh;lf' C-m
 #tmux new-window -n mpd -t init
 #tmux send-keys -t init 'mpd; ncmpcpp' C-m
-tmux new-window -n ViM -t init
+#tmux new-window -n ViM -t init
 #tmux send-keys -t init 'xcape -e 'Control_L=Escape' -t 200; cd ~/MEGAsync/wiki;vi index.md' C-m
-tmux send-keys -t init "xcape -e 'Control_L=Escape' -t 200;/usr/bin/vim ~/MEGAsync/wiki/index.md" C-m
+#tmux send-keys -t init "xcape -e 'Control_L=Escape' -t 200;/usr/bin/vim ~/MEGAsync/wiki/index.md" C-m
 tmux split-window -v -p 2
-tmux send-keys -t init ' flatpak run nz.mega.MEGAsync & sleep 4m; kill %1 ;exit' C-m
+tmux send-keys -t init ' flatpak run nz.mega.MEGAsync & sleep 4m; kill %1 ' C-m
 tmux new-window -n zsh -t init
 #tmux send-keys -t init ' flatpak run nz.mega.MEGAsync & flatpak run com.mattermost.Desktop & flatpak run com.skype.Client & flatpak run org.chromium.Chromium google.com & sleep 2m ;kill %1 ; bash' C-m
 #tmux new-window -n zsh1 -t init

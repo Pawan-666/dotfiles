@@ -563,3 +563,5 @@ Oct 18 15:49 : exception: Failed to open '/home/pawan/.mpd/state': No such file 
 Oct 18 15:49 : avahi: Service 'Music Player @ PM' successfully established.
 Oct 24 22:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Oct 24 22:22 : avahi: Service 'Music Player @ PM' successfully established.
+Jan 24 19:24 : zeroconf: No global port, disabling zeroconf
+Feb 17 15:36 : zeroconf: No global port, disabling zeroconf

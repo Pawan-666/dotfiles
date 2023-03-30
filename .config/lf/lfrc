@@ -86,7 +86,7 @@ cmd mkfile ${{
   read ans
   #sudo $EDITOR $ans
   touch $ans
-  vi $ans
+  lvim $ans
 }}
 
 cmd mkscript ${{
@@ -95,7 +95,7 @@ cmd mkscript ${{
   touch $ans
   chmod 770 $ans
   #sudo $EDITOR $ans
-  vi $ans
+  lvim $ans
 }}
 
 cmd exscript ${{
@@ -188,6 +188,10 @@ cmd vscode ${{
   code $f 
   }}
 
+cmd dolphin ${{
+  dolphin $f 
+  }}
+
 cmd kdeconnectx ${{
 clear; tput cup $(($(tput lines)/3)); tput bold
 set -f
@@ -253,6 +257,7 @@ map <c-j> open
 map e open
 map E exscript
 map V vscode
+map F dolphin
 map 
 #map x $$f
 #map X !$f

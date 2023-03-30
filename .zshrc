@@ -22,7 +22,7 @@ function mkdircd () { mkdir -p "$@"  && eval cd "\"\$$#\""; }
 
 
 HISTCONTROL=ignorespace
-HISTTIMEFORMAT="%Y-%m-%d %T "
+#HISTTIMEFORMAT="%Y-%m-%d %T "
 ### "bat" as manpager
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export CHEAT_USE_FZF=true
@@ -87,7 +87,7 @@ ZSH_THEME="alanpeabody"
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
- HIST_STAMPS="mm/dd/yyyy"
+ #HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -147,9 +147,11 @@ bindkey -s '^g' 'vim "$(find . -type f | fzf)";\n'
 #bindkey -s '^m' '^uncmpcpp\n'
 #bindkey -s '^e' '^uvim .\n'
 source ~/.custom-alias
+source ~/.open_ai_key
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 bindkey -s '^t' '^ulf\n'                       # binding C-t to open lf file browser
+# bindkey -s '^b' '^ulf /home/pawan/MEGAsync/wiki/my_blog/pawan/content/blog/\n'                       # binding C-t to open lf file browser

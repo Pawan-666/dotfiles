@@ -11,7 +11,9 @@ env:
   #    - "tmux"
   
 window:
-  opacity: 0.9
+  # opacity: 1
+  # opacity: 0.8
+  # opacity: 0.9
   decorations: none
   #  dimensions:
   #   columns: 100
@@ -164,7 +166,7 @@ key_bindings:
     #  - { key: PageDown, mods: Shift, action: ScrollPageDown, mode: ~Alt       }
     #  - { key: Home,     mods: Shift, action: ScrollToTop,    mode: ~Alt       }
     #  - { key: End,      mods: Shift, action: ScrollToBottom, mode: ~Alt       }
-    #  - { key: Space,  mods: Control,                 action: ToggleViMode            }
+  - { key: Space,  mods: Control,                 action: ToggleViMode            }
     #  - { key: N, mods: Control|Shift, action: SpawnNewInstance }
     #- { key: PageUp,   mods: Shift,   action: ScrollPageUp   }
     #- { key: PageDown, mods: Shift,   action: ScrollPageDown }

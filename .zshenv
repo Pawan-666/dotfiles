@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:$PATH
+#export PATH=$HOME/bin:$PATH
 
 export PATH=/home/pawan/bin:/usr/local/bin:/usr/local/go/bin:/home/pawan/.cargo/bin:/usr/local/sbin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pawan/.local/bin:/home/pawan/.fzf/bin:/home/pawan/go/bin
 #export PATH=/home/pawan/bin:/usr/local/bin:/home/pawan/bin:/usr/local/bin:/home/pawan/bin:/usr/local/bin:/home/pawan/.cargo/bin:/home/pawan/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pawan/.local/bin::/home/pawan/.fzf/bin

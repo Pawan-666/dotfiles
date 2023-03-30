@@ -5,7 +5,7 @@ alias v="lvim"
 alias vi="lvim"
 alias vim="lvim"
 alias rm='trash'
-alias u="sudo apt -y update; sudo apt  -y upgrade;pkcon refresh;pkcon update; sudo apt autoremove -y; flatpak -y update ;sudo snap refresh"
+alias u="sudo apt -y update; sudo apt  -y upgrade; sudo pkcon refresh; sudo pkcon update -y; sudo apt autoremove -y; flatpak -y update ;sudo snap refresh"
 alias config='/usr/bin/git --git-dir=/home/pawan/dotfiles/ --work-tree=/home/pawan'
 alias s='sudo $(fc -ln -1)'
 alias python="python3"
@@ -28,6 +28,7 @@ alias libreoffice="flatpak run org.libreoffice.LibreOffice &"
 alias skype="flatpak run com.skype.Client &"
 alias mega="flatpak run nz.mega.MEGAsync &"
 alias mattermost="flatpak run com.mattermost.Desktop &"
+alias dolphin="flatpak run org.kde.dolphin &"
 #alias kubectl="minikube kubectl --"
 alias viber="flatpak run com.viber.Viber &"
 alias lf="lfub"

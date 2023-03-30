@@ -12,5 +12,5 @@ map g~ cd ~
 map gS cd /home/pawan/Storage
 map gM cd /home/pawan/Storage/movies/Watched 
 map gU cd /home/pawan/Storage/movies/Main_event_UFC
-map gT cd /home/pawan/Downloads/torrents/
+map gT cd /home/pawan/.local/share/Trash/files/
 map gB cd /home/pawan/Downloads/Books

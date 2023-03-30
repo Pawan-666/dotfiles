@@ -1,3 +1,4 @@
+--vi .local/share/lunarvim/site/pack/packer/start/              # edit conf files
 --[[
 lvim.builtin.which_key
 lvim is the global options object
@@ -24,7 +25,9 @@ lvim.builtin.breadcrumbs.active = false
 lvim.builtin.project.active = false
 lvim.builtin.gitsigns.active = false
 lvim.builtin.lualine.active = false
+vim.opt.backspace = "indent,eol,start" -- allow backspace on indent, end of line or insert mode start position
 vim.opt.laststatus = 0
+-- vim.opt.iskeyword:append("-") -- consider string-string as whole word
 vim.opt.expandtab = true      -- use spaces instead of tabs
 vim.opt.shiftwidth = 2        -- shift 4 spaces when tab
 vim.opt.tabstop = 2           -- 1 tab == 4 spaces
@@ -51,6 +54,33 @@ vim.opt.hlsearch = false          -- remove highlighting after search
 lvim.keys.command_mode["w!!"] = "w !sudo tee > /dev/null %<CR>"
 lvim.keys.insert_mode["<C-e>"] = "<esc>$i<right>"
 lvim.keys.insert_mode["<C-a>"] = "<esc>0i"
+
+lvim.keys.normal_mode["<Leader>S"] = ":setlocal spell! spelllang=en_us<CR>"
+lvim.keys.normal_mode["<Leader>C"] = ":set cuc!<CR>"
+-- Markdown bindings
+
+lvim.keys.normal_mode["<Leader>M"] = ":MarkdownPreviewToggle<CR>"
+lvim.keys.insert_mode["'1"] = "# <esc>a"
+lvim.keys.insert_mode["'2"] = "## <esc>a"
+lvim.keys.insert_mode["'3"] = "### <esc>a"
+lvim.keys.insert_mode["'4"] = "#### <esc>a"
+lvim.keys.insert_mode["'5"] = "##### <esc>a"
+lvim.keys.insert_mode["'B"] = "____<esc>hi"
+lvim.keys.insert_mode["'T"] = '+++<CR>title = "Blog_title"<CR>date = 2023-02-01<CR>+++<CR><CR>'
+lvim.keys.insert_mode["'I"] = "**<esc>i"
+lvim.keys.normal_mode["'p"] = ":PasteImg<CR>"
+lvim.keys.insert_mode["'M"] = "``<esc>i"
+lvim.keys.insert_mode["'R"] = "---<CR>"
+lvim.keys.insert_mode["'L"] = "[]()<esc>Ba"
+-- lvim.keys.insert_mode["'C"] = "```sh```<esc>2hi<CR><CR><esc>hi"
+lvim.keys.insert_mode["'C"] = "``````<esc>2hi<CR><CR><esc>hi"
+lvim.keys.insert_mode["'b"] = "    "
+
+--lvim.keys.insert_mode["'r"] = "---<esc>Ojjj2ojji"
+--lvim.keys.insert_mode["'l"] = "[](https://.com)<esc>Ba"
+--lvim.keys.insert_mode["'p"] = "![Image](s '')<esc>hi"
+--lvim.keys.insert_mode["'c"] = "``````<esc>2hi<CR><esc>O"
+
 lvim.keys.normal_mode["T"] = ":Telescope buffers<CR>"
 lvim.keys.normal_mode["j"] = "gj"
 lvim.keys.normal_mode["k"] = "gk"
@@ -61,6 +91,8 @@ lvim.keys.normal_mode["<C-p>"] = ":BufferLineCyclePrev<CR>"
 --lvim.keys.normal_mode["<Leader>r"] = ":LspRestart<CR>"
 lvim.keys.normal_mode["<C-s>"] = ":w<CR>"
 lvim.keys.normal_mode["<Leader>s"] = ":w<CR>"
+-- lvim.keys.normal_mode["<Leader>B"] = ":%s/\s\+$//e<CR>"        # remove trailing whitespaces
+-- lvim.keys.normal_mode["<Leader>B"] = ":match ErrorMsg '\s\+$'<CR>"
 lvim.keys.normal_mode["<Leader>d"] = ":bd<CR>"
 lvim.keys.normal_mode["<Leader>w"] = ":wa<CR>"
 lvim.keys.normal_mode["<Leader>a"] = ":ASToggle<CR>"
@@ -351,7 +383,9 @@ lvim.plugins = {
     { "ellisonleao/gruvbox.nvim" },
     {"mcchrish/nnn.vim" },
     {"Pocco81/auto-save.nvim"},
---    { "voldikss/vim-floaterm" },
+    { "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" },},
+    { 'glacambre/firenvim', run = function() vim.fn['firenvim#install'](0) end },
+    {'ekickx/clipboard-image.nvim'},
 }
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {
@@ -366,3 +400,4 @@ lvim.plugins = {
 --     require("nvim-treesitter.highlight").attach(0, "bash")
 --   end,
 -- })
+-- Sample configuration is supplied

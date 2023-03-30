@@ -41,8 +41,8 @@ nnoremap <expr> 0 (col('.') == 1) ? '^' : '0'
 
 " Start n³ in the current file's directory
 "nnoremap <leader>n :NnnPicker %:p:h<CR>
-"nnoremap <C-t> :NnnPicker %:p:h<CR>
-nnoremap <C-t> :NnnExplorer %:p:h<CR>
+nnoremap <C-t> :NnnPicker %:p:h<CR>
+" nnoremap <C-t> :NnnExplorer %:p:h<CR>
 
 " Or pass a dictionary with window size
 let g:nnn#layout = { 'left': '~25%' } " or right, up, down
@@ -97,18 +97,19 @@ autocmd FileType markdown nmap <buffer><silent> <leader>P :call mdip#MarkdownCli
 " let g:mdip_imgname = 'image'
 
 "Markdown shortcuts
-"imap 'b ____<esc>hi
-"imap 'i **<esc>i
-"imap 'I ******<esc>2hi
-"imap 'r ---<esc>Ojjj2ojji
+imap 'B ____<esc>hi
+imap 'm ````<esc>hi
+imap 'i **<esc>i
+imap 'I ******<esc>2hi
+imap 'r ---<esc>Ojjj2ojji
 "imap 'u <><esc>i
-"imap 'li [![Image](s "t")](https://.com)
-""To emphasize links, add asterisks before and after the brackets and parentheses. To denote links as code, add backticks in the brackets.
-"imap 'l [](https://.com t)<esc>2Ba
-"imap 'a <abbr title=""></abbr><esc>2bla
-"imap 'p ![Image](s "")<esc>hi
-""Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs
-"imap 'q ><esc>a
+imap 'li [![Image](s "t")](https://.com)
+"To emphasize links, add asterisks before and after the brackets and parentheses. To denote links as code, add backticks in the brackets.
+imap 'l [](https://.com)<esc>Ba
+imap 'a <abbr title=""></abbr><esc>2bla
+imap 'p ![Image](s "")<esc>hi
+"Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs
+"imap 'q <esc>a
 ""nested blockquotes
 "imap 'q2 >><esc>a
 "imap 'qb >____<esc>ha
@@ -117,16 +118,17 @@ autocmd FileType markdown nmap <buffer><silent> <leader>P :call mdip#MarkdownCli
 "imap 'q4 >>>><esc>a
 "imap 'q5 >>>>><esc>a
 "imap 'q6 >>>>>><esc>a
-"imap 'c ``<esc>i
-"imap 'cb ``````<esc>2hi<CR><esc>O
-"imap 'cs ```sh```<esc>2hi<CR><esc>O
-"imap 'cp ```python```<esc>2hi<CR><esc>O
-"imap 'ch ```html```<esc>2hi<CR><esc>O
-"imap 'cj ```js```<esc>2hi<CR><esc>O
-"imap '1 #<esc>a
-"imap '2 ##<esc>a
-"imap '3 ###<esc>a
-"imap '4 ####<esc>a
+" imap 'c ``<esc>i
+imap 'b ``````<esc>2hi<CR><esc>O
+imap 'cs ```sh```<esc>2hi<CR><esc>O
+imap 'cp ```python```<esc>2hi<CR><esc>O
+imap 'ch ```html```<esc>2hi<CR><esc>O
+imap 'cj ```js```<esc>2hi<CR><esc>O
+imap '1 # <esc>a
+imap '2 ## <esc>a
+imap '3 ### <esc>a
+imap '4 #### <esc>a
+imap '5 ##### <esc>a
 
 "map CTRL-E to end-of-line (insert mode)
 imap <C-e> <esc>$i<right>
