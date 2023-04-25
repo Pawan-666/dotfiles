@@ -13,7 +13,7 @@ export SUDO_EDITOR="lvim"
 export VIDEO="mpv"
 export READER="Okular"
 export COLORTERM="truecolor"
-#export TERMINAL="Alacritty"
+export TERMINAL="Alacritty"
 export BROWSER="firefox"
 
 

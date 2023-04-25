@@ -57,6 +57,9 @@ lvim.keys.insert_mode["<C-a>"] = "<esc>0i"
 
 lvim.keys.normal_mode["<Leader>S"] = ":setlocal spell! spelllang=en_us<CR>"
 lvim.keys.normal_mode["<Leader>C"] = ":set cuc!<CR>"
+lvim.keys.normal_mode["<Leader>n"] = ":set nu! rnu!<CR>"
+lvim.keys.normal_mode["<Leader>n"] = ":set nu! rnu!<CR>"
+lvim.keys.normal_mode["<Leader>z"] = ":ZenMode<CR>"
 -- Markdown bindings
 
 lvim.keys.normal_mode["<Leader>M"] = ":MarkdownPreviewToggle<CR>"
@@ -81,7 +84,7 @@ lvim.keys.insert_mode["'b"] = "    "
 --lvim.keys.insert_mode["'p"] = "![Image](s '')<esc>hi"
 --lvim.keys.insert_mode["'c"] = "``````<esc>2hi<CR><esc>O"
 
-lvim.keys.normal_mode["T"] = ":Telescope buffers<CR>"
+-- lvim.keys.normal_mode["T"] = ":Telescope buffers<CR>"
 lvim.keys.normal_mode["j"] = "gj"
 lvim.keys.normal_mode["k"] = "gk"
 lvim.keys.normal_mode["gt"] = ":BufferLineCycleNext<CR>"
@@ -386,6 +389,7 @@ lvim.plugins = {
     { "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" },},
     { 'glacambre/firenvim', run = function() vim.fn['firenvim#install'](0) end },
     {'ekickx/clipboard-image.nvim'},
+    {"folke/zen-mode.nvim"},
 }
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {

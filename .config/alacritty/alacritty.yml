@@ -13,7 +13,7 @@ env:
 window:
   # opacity: 1
   # opacity: 0.8
-  # opacity: 0.9
+  opacity: 0.9
   decorations: none
   #  dimensions:
   #   columns: 100
@@ -47,7 +47,7 @@ font:
      # Italic:
      #   family: JetBrains Mono Nerd font
      #   style: Italic
- size: 13
+ size: 14
 
  offset:
    x: 0

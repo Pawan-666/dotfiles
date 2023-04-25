@@ -3,7 +3,7 @@ alias ls="logo-ls"
 #alias tree='ls --tree'
 alias v="lvim"
 alias vi="lvim"
-alias vim="lvim"
+alias vim="vim"
 alias rm='trash'
 alias u="sudo apt -y update; sudo apt  -y upgrade; sudo pkcon refresh; sudo pkcon update -y; sudo apt autoremove -y; flatpak -y update ;sudo snap refresh"
 alias config='/usr/bin/git --git-dir=/home/pawan/dotfiles/ --work-tree=/home/pawan'
@@ -23,11 +23,10 @@ alias ncdu="ncdu --color dark"
 alias docker-compose="docker compose"
 alias d="dict"
 alias telegram="flatpak run org.telegram.desktop &"
+alias dbeaver="flatpak run io.dbeaver.DBeaverCommunity &"
 alias qbittorrent="flatpak run org.qbittorrent.qBittorrent &"
 alias libreoffice="flatpak run org.libreoffice.LibreOffice &"
-alias skype="flatpak run com.skype.Client &"
 alias mega="flatpak run nz.mega.MEGAsync &"
-alias mattermost="flatpak run com.mattermost.Desktop &"
 alias dolphin="flatpak run org.kde.dolphin &"
 #alias kubectl="minikube kubectl --"
 alias viber="flatpak run com.viber.Viber &"
@@ -45,3 +44,4 @@ alias burp="cd /home/pawan/Downloads/'burpsuite pro creacked'/burp && java -nove
 
 alias xclip="xclip -sel clip"
 alias sshek="ssh -i ~/.ssh/id_rsa_ek"
+alias t="terraform"

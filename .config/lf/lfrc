@@ -14,8 +14,9 @@
 #    that creates the environment for ueberzug. This command can be be aliased
 #    in your shellrc (`alias lf="lfub") or if set to a binding, should be
 #    called directly instead of normal lf.
-
+#
 # Basic vars
+
 set shellopts '-eu'
 set ifs "\n"
 set scrolloff 10
@@ -117,7 +118,7 @@ cmd sudomkfile ${{
 cmd mkd ${{
   printf "Dir Name:"
   read ans
-  mkdir -p $ans
+  mkdir -p $ans && cd $_
 }}
 
 cmd sudomkdir ${{
@@ -201,6 +202,15 @@ read ans
 [ $ans = "y" ] && kdeconnect-cli --share $fx -n SM-A037F
 }}
 
+cmd toggle_preview %{{
+    if [ "$lf_preview" = "true" ]; then
+        lf -remote "send $id :set preview false; set ratios 1:5"
+    else
+        lf -remote "send $id :set preview true; set ratios 1:2:3"
+    fi
+}}
+
+map tp toggle_preview
 # Bindings
 # Remove some defaults
 map m
@@ -287,8 +297,6 @@ map di dragon-individual
 #map dl dlfile
 
 map KX kdeconnectx
-
-
 # Source Bookmarks
 source "~/.config/lf/shortcutrc"
 
