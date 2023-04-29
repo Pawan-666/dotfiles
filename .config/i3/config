@@ -10,7 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 for_window [class="^.*"] border pixel 2
 # for_window [class="Alacritty"] move to workspace $ws1
-for_window [class="firefox"] move to workspace $ws2
+# for_window [class="firefox"] move to workspace $ws2
 for_window [class="Mattermost"] move to workspace $ws3
 for_window [class="Skype"] move to workspace $ws4
 # for_window [urgent=latest] focus
@@ -231,14 +231,15 @@ bar {
 bindsym $mod1+Control+s exec i3lock && systemctl suspend
 # bindsym $mod+shift+x exec i3lock
 bindsym $mod+s exec flameshot gui
-bindsym $mod+semicolon exec xkill
+# bindsym $mod+semicolon exec xkill
+bindsym $mod+b exec btup
 bindsym $mod1+w exec sh -c 'firefox --url https://www.dictionary.com/browse/$(xclip -o)'
 exec firefox
-exec alacritty
+exec --no-startup-id alacritty
 exec skypeforlinux
-exec picom -f &
+exec_always picom -f &
 exec_always setxkbmap -option "ctrl:swapcaps"
 exec_always xcape -e Control_L=Escape -t 200 
-exec bash -c 'xset r rate 300 50 &'
+# exec bash -c 'xset r rate 300 50 &'
 exec_always dunst &
 exec_always feh --bg-scale --randomize /home/pawan/test/images/*
