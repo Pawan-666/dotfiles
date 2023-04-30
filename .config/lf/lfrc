@@ -118,7 +118,7 @@ cmd sudomkfile ${{
 cmd mkd ${{
   printf "Dir Name:"
   read ans
-  mkdir -p $ans && cd $_
+  mkdir -p $ans
 }}
 
 cmd sudomkdir ${{

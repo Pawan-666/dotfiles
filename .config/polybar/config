@@ -1,6 +1,6 @@
 [colors]
-#background = #1a1e23
-background = #aa2F343F
+background = #1a1e23
+;background = #aa2F343F
 background-alt = #373B41
 foreground = #d2d4d3
 primary = #009999
@@ -73,6 +73,8 @@ label-urgent-padding = 1
 label-empty = %name%
 label-empty-foreground = ${colors.disabled}
 label-empty-padding = 1
+
+
 
 [module/load_avg]
 type = custom/script
