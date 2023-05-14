@@ -5,16 +5,21 @@
 # terminal emulator
 alt + Return
 	alacritty
-
 ctrl + alt + s
   xsecurelock
+alt + shift + s
+  sudo pm-suspend
+
+
+alt + w
+  /home/pawan/bin/selected_word_dictionary_search.sh
 
 # program launcher
 alt + @space
 	dmenu_run
 
-super + i
-source ~/.xinitrc
+alt + r
+ source ~/.xinitrc
 
 super + s
   flameshot gui
@@ -26,14 +31,20 @@ super + Escape
 XF86MonBrightness{Up,Down}  
   sudo brightnessctl s 10{+,-}  
  
+super + {Up,Down}
+  pactl set-sink-volume @DEFAULT_SINK@ {+,-}10%
+
+super + {Left,Right}
+  sudo brightnessctl s 10{-,+}  
+
 XF86Audio{Raise,Lower}Volume  
   pactl set-sink-volume @DEFAULT_SINK@ {+,-}10%
  
 XF86AudioMute  
   pactl set-sink-volume @DEFAULT_SINK@ 0%
 
-super + m
-  pactl set-sink-volume @DEFAULT_SINK@ 0%
+# super + m
+#   pactl set-sink-volume @DEFAULT_SINK@ 0%
 
 #
 # bspwm hotkeys
@@ -47,7 +58,7 @@ ctrl + alt + {q,r}
 # close and kill
 # super + {_,shift + }w
 alt + {_,shift + }semicolon
-	bspc node -{c,k}
+  bspc node -{c,k}
 
 super + {_,shift + }semicolon
 	bspc node -{c,k}
@@ -117,7 +128,7 @@ alt + {grave,Tab}
 # focus or send to the given desktop
 # super + {_,shift + }{1-9,0}
 alt + {_,ctrl + }{1-9,0}
-	bspc {desktop -f,node -d} '{1-9,0}'
+	bspc {desktop -f,node -d} '{1-9,0}' 
 
 #
 # preselect

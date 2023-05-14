@@ -42,6 +42,18 @@ alias onedown='nmcli connection up EK-WIFI'
 alias ekdown='nmcli connection down EK-WIFI'
 alias burp="cd /home/pawan/Downloads/'burpsuite pro creacked'/burp && java -noverify -javaagent:burploader.jar -jar burpsuite_pro_v2021.4.3.jar"
 
+alias mattermost="flatpak run com.mattermost.Desktop &"
 alias xclip="xclip -sel clip"
 alias sshek="ssh -i ~/.ssh/id_rsa_ek"
 alias t="terraform"
+alias ga="git add"
+alias gf="git fetch"
+alias gs="git status"
+alias gl="git log"
+alias gp="git pull"
+alias gpo="git push origin"
+alias gco="git checkout"
+alias gc="git commit -m"
+alias gb="git branch"
+alias gbr="git branch -r"
+

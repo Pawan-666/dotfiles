@@ -31,7 +31,7 @@ font-0 = "JetBrainsMono Nerd Font:size=11;2"
 
 modules-left = xworkspaces xwindow
 #modules-right = sep lan_ip pulseaudio ram_usage load_avg cpu disk date tray
-modules-right = pulseaudio lan_ip  ram_usage load_avg cpu uptime disk date tray
+modules-right = pulseaudio lan_ip  ram_usage load_avg cpu uptime disk date battery tray
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -43,7 +43,7 @@ tray-offset-x = 0
 tray-detached = true
 
 ; wm-restack = generic
-; wm-restack = bspwm
+wm-restack = bspwm
 ; wm-restack = i3
 
 ; override-redirect = true
@@ -88,7 +88,7 @@ interval = 60
 
 [module/tray]
 type = custom/script
-exec = echo "    "
+exec = echo "       "
 interval = 1800
 
 [module/xwindow]
@@ -183,7 +183,7 @@ poll-interval = 2
 time-format = %H:%M
 
 format-charging = <label-charging>
-format-charging-prefix = "BAT "
+;format-charging-prefix = "BAT "
 format-charging-prefix-background = ${colors.background}
 format-charging-prefix-foreground = ${colors.primary}
 format-charging-background = ${colors.background}

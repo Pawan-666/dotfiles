@@ -3,7 +3,8 @@ tmux ls | grep init >& /dev/null
 if [[ $? != 0 ]]; then
 tmux new-session -s init -n lf -d
 #tmux send-keys -t init 'unclutter -idle 5 &;lf' C-m
-tmux send-keys -t init 'xset r rate 300 50;lf' C-m
+# tmux send-keys -t init 'xset r rate 300 50;lf' C-m
+tmux send-keys -t init 'lf' C-m
 #tmux new-window -n mpd -t init
 #tmux send-keys -t init 'mpd; ncmpcpp' C-m
 #tmux new-window -n ViM -t init
