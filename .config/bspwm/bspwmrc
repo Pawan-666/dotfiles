@@ -19,6 +19,7 @@ fi
 $HOME/.config/polybar/launch.sh
 feh --bg-scale --randomize /home/pawan/test/images/* &
 
+
 # bspc monitor -d I II III IV V VI VII VIII IX X 
 bspc monitor HDMI1 -d 6 7 8 9 0 
 bspc monitor eDP1 -d 1 2 3 4 5  

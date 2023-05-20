@@ -19,7 +19,7 @@ alt + @space
 	dmenu_run
 
 alt + r
- source ~/.xinitrc
+ source /home/pawan/bin/keys_remap_reload.sh
 
 super + s
   flameshot gui

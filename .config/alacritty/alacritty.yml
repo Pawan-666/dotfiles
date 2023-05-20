@@ -1,6 +1,6 @@
 env:
-  #TERM: screen-256color
-  #TERM: alacritty
+  # TERM: screen-256color
+  # TERM: alacritty
   TERM: xterm-256color
 
  #shell:
@@ -20,9 +20,9 @@ window:
   #   columns: 100
   #   lines: 26
     
-  padding:
-    x: 3
-    y: 3
+  # padding:
+  #   x: 3
+  #   y: 3
 
   dynamic_padding: false
 
@@ -55,8 +55,8 @@ font:
    y: 0
 
  glyph_offset:
-   x: 1
-   y: 1
+   x: 0
+   y: 0
 colors:
      # Default colors
  primary:

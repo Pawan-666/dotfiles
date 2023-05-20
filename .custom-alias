@@ -56,4 +56,5 @@ alias gco="git checkout"
 alias gc="git commit -m"
 alias gb="git branch"
 alias gbr="git branch -r"
+alias gr="git remote -v"
 

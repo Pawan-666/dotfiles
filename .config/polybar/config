@@ -31,7 +31,8 @@ font-0 = "JetBrainsMono Nerd Font:size=11;2"
 
 modules-left = xworkspaces xwindow
 #modules-right = sep lan_ip pulseaudio ram_usage load_avg cpu disk date tray
-modules-right = pulseaudio lan_ip  ram_usage load_avg cpu uptime disk date battery tray
+#modules-right =ram_usage load_avg cpu uptime disk date lan_ip pulseaudio battery tray
+modules-right =ram_usage load_avg cpu uptime disk date lan_ip pulseaudio battery tray
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -39,8 +40,8 @@ cursor-scroll = ns-resize
 enable-ipc = true
 
 tray-position = right
-tray-offset-x = 0
-tray-detached = true
+#tray-offset-x = 0
+tray-detached = false
 
 ; wm-restack = generic
 wm-restack = bspwm
@@ -78,38 +79,67 @@ label-empty-padding = 1
 
 [module/load_avg]
 type = custom/script
+;format-prefix = "  "
 exec = cut -d " " -f 1-3 /proc/loadavg 
+click-left = alacritty -e btop
+click-right = alacritty -e btop
 interval = 5
 
 [module/uptime]
 type = custom/script
-exec = echo "$(uptime -p | tr -d ,)"
+exec = echo "$(uptime -p | awk -F'[ ,:]+' '{printf "%d hours\n", $4*24 + $6}')"
+#exec = echo "$(uptime -p | tr -d ,)"
 interval = 60
 
-[module/tray]
-type = custom/script
-exec = echo "       "
-interval = 1800
+#[module/tray]
+#type = custom/script
+#exec = echo "       "
+#interval = 1800
 
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:60:...%
 
+;[module/pulseaudio]
+;type = internal/pulseaudio
+;#format-volume-prefix = "VOL "
+;#format-volume-prefix-foreground = ${colors.primary}
+;#format-volume = <label-volume>
+;label-volume = %percentage%%
+;label-muted = muted
+;label-muted-foreground = ${colors.disabled}
+;
+;[module/memory]
+;type = internal/memory
+;interval = 5
+;format-prefix = "RAM "
+;format-prefix-foreground = ${colors.primary}
+;label = %gb_used%
+
+
 [module/pulseaudio]
 type = internal/pulseaudio
-#format-volume-prefix = "VOL "
-#format-volume-prefix-foreground = ${colors.primary}
-#format-volume = <label-volume>
-label-volume = %percentage%%
-label-muted = muted
-label-muted-foreground = ${colors.disabled}
-
-[module/memory]
-type = internal/memory
 interval = 5
-format-prefix = "RAM "
-format-prefix-foreground = ${colors.primary}
-label = %gb_used%
+
+format-volume = <ramp-volume> <label-volume>
+format-volume-background = ${colors.background}
+format-volume-padding = 1
+format-volume-foreground = ${colors.foreground} 
+format-muted = <label-muted>
+format-muted-prefix = "婢 "
+format-muted-background = ${colors.background}
+format-muted-padding = 0
+format-muted-prefix-foreground = ${colors.foreground}
+
+
+label-muted = "Muted"
+label-muted-foreground = ${colors.foreground} 
+ramp-volume-0 = 奔 
+ramp-volume-1 = 奔
+ramp-volume-2 = 墳
+
+click-right = pavucontrol &
+click-middle = simplescreenrecorder &
 
 [module/nepcal]
 type = custom/script
@@ -135,15 +165,26 @@ interval = 60
 
 [module/lan_ip]
 type = custom/script
+#format-prefix = " " 
 exec = ip -br addr show enp2s0 | awk '{print $3}' | cut -f 1 -d '/'
 interval = 3
+click-right = alacritty -e mtr google.com
+click-left = alacritty -e watch curl ifconfig.io
+
+[module/date]
+type = custom/script
+#format-prefix = " " 
+click-left = alacritty -e watch nepcal
+exec = date '+%a %d %b %I:%M:%S'
+interval = 5
+
 
 [module/cpu]
 type = internal/cpu
 interval = 5
 #format-prefix = "CPU "
-#format-prefix-foreground = ${colors.primary}
 label = %percentage:2%%
+#format-prefix-foreground = ${colors.primary}
 
 [network-base]
 type = internal/network
@@ -157,32 +198,13 @@ inherit = network-base
 interface-type = wireless
 label-connected = %{F#009999}NET%{F-} %essid%
 
-[module/date]
-type = internal/date
-interval = 1
-
-date = %A, %d %B - %H:%M
-date-alt = %H:%M
-
-label = %date%
-label-foreground = ${colors.foreground}
-
-[settings]
-screenchange-reload = true
-pseudo-transparency = true
-
-; vim:ft=dosini
 
 [module/battery]
 type = internal/battery
-
-full-at = 98
 battery = BAT1
 adapter = ACAD
 poll-interval = 2
 time-format = %H:%M
-
-format-charging = <label-charging>
 ;format-charging-prefix = "BAT "
 format-charging-prefix-background = ${colors.background}
 format-charging-prefix-foreground = ${colors.primary}
@@ -197,9 +219,10 @@ format-discharging-prefix = "BAT "
 format-discharging-prefix-background = ${colors.background}
 format-discharging-prefix-foreground = ${colors.primary}
 format-full = <label-full>
+;format-full-prefix = "   "
 format-full-background = ${colors.background}
 format-full-foreground = ${colors.foreground}
 format-full-padding = 0
 label-charging = "%percentage%%"
 label-discharging = "%percentage%%"
-label-full = "Full"
+label-full = " "
