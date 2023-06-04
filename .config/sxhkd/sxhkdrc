@@ -19,7 +19,7 @@ alt + @space
 	dmenu_run
 
 alt + r
- source /home/pawan/bin/keys_remap_reload.sh
+  bspc wm -r
 
 super + s
   flameshot gui
@@ -43,8 +43,8 @@ XF86Audio{Raise,Lower}Volume
 XF86AudioMute  
   pactl set-sink-volume @DEFAULT_SINK@ 0%
 
-# super + m
-#   pactl set-sink-volume @DEFAULT_SINK@ 0%
+super + m
+  pactl set-sink-volume @DEFAULT_SINK@ {0%,100%}
 
 #
 # bspwm hotkeys
@@ -73,8 +73,8 @@ alt + m
 # 	bspc node newest.marked.local -n newest.!automatic.local
 
 # swap the current node and the biggest window
-super + g
-	bspc node -s biggest.window
+#super + g
+#	bspc node -s biggest.window
 
 #
 # state/flags
@@ -85,8 +85,8 @@ super + g
 #	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # set the node flags
-super + ctrl + {m,x,y,z}
-	bspc node -g {marked,locked,sticky,private}
+#super + ctrl + {m,x,y,z}
+#	bspc node -g {marked,locked,sticky,private}
 
 #
 # focus/swap
@@ -97,7 +97,7 @@ super + {h,j,k,l}
 # focus the node in the given direction
 ctrl + alt + {h,j,k,l}
 # alt + {_,ctrl + }{h,j,k,l}
-	bspc node -s {west,south,north,east}
+	bspc node -s {west,south,north,east} --follow
 # super + {_,ctrl + }{h,l}
 # 	bspc node -{f,s} {west,east}
 
@@ -114,8 +114,8 @@ ctrl + alt + {h,j,k,l}
 # 	bspc desktop -f {prev,next}.local
 
 # focus the last node/desktop
-super + {grave,Tab}
-	bspc {node,desktop} -f last
+#super + {grave,Tab}
+#	bspc {node,desktop} -f last
 
 alt + {grave,Tab}
 	bspc {node,desktop} -f last
@@ -128,7 +128,7 @@ alt + {grave,Tab}
 # focus or send to the given desktop
 # super + {_,shift + }{1-9,0}
 alt + {_,ctrl + }{1-9,0}
-	bspc {desktop -f,node -d} '{1-9,0}' 
+	bspc {desktop -f,node -d} '{1-9,0}' --follow
 
 #
 # preselect
@@ -156,9 +156,15 @@ alt + {_,ctrl + }{1-9,0}
 #
 
 # expand a window by moving one of its side outward
-super + shift + {h,j,k,l}
-	bspc node -z {right -20 0,bottom 0 20,bottom 0 -20,right 20 0}
+#super + shift + {h,j,k,l}
+#	bspc node -z {right -20 0,bottom 0 20,bottom 0 -20,right 20 0}
 
+
+# Expand/contract a window by moving one of its side outward/inward
+super + r : {h,j,k,l}
+    STEP=20; SELECTION={1,2,3,4}; \
+    bspc node -z $(echo "left -$STEP 0,bottom 0 $STEP,top 0 -$STEP,right $STEP 0" | cut -d',' -f$SELECTION) || \
+    bspc node -z $(echo "right -$STEP 0,top 0 $STEP,bottom 0 -$STEP,left $STEP 0" | cut -d',' -f$SELECTION)
 # contract a window by moving one of its side inward
 # super + alt + shift + {h,j,k,l}
 # 	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}

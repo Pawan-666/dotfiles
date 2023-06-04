@@ -17,16 +17,21 @@ xrandr --output HDMI-1 --set TearFree on
 fi
 
 $HOME/.config/polybar/launch.sh
-feh --bg-scale --randomize /home/pawan/test/images/* &
+#feh --bg-scale --randomize /home/pawan/test/images/* &
 
+
+wal -q -i /home/pawan/test/images/ -s
 
 # bspc monitor -d I II III IV V VI VII VIII IX X 
-bspc monitor HDMI1 -d 6 7 8 9 0 
-bspc monitor eDP1 -d 1 2 3 4 5  
+bspc monitor HDMI1 -d  7 8 9 0 
+bspc monitor eDP1 -d 1 2 3 4   
 
 bspc config border_width         1
-bspc config window_gap           3
-bspc config focused_border_color "#FFFFFF"
+bspc config window_gap           1
+bspc config focused_border_color "#4caf50"               #green
+#bspc config focused_border_color "#ff0000"
+#bspc config focused_border_color "#D30000"
+#bspc config focused_border_color "#FFFFFF"
 bspc config focus_follows_pointer true
 
 bspc config split_ratio          0.52

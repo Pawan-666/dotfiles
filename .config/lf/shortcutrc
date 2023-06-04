@@ -9,9 +9,9 @@ map gl cd /home/pawan/MEGAsync/wiki/linux
 map gm cd /home/pawan/Music
 map g/ cd /
 map g~ cd ~
-map gS cd /home/pawan/Storage
-map gM cd /home/pawan/Storage/movies/Watched 
-map gU cd /home/pawan/Storage/movies/Main_event_UFC
+map gh cd ~
+map gM cd /home/pawan/Storage
 map gT cd /home/pawan/.local/share/Trash/files/
 map gB cd /home/pawan/Downloads/Books
 map gb cd /home/pawan/MEGAsync/wiki/my_blog/pawan/content/blog/
+map gS cd /home/pawan/.tmux_files/
