@@ -4,6 +4,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 pgrep -x picom > /dev/null || picom -f &
 pgrep -x dunst > /dev/null || dunst &
 pgrep -x flameshot > /dev/null || flameshot &
+
 setxkbmap -option "ctrl:swapcaps" &
 xcape -e Control_L=Escape -t 200  &
 xset r rate 300 50  &

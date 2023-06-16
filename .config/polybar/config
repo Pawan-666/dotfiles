@@ -1,12 +1,21 @@
 [colors]
-background = #1a1e23
+;background = #1a1e23
 ;background = #aa2F343F
-background-alt = #373B41
-foreground = #d2d4d3
-primary = #009999
-secondary = #009999
-alert = #A54242
+;background-alt = #373B41
+;foreground = #d2d4d3
+;primary = #009999
+;secondary = #009999
+;alert = #A54242
 disabled = #707880
+
+;background = ${xrdb:color1:#50000000}
+background = #aa2F343F
+background-alt = ${xrdb:color2:#444}
+foreground = ${xrdb:color7:#dfdfdf}
+;foreground-alt = ${xrdb:color6:#555}
+primary = #ffb52a
+secondary = #e60053
+alert = #bd2c40
 
 [bar/example]
 width = 100%

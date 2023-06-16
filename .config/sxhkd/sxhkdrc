@@ -11,6 +11,7 @@ alt + shift + s
   sudo pm-suspend
 
 
+
 alt + w
   /home/pawan/bin/selected_word_dictionary_search.sh
 
@@ -68,8 +69,10 @@ super + {_,shift + }semicolon
 alt + m
 	bspc desktop -l next
 
+super + t
+  bspc node focused.tiled -t floating || bspc node focused.floating -t tiled
 # send the newest marked node to the newest preselected node
-# super + y
+# super + s
 # 	bspc node newest.marked.local -n newest.!automatic.local
 
 # swap the current node and the biggest window
