@@ -9,6 +9,7 @@ setxkbmap -option "ctrl:swapcaps" &
 xcape -e Control_L=Escape -t 200  &
 xset r rate 300 50  &
 
+wal -q -i /home/pawan/test/images/ -s
 
 #if [[ $(xrandr -q | grep 'HDMI-1 connected') ]]; then
 if [[ $(xrandr -q | grep 'HDMI1 connected') ]]; then
@@ -18,10 +19,9 @@ xrandr --output HDMI-1 --set TearFree on
 fi
 
 $HOME/.config/polybar/launch.sh
+
 #feh --bg-scale --randomize /home/pawan/test/images/* &
 
-
-wal -q -i /home/pawan/test/images/ -s
 
 # bspc monitor -d I II III IV V VI VII VIII IX X 
 bspc monitor HDMI1 -d  7 8 9 0 

@@ -14,7 +14,8 @@ background-alt = ${xrdb:color2:#444}
 foreground = ${xrdb:color7:#dfdfdf}
 ;foreground-alt = ${xrdb:color6:#555}
 primary = #ffb52a
-secondary = #e60053
+secondary1 = #000000
+secondary = #cc0000
 alert = #bd2c40
 
 [bar/example]
@@ -39,9 +40,7 @@ separator-foreground = ${colors.disabled}
 font-0 = "JetBrainsMono Nerd Font:size=11;2"
 
 modules-left = xworkspaces xwindow
-#modules-right = sep lan_ip pulseaudio ram_usage load_avg cpu disk date tray
-#modules-right =ram_usage load_avg cpu disk date lan_ip pulseaudio battery tray
-modules-right =ram_usage load_avg cpu disk lan_ip date pulseaudio battery dunst tray
+modules-right = ram_usage load_avg cpu temperature disk wired lan_ip wlan date pulseaudio battery xkeyboard dunst tray 
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -58,13 +57,6 @@ wm-restack = bspwm
 
 ; override-redirect = true
 
-[module/dunst]
-type = custom/ipc
-initial = 1
-format-foreground = ${colors.yellow}
-
-hook-0 = echo "%{A1:dunstctl set-paused true && polybar-msg hook dunst 2:}%{A}" &
-hook-1 = echo "%{A1:dunstctl set-paused false && polybar-msg hook dunst 1:}%{A}" &
 
 [module/sep]
 type = custom/text
@@ -72,25 +64,27 @@ content = "|"
 content-foreground = ${colors.disabled}
 content-background = ${colors.background}
 
+[module/dunst]
+type = custom/ipc
+initial = 1
+format-foreground = ${colors.yellow}
+hook-0 = echo "%{A1:dunstctl set-paused true && polybar-msg hook dunst 2:}%{A}" &
+hook-1 = echo "%{A1:dunstctl set-paused false && polybar-msg hook dunst 1:}%{A}" &
+
 [module/xworkspaces]
 type = internal/xworkspaces
-
 label-active = %name%
 label-active-background = ${colors.background-alt}
 label-active-underline= ${colors.primary}
 label-active-padding = 1
-
 label-occupied = %name%
 label-occupied-padding = 1
-
 label-urgent = %name%
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 1
-
 label-empty = %name%
 label-empty-foreground = ${colors.disabled}
 label-empty-padding = 1
-
 
 
 [module/load_avg]
@@ -101,42 +95,15 @@ click-left = alacritty -e btop
 click-right = alacritty -e btop
 interval = 5
 
-[module/uptime]
-type = custom/script
-exec = echo "$(uptime -p | awk -F'[ ,:]+' '{printf "%d hours\n", $4*24 + $6}')"
-#exec = echo "$(uptime -p | tr -d ,)"
-interval = 60
-
-#[module/tray]
-#type = custom/script
-#exec = echo "       "
-#interval = 1800
 
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:60:...%
 
-;[module/pulseaudio]
-;type = internal/pulseaudio
-;#format-volume-prefix = "VOL "
-;#format-volume-prefix-foreground = ${colors.primary}
-;#format-volume = <label-volume>
-;label-volume = %percentage%%
-;label-muted = muted
-;label-muted-foreground = ${colors.disabled}
-;
-;[module/memory]
-;type = internal/memory
-;interval = 5
-;format-prefix = "RAM "
-;format-prefix-foreground = ${colors.primary}
-;label = %gb_used%
-
 
 [module/pulseaudio]
 type = internal/pulseaudio
 interval = 5
-
 format-volume = <ramp-volume> <label-volume>
 format-volume-background = ${colors.background}
 format-volume-padding = 0
@@ -146,14 +113,10 @@ format-muted-prefix = "婢 "
 format-muted-background = ${colors.background}
 format-muted-padding = 0
 format-muted-prefix-foreground = ${colors.foreground}
-
-
-#label-muted = "Mute"
 label-muted-foreground = ${colors.foreground} 
 ramp-volume-0 = 奔 
 ramp-volume-1 = 奔
 ramp-volume-2 = 墳
-
 click-right = pavucontrol &
 click-middle = simplescreenrecorder &
 
@@ -162,11 +125,6 @@ type = custom/script
 exec = echo $(nepcal date)
 interval = 60
 
-[module/externalip]
-type = custom/script
-exec = curl ifconfig.me
-interval = 5
-
 [module/ram_usage]
 type = custom/script
 exec = free -h | awk '/^Mem:/ {print $3}' | cut -f 1 -d'i'                                     
@@ -174,10 +132,19 @@ exec = free -h | awk '/^Mem:/ {print $3}' | cut -f 1 -d'i'
 ;format-prefix-foreground = ${colors.primary}
 interval = 5
 
+[module/filesystem]
+type = internal/fs
+interval = 25
+mount-0 = /
+label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.foreground-alt}
+
 [module/disk]
 type = custom/script
 exec = df -Th /dev/sda1 | awk 'NR>=2 && NR<=2 {print $5}'                                      
 interval = 60
+separator = false
 
 [module/lan_ip]
 type = custom/script
@@ -194,7 +161,6 @@ click-left = alacritty -e watch nepcal
 exec = date '+%a %d %b %I:%M:%S'
 interval = 5
 
-
 [module/cpu]
 type = internal/cpu
 interval = 5
@@ -209,10 +175,6 @@ format-connected = <label-connected>
 format-disconnected = <label-disconnected>
 label-disconnected = %{F#009999}%ifname%%{F#707880} disconnected
 
-[module/wlan]
-inherit = network-base
-interface-type = wireless
-label-connected = %{F#009999}NET%{F-} %essid%
 
 
 [module/battery]
@@ -242,3 +204,60 @@ format-full-padding = 0
 label-charging = "%percentage%%"
 label-discharging = "%percentage%%"
 label-full = " "
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 70
+format = <ramp> <label>
+format-warn = <ramp> <label-warn>
+label = %temperature%
+label-warn = %temperature%
+label-warn-foreground = ${colors.secondary1}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-foreground = ${colors.foreground-alt}
+
+
+[module/wired]
+type = internal/network
+interface = enp2s0
+interval = 1.0
+format-connected = <label-connected>
+label-connected = %{T9}%{T-} %{T2}%downspeed%%{T-}
+label-connected-foreground = ${colors.fg}
+label-connected-padding = 1
+format-disconnected = <label-disconnected>
+label-disconnected = %{T9}%{T-}
+label-disconnected-foreground = ${colors.shade-1}
+label-disconnected-padding = 1
+
+
+
+[module/wlan]
+type = internal/network
+interface = wlp3s0
+interval = 1.0
+format-connected =" "
+format-connected-padding = 1
+label-connected = %{T9}%{T-} %{T2}%downspeed%%{T-}
+label-connected-foreground = ${colors.fg}
+label-connected-padding = 1
+format-disconnected = "睊"
+format-disconnected-padding = 1
+label-disconnected = %{T9}%{T-}
+label-disconnected-foreground = ${colors.shade-1}
+label-disconnected-padding = 1
+
+
+[module/xkeyboard]
+type = internal/xkeyboard
+;blacklist-0 = num lock
+format-prefix = "󰌌"
+format-prefix-foreground = ${colors.foreground-alt}
+label-layout = %layout%
+label-indicator-padding = 1
+label-indicator-margin = 1
+label-indicator-background = ${colors.secondary}

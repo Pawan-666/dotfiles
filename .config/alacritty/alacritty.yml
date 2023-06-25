@@ -48,7 +48,7 @@ font:
      # Italic:
      #   family: JetBrains Mono Nerd font
      #   style: Italic
- size: 14
+ size: 15
 
  offset:
    x: 0
