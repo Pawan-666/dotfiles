@@ -23,6 +23,8 @@ export NNN_TRASH=1
 export NNN_PLUG='o:fzopen;k:kdeconnect;d:dragdrop'
 . "$HOME/.cargo/env"
 
+
+
 export LF_ICONS="di=📁:\
 ow=📂:\
 fi=:\

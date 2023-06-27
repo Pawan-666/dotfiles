@@ -40,14 +40,15 @@ scrolling:
 
 font:
  normal:
-   family: JetBrains Mono Nerd font
+   # family: Hack Nerd Font
+   family: JetBrainsMono NF
    style: Medium
-     # bold:
-     #   family: JetBrains Mono Nerd font
-     #   style: Bold
-     # Italic:
-     #   family: JetBrains Mono Nerd font
-     #   style: Italic
+   bold:
+     family: JetBrains Mono Nerd font
+     style: Bold
+   Italic:
+     family: JetBrains Mono Nerd font
+     style: Italic
  size: 15
 
  offset:

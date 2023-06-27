@@ -11,7 +11,7 @@ alt + shift + s
   sudo pm-suspend
 
 super + w
- wal -q -i /home/pawan/test/images/ -s
+ wal -q -i /home/pawan/MEGAsync/wiki/images/wall -s
 
 alt + w
   /home/pawan/bin/selected_word_dictionary_search.sh
