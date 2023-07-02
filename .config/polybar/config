@@ -1,12 +1,5 @@
 [colors]
-;background = #1a1e23
-;background = #aa2F343F
-;background-alt = #373B41
-;foreground = #d2d4d3
-;primary = #009999
-;secondary = #009999
-secondary = #A54242
-;alert = #A54242
+secondary = #ff0000
 disabled = #707880
 
 ;background = ${xrdb:color1:#50000000}
@@ -15,7 +8,15 @@ background-alt = ${xrdb:color2:#444}
 foreground = ${xrdb:color7:#dfdfdf}
 ;foreground-alt = ${xrdb:color6:#555}
 primary = #ffb52a
-alert = #bd2c40
+;alert = #bd2c40
+one = ${xrdb:color1:#ffb52a}
+two = ${xrdb:color2:#46cc63}
+three = ${xrdb:color3:#0a6cf5}
+four = ${xrdb:color4:#0a6cf5}
+five = ${xrdb:color5:#9f78e1}
+gray = ${xrdb:color8:#6a6a6a}
+alert = ${xrdb:color1:#bd2c40}
+ok = ${xrdb:color2:#46cc63}
 
 [bar/example]
 width = 100%
@@ -26,7 +27,7 @@ bottom = true
 ; dpi = 96
 background = ${colors.background}
 foreground = ${colors.foreground}
-line-size = 2pt
+line-size = 3pt
 border-size = 0
 border-color = #00000000
 
@@ -36,10 +37,10 @@ module-margin = 0
 separator = |
 separator-foreground = ${colors.disabled}
 
-font-0 = "JetBrainsMono Nerd Font:size=11;3"
+font-0 = "JetBrainsMono Nerd Font:size=12;2"
 
 modules-left = xworkspaces xwindow
-modules-right =  ram_usage uptime load_avg cpu temperature disk lan_ip networkspeeddown networkspeedup date pulseaudio battery xkeyboard dunst tray 
+modules-right =  ram_usage uptime load_avg temperature disk lan_ip eth networkspeedup xkeyboard backlight custom-bluetooth pulseaudio popup-calendar battery dunst tray 
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -118,6 +119,7 @@ ramp-volume-1 = 奔
 ramp-volume-2 = 墳
 click-right = pavucontrol &
 click-middle = simplescreenrecorder &
+
 
 [module/nepcal]
 type = custom/script
@@ -239,13 +241,12 @@ label-disconnected-padding = 1
 [module/xkeyboard]
 type = internal/xkeyboard
 ;blacklist-0 = num lock
-format-prefix = "󰌌"
+;format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 label-layout = %layout%
 label-indicator-padding = 1
 label-indicator-margin = 1
 label-indicator-background = ${colors.secondary}
-
 
 
 [module/battery]
@@ -271,13 +272,13 @@ format-full-foreground = ${colors.foreground}
 format-full-padding = 0
 label-charging = "%percentage%%"
 label-discharging = "%percentage%%"
-label-full = "  "
+label-full = " "
 
-ramp-capacity-0 = "  "
-ramp-capacity-1 = "  "
-ramp-capacity-2 = "  "
-ramp-capacity-3 = "  "
-ramp-capacity-4 = "  "
+ramp-capacity-0 = " "
+ramp-capacity-1 = " "
+ramp-capacity-2 = " "
+ramp-capacity-3 = " "
+ramp-capacity-4 = " "
 ramp-capacity-padding = 0
 
 animation-charging-0 = 
@@ -298,28 +299,89 @@ animation-discharging-padding = 2
 
 
 
-[module/date]
-type = internal/date
-interval = 1
-date = " %d/%m/%Y %I:%M %p "
-date-alt = " %A, %B %Y"
-;format-prefix = """
-;format-prefix-foreground = #8fbcbb
-format-foreground = #d8dee9
-;format-background = #2e3440
-;format-underline = #5e81ac
-label = "%date%"
-
 ;[module/date]
-;type = custom/script
-;#format-prefix = " " 
-;click-left = alacritty -e watch nepcal
-;exec = date '+%a %d %b %I:%M:%S'
-;interval = 5
+;type = internal/date
+;interval = 1
+;date = " %d/%m/%Y %I:%M %p"
+;date-alt = " %A, %B %Y"
+;;format-prefix = """
+;;format-prefix-foreground = #8fbcbb
+;format-foreground = ${colors.foreground}
+;;format-background = #2e3440
+;;format-underline = #5e81ac
+;label = "%date%"
+;click-right = ~/.config/polybar/scripts/popup-calendar.sh --popup
 
+[module/popup-calendar]
+type = custom/script
+exec = ~/.config/polybar/scripts/popup-calendar.sh
+interval = 1
+click-left = ~/.config/polybar/scripts/popup-calendar.sh --popup
+
+;format-underline = ${colors.four}
+format-prefix= " "
+;format-prefix-foreground=${colors.four}
 
 [module/uptime]
 type = custom/script
 exec = uptime | awk -F, '{sub(".*up ",x,$1);print $1}'
 interval = 100
+
+
+
+[module/custom-bluetooth]
+type = custom/script
+exec = ~/.config/polybar/scripts/system-bluetooth-bluetoothctl.sh
+format = <label>
+format-underline = ${colors.four}
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground}
+tail = true
+click-left = ~/.config/polybar/scripts/system-bluetooth-bluetoothctl.sh --toggle &
+
+
+
+;ws-icon-0 = 1;
+;ws-icon-1 = 2;
+;ws-icon-2 = 3;﫯
+;ws-icon-3 = 4;
+;ws-icon-4 = 5;
+;ws-icon-5 = 6;
+;ws-icon-6 = 7;
+;ws-icon-7 = 8;
+;ws-icon-8 = 9;
+;ws-icon-9 = 10;卵 
+
+
+[module/backlight]
+type = internal/backlight
+card = intel_backlight
+format = <ramp> <label>
+;label = %percentage%%
+ramp-0 =  
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+
+
+
+[module/eth]
+type = internal/network
+interface = enp2s0
+interval = 2.0
+
+;format-connected = <label-connected> 
+;format-connected-underline = ${colors.two}
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${colors.two}
+;label-connected = %ifname% %downspeed:7%
+label-connected = %downspeed:7%
+
+;format-disconnected = eth
+;format-disconnected = <label-disconnected>
+format-disconnected-prefix = " "
+format-disconnected-prefix-foreground = ${colors.secondary}
+label-disconnected =  disconnected
+label-disconnected-foreground = ${colors.secondary}
+
 
