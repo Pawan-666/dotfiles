@@ -565,3 +565,4 @@ Oct 24 22:21 : exception: RTIOThread could not get realtime scheduling, continui
 Oct 24 22:22 : avahi: Service 'Music Player @ PM' successfully established.
 Jan 24 19:24 : zeroconf: No global port, disabling zeroconf
 Feb 17 15:36 : zeroconf: No global port, disabling zeroconf
+Jul 06 08:03 : zeroconf: No global port, disabling zeroconf

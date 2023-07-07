@@ -3,12 +3,15 @@ secondary = #ff0000
 disabled = #707880
 
 ;background = ${xrdb:color1:#50000000}
-background = #aa2F343F
+background = #282828
 background-alt = ${xrdb:color2:#444}
-foreground = ${xrdb:color7:#dfdfdf}
+;foreground = ${xrdb:color7:#dfdfdf}
+foreground = #808080
 ;foreground-alt = ${xrdb:color6:#555}
-primary = #ffb52a
+primary = #212322
 ;alert = #bd2c40
+active = #030303
+active1 = #F38BA8
 one = ${xrdb:color1:#ffb52a}
 two = ${xrdb:color2:#46cc63}
 three = ${xrdb:color3:#0a6cf5}
@@ -20,14 +23,14 @@ ok = ${xrdb:color2:#46cc63}
 
 [bar/example]
 width = 100%
-height = 16pt
+height = 19pt
 radius = 0
-bottom = true
+;bottom = true
 
 ; dpi = 96
 background = ${colors.background}
 foreground = ${colors.foreground}
-line-size = 3pt
+line-size = 2pt
 border-size = 0
 border-color = #00000000
 
@@ -37,10 +40,10 @@ module-margin = 0
 separator = |
 separator-foreground = ${colors.disabled}
 
-font-0 = "JetBrainsMono Nerd Font:size=12;2"
+font-0 = "JetBrainsMono Nerd Font:size=11;2"
 
 modules-left = xworkspaces xwindow
-modules-right =  ram_usage uptime load_avg temperature disk lan_ip eth networkspeedup xkeyboard backlight custom-bluetooth pulseaudio popup-calendar battery dunst tray 
+modules-right =  ram_usage uptime load_avg temperature disk lan_ip eth networkspeedup xkeyboard backlight custom-bluetooth pulseaudio popup-calendar battery dunst
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -74,15 +77,16 @@ hook-1 = echo "%{A1:dunstctl set-paused false && polybar-msg hook dunst 1:}%{
 [module/xworkspaces]
 type = internal/xworkspaces
 label-active = %name%
-label-active-background = ${colors.background-alt}
-label-active-underline= ${colors.primary}
+label-active-background = ${colors.active}
+label-active-underline= ${colors.active1}
 label-active-padding = 1
 label-occupied = %name%
 label-occupied-padding = 1
+label-occupied-background = ${colors.active}
 label-urgent = %name%
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 1
-label-empty = %name%
+label-empty = ""
 label-empty-foreground = ${colors.disabled}
 label-empty-padding = 1
 
@@ -222,21 +226,60 @@ format-connected = <label-connected>
 ;format-connected-underline = #5e81ac
 
 
+;[module/wlan]
+;type = internal/network
+;interface = wlp3s0
+;interval = 1.0
+;format-connected =" "
+;format-connected-padding = 1
+;label-connected = %{T9}%{T-} %{T2}%downspeed%%{T-}
+;label-connected-foreground = ${colors.fg}
+;label-connected-padding = 1
+;format-disconnected = "睊"
+;format-disconnected-padding = 1
+;label-disconnected = %{T9}%{T-}
+;label-disconnected-foreground = ${colors.shade-1}
+;label-disconnected-padding = 1
+
+
 [module/wlan]
 type = internal/network
-interface = wlp3s0
-interval = 1.0
-format-connected =" "
-format-connected-padding = 1
-label-connected = %{T9}%{T-} %{T2}%downspeed%%{T-}
-label-connected-foreground = ${colors.fg}
-label-connected-padding = 1
-format-disconnected = "睊"
-format-disconnected-padding = 1
-label-disconnected = %{T9}%{T-}
-label-disconnected-foreground = ${colors.shade-1}
-label-disconnected-padding = 1
+interface = wlp2s0
+interval = 3.0
 
+format-connected = <ramp-signal> <label-connected>
+format-connected-underline = ${colors.five}
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${colors.five}
+; Available tokens:
+;   %ifname%    [wireless+wired]
+;   %local_ip%  [wireless+wired]
+;   %local_ip6% [wireless+wired]
+;   %essid%     [wireless]
+;   %signal%    [wireless]
+;   %upspeed%   [wireless+wired]
+;   %downspeed% [wireless+wired]
+;   %linkspeed% [wired]
+; Default: %ifname% %local_ip%
+label-connected = %essid% %downspeed:7%
+label-connected-maxlen = 25
+
+format-disconnected = <label-disconnected>
+format-disconnected-underline = ${colors.alert}
+format-disconnected-prefix = " "
+format-disconnected-prefix-foreground = ${colors.alert}
+label-disconnected = %ifname% 
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+ramp-signal-0 = ▁
+ramp-signal-1 = ▂
+ramp-signal-2 = ▃
+ramp-signal-3 = ▄
+ramp-signal-4 = ▅
+ramp-signal-5 = ▆
+ramp-signal-6 = ▇
+ramp-signal-7 = █
+ramp-signal-foreground = ${colors.five}
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -319,7 +362,7 @@ interval = 1
 click-left = ~/.config/polybar/scripts/popup-calendar.sh --popup
 
 ;format-underline = ${colors.four}
-format-prefix= " "
+;format-prefix= " "
 ;format-prefix-foreground=${colors.four}
 
 [module/uptime]
@@ -333,12 +376,12 @@ interval = 100
 type = custom/script
 exec = ~/.config/polybar/scripts/system-bluetooth-bluetoothctl.sh
 format = <label>
-format-underline = ${colors.four}
+;format-underline = ${colors.four}
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
 tail = true
 click-left = ~/.config/polybar/scripts/system-bluetooth-bluetoothctl.sh --toggle &
-
+click-middle = blueman-manager &
 
 
 ;ws-icon-0 = 1;
@@ -372,7 +415,7 @@ interval = 2.0
 
 ;format-connected = <label-connected> 
 ;format-connected-underline = ${colors.two}
-format-connected-prefix = " "
+;format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.two}
 ;label-connected = %ifname% %downspeed:7%
 label-connected = %downspeed:7%
@@ -385,3 +428,5 @@ label-disconnected =  disconnected
 label-disconnected-foreground = ${colors.secondary}
 
 
+
+;https://codeberg.org/langurmonkey/dotfiles
