@@ -11,13 +11,14 @@ foreground = #808080
 primary = #212322
 ;alert = #bd2c40
 active = #030303
-active1 = #F38BA8
+active1 = #74C7EC
 one = ${xrdb:color1:#ffb52a}
 two = ${xrdb:color2:#46cc63}
 three = ${xrdb:color3:#0a6cf5}
 four = ${xrdb:color4:#0a6cf5}
 five = ${xrdb:color5:#9f78e1}
 gray = ${xrdb:color8:#6a6a6a}
+redgray = #281e1f
 alert = ${xrdb:color1:#bd2c40}
 ok = ${xrdb:color2:#46cc63}
 
@@ -77,16 +78,16 @@ hook-1 = echo "%{A1:dunstctl set-paused false && polybar-msg hook dunst 1:}%{
 [module/xworkspaces]
 type = internal/xworkspaces
 label-active = %name%
-label-active-background = ${colors.active}
+label-active-background = ${colors.redgray}
 label-active-underline= ${colors.active1}
 label-active-padding = 1
 label-occupied = %name%
 label-occupied-padding = 1
-label-occupied-background = ${colors.active}
+label-occupied-background = ${colors.redgray}
 label-urgent = %name%
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 1
-label-empty = ""
+label-empty = %name%
 label-empty-foreground = ${colors.disabled}
 label-empty-padding = 1
 

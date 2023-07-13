@@ -5,7 +5,7 @@
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-PROMPT="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}  ➜ )"
+#PROMPT="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}  ➜ )"
 
 #xcape -e 'Control_L=Escape' -t 200
 

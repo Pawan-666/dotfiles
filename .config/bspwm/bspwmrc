@@ -29,9 +29,10 @@ bspc monitor eDP1 -d 1 2 3 4 5
 
 bspc config border_width         2
 bspc config window_gap           5
-#bspc config focused_border_color "#4caf50"               #green
+# bspc config top_padding          10
+bspc config focused_border_color "#74C7EC"               #blue
 
-bspc config focused_border_color '#F38BA8'
+# bspc config focused_border_color '#F38BA8'
 #bspc config normal_border_color '#74C7EC'
 
 bspc config focus_follows_pointer true
@@ -69,3 +70,6 @@ bspc rule -a Kupfer.py focus=on
 
 ##snap list
 #bare btop chromium core core18 core20 core22 cups fast foliate gnome-3-28-1804 gnome-3-34-1804 gnome-3-38-2004 gnome-42-2204 gtk-common-themes kubectl scrcpy slides snapd winbox wine-platform-5-stable wine-platform-runtime zola
+
+
+
