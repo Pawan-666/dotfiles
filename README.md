@@ -1,2 +1,3 @@
 # Dotfiles  for my linux environment
-## programming my programming workflow
+
+## I used git bare repo to set this up
