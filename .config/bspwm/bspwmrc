@@ -9,6 +9,10 @@ setxkbmap -option "ctrl:swapcaps" &
 xcape -e Control_L=Escape -t 200  &
 xset r rate 300 50  &
 
+
+xset -dpms
+xset s off
+
  # wal -q -i /home/pawan/MEGAsync/wiki/images/wall -s
 
 #if [[ $(xrandr -q | grep 'HDMI-1 connected') ]]; then
@@ -16,6 +20,8 @@ if [[ $(xrandr -q | grep 'HDMI1 connected') ]]; then
 xrandr --output eDP1 --mode 1366x768 --pos 0x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 1366x0 --rotate normal --output DP1 --off
 #xrandr --output eDP-1 --mode 1366x768 --pos 0x0 --rotate normal --output HDMI-1 --primary --mode 1920x1080 --pos 1366x0 --rotate normal --output DP-1 --off
 xrandr --output HDMI-1 --set TearFree on
+bspc monitor HDMI1 -d 6 7 8 9 0
+bspc monitor eDP1 -d 1 2 3 4 5
 fi
 
 $HOME/.config/polybar/launch.sh
@@ -23,9 +29,11 @@ $HOME/.config/polybar/launch.sh
 #feh --bg-scale --randomize /home/pawan/test/images/* &
 
 
-# bspc monitor -d I II III IV V VI VII VIII IX X 
-bspc monitor HDMI1 -d 6 7 8 9 0 
-bspc monitor eDP1 -d 1 2 3 4 5 
+# bspc monitor -d I II III IV V VI VII VIII IX X
+# bspc monitor HDMI1 -d 1 2 3 4 5 6 7 8 9 0
+
+# bspc monitor HDMI1 -d 6 7 8 9 0
+bspc monitor eDP1 -d 6 7 8 9 0
 
 bspc config border_width         2
 bspc config window_gap           5
@@ -43,10 +51,10 @@ bspc config gapless_monocle      true
 
 # bspc rule -a Gimp desktop='^8' state=floating follow=on
 # bspc rule -a Chromium desktop='^2'
-bspc rule -a firefox desktop='^0'
-bspc rule -a Skype desktop='^2'
-bspc rule -a Mattermost desktop='^3'
-bspc rule -a mplayer2 state=floating
+#bspc rule -a firefox desktop='^0'
+#bspc rule -a Skype desktop='^2'
+#bspc rule -a Mattermost desktop='^3'
+#bspc rule -a mplayer2 state=floating
 #bspc rule -a Skype state=floating
 bspc rule -a Kupfer.py focus=on
 #bspc rule -a Screenkey manage=off
@@ -56,13 +64,12 @@ bspc rule -a Kupfer.py focus=on
 
 
 #apt installation
-##sudo apt install blueman ncal yad xsecurelock picom arandr pavucontrol dunst sxhkd bspwm screenkeyfk simplescreenrecorder 
+##sudo apt install blueman ncal yad xsecurelock picom arandr pavucontrol dunst sxhkd bspwm screenkeyfk simplescreenrecorder
 
-##pip3
-#pip3 install pywal
+
 
 ##flatpak flatpak list --app --system --columns=application | tr '\n' ' '
-#com.github.ahrm.sioyek com.github.tchx84.Flatseal com.viber.Viber io.dbeaver.DBeaverCommunity nz.mega.MEGAsync org.chromium.Chromium org.gimp.GIMP org.gnome.gitlab.YaLTeR.VideoTrimmer org.kde.dolphin org.kde.kasts org.kde.okular org.libreoffice.LibreOffice org.qbittorrent.qBittorrent org.telegram.desktop us.zoom.Zoom 
+#com.github.ahrm.sioyek com.github.tchx84.Flatseal com.viber.Viber io.dbeaver.DBeaverCommunity nz.mega.MEGAsync org.chromium.Chromium org.gimp.GIMP org.gnome.gitlab.YaLTeR.VideoTrimmer org.kde.dolphin org.kde.kasts org.kde.okular org.libreoffice.LibreOffice org.qbittorrent.qBittorrent org.telegram.desktop us.zoom.Zoom
 
 ##pip3 list
 #aiohttp aiosignal ansible ansible-base ansible-core ansible-lint anyio apache-libcloud appdirs apt-xapian-index arandr argcomplete asciimatics async-timeout attrs Babel babelfish beautifulsoup4 black blinker bracex Brotli bs4 certifi chardet charset-normalizer click colorama command-not-found cryptography cupshelpers dbus-python decorator distlib distro distro-info dnspython docopt dogpile.cache enzyme epr-reader filelock frozenlist fuse-python future gpg greenlet guessit h11 h2 hpack html5lib httpcore httplib2 httpx hyperframe idna importlib-metadata jeepney Jinja2 jmespath jsonschema keyring kitchen language-selector launchpadlib lazr.restfulclient lazr.uri lockfile lxml markdown-it-py MarkupSafe mdurl meson mistune more-itertools msgpack multidict mutagen mypy-extensions neovim netaddr netifaces ninja ntlm-auth oauthlib openai OpenAIAuth packaging pathspec pbr Pillow pip platformdirs play-with-mpv pycairo pycryptodomex pycups pyfiglet Pygments PyGObject PyJWT pykerberos pylibacl pymacaroons PyNaCl pynvim pyparsing PyQt5 PyQt5-Qt5 PyQt5-sip pyrsistent PySocks pysrt python-apt python-dateutil python-debian python-dotenv python-xlib pytz pywal pywinrm pyxattr pyxdg PyYAML rarfile rebulk requests requests-kerberos requests-ntlm requests-toolbelt resolvelib revChatGPT rfc3986 rich rtv ruamel.yaml ruamel.yaml.clib screenkey SecretStorage selinux setuptools shtab simplejson six sniffio soupsieve speedtest-cli ssh-import-id stevedore subliminal subprocess-tee termcolor tldr tls-client tomli tornado tqdm trash-cli ubuntu-drivers-common ueberzug ufw unattended-upgrades urllib3 vboxapi virtualenv wadllib wcmatch wcwidth webencodings websockets wheel xdg xkit xmltodict yamllint yarl youtube-dl yt-dlp zipp
